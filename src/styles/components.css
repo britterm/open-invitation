@@ -39,6 +39,43 @@
   opacity: 1;
 }
 
+.hero-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s ease;
+}
+
+.hero-link:hover,
+.hero-link:focus-visible {
+  transform: translateY(-4px);
+}
+
+.hero-link:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.8);
+  outline-offset: 4px;
+}
+
+.hero-link .text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.hero-link .text-link::after {
+  content: '→';
+  font-size: 1.05em;
+  transition: transform 0.2s ease;
+}
+
+.hero-link:hover .text-link::after,
+.hero-link:focus-visible .text-link::after {
+  transform: translateX(2px);
+}
+
 .tag-group {
   display: flex;
   flex-wrap: wrap;

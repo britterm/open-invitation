@@ -74,13 +74,19 @@ function escapeAttribute(value) {
 function renderHeroHighlights() {
   const highlights = getFeaturedScriptures(heroHighlightIds);
   highlights.forEach((entry, index) => {
-    const card = createElement('div', { classes: ['glass-card', 'fade-in'] });
+    const card = createElement('a', {
+      classes: ['glass-card', 'fade-in', 'hero-link'],
+      attrs: {
+        href: `scripture.html?id=${entry.id}`,
+        'aria-label': `Read the full study for ${entry.reference}`,
+      },
+    });
     card.style.animationDelay = `${index * 0.15}s`;
     card.innerHTML = `
       <div class="badge">${entry.reference}</div>
       <h3>${entry.summary}</h3>
       <p>${entry.keyVerse}</p>
-      <a href="scripture.html?id=${entry.id}">Read the full study →</a>
+      <span class="text-link">Read the full study →</span>
     `;
     heroGrid.appendChild(card);
   });
