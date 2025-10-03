@@ -7,6 +7,7 @@ const scriptures = [
     summary: 'Paul insists that faith springs from hearing the proclaimed word about Christ.',
     keyVerse: 'So faith comes by hearing, and hearing by the word of Christ.',
     themes: ['Faith', 'Hearing', 'Mission', 'Responsibility'],
+    category: 'Hear and Believe',
     context: [
       {
         heading: 'Romans 10:14-17',
@@ -32,6 +33,7 @@ const scriptures = [
     summary: 'Without proclamation, people cannot believe; God enlists messengers to carry the good news.',
     keyVerse: 'How then will they call on him in whom they have not believed? ... How will they hear without a preacher?',
     themes: ['Mission', 'Responsibility', 'Faith'],
+    category: 'Mission & Mediation',
     context: [
       {
         heading: 'Romans 10:14-15',
@@ -57,6 +59,7 @@ const scriptures = [
     summary: 'John declares that his gospel is written so readers may believe and have life in Jesus’ name.',
     keyVerse: 'These are written, that you may believe that Jesus is the Christ, the Son of God; and that believing you may have life in his name.',
     themes: ['Faith', 'Testimony', 'Life'],
+    category: 'Hear and Believe',
     context: [
       {
         heading: 'John 20:30-31',
@@ -82,6 +85,7 @@ const scriptures = [
     summary: 'At Pentecost the crowd hears, is cut to the heart, and responds to the call to repent and be baptized.',
     keyVerse: 'Now when they heard this, they were cut to the heart... Peter said to them, "Repent, and be baptized..."',
     themes: ['Repentance', 'Spirit', 'Hearing', 'Community'],
+    category: 'Respond in Faith',
     context: [
       {
         heading: 'Acts 2:32-41',
@@ -107,6 +111,7 @@ const scriptures = [
     summary: 'As Peter proclaims forgiveness through Jesus, the Spirit falls on those hearing the message.',
     keyVerse: 'While Peter was still speaking these words, the Holy Spirit fell on all those who heard the word.',
     themes: ['Spirit', 'Inclusion', 'Hearing'],
+    category: 'Spirit & New Life',
     context: [
       {
         heading: 'Acts 10:39-48',
@@ -132,6 +137,7 @@ const scriptures = [
     summary: 'Paul and Barnabas confront rejection and celebrate Gentiles who believe unto eternal life.',
     keyVerse: 'As many as were disposed to eternal life believed.',
     themes: ['Mission', 'Responsibility', 'Gentiles'],
+    category: 'Hear and Believe',
     context: [
       {
         heading: 'Acts 13:44-48',
@@ -157,6 +163,7 @@ const scriptures = [
     summary: 'The Philippian jailer hears the gospel, believes with his household, and rejoices in newfound faith.',
     keyVerse: 'Believe in the Lord Jesus Christ, and you will be saved, you and your household.',
     themes: ['Faith', 'Households', 'Joy'],
+    category: 'Respond in Faith',
     context: [
       {
         heading: 'Acts 16:29-34',
@@ -182,6 +189,7 @@ const scriptures = [
     summary: 'Good news must be mixed with faith in those who hear; otherwise it does not benefit them.',
     keyVerse: 'The word they heard didn’t profit them, because it wasn’t mixed with faith in those who heard.',
     themes: ['Faith', 'Warning', 'Responsibility'],
+    category: 'Hear and Believe',
     context: [
       {
         heading: 'Hebrews 4:1-3',
@@ -207,6 +215,7 @@ const scriptures = [
     summary: 'Faith is required to approach God; one must believe He exists and rewards seekers.',
     keyVerse: 'Without faith it is impossible to be well pleasing to him.',
     themes: ['Faith', 'Seeking', 'Reward'],
+    category: 'Accountability & Awakening',
     context: [
       {
         heading: 'Hebrews 11:5-6',
@@ -232,6 +241,7 @@ const scriptures = [
     summary: 'Paul reminds the Galatians that they received the Spirit through hearing with faith, not by works.',
     keyVerse: 'Did you receive the Spirit by the works of the law, or by hearing of faith?',
     themes: ['Spirit', 'Faith', 'Grace'],
+    category: 'Spirit & New Life',
     context: [
       {
         heading: 'Galatians 3:1-5',
@@ -257,6 +267,7 @@ const scriptures = [
     summary: 'Believers are sealed with the Spirit after hearing the gospel and believing in Christ.',
     keyVerse: 'Having heard the word of truth, the Good News of your salvation—in whom, having also believed, you were sealed with the promised Holy Spirit.',
     themes: ['Spirit', 'Assurance', 'Faith'],
+    category: 'Spirit & New Life',
     context: [
       {
         heading: 'Ephesians 1:11-14',
@@ -282,6 +293,7 @@ const scriptures = [
     summary: 'James urges believers to receive the implanted word with meekness because it can save their souls.',
     keyVerse: 'Receive with meekness the implanted word, which is able to save your souls.',
     themes: ['Word', 'Responsibility', 'Holiness'],
+    category: 'Spirit & New Life',
     context: [
       {
         heading: 'James 1:18-22',
@@ -307,6 +319,7 @@ const scriptures = [
     summary: 'Peter ties new birth to the living and abiding word of God that was preached to believers.',
     keyVerse: 'Having been born again, not of corruptible seed, but of incorruptible, through the word of God.',
     themes: ['New Birth', 'Word', 'Love'],
+    category: 'Spirit & New Life',
     context: [
       {
         heading: '1 Peter 1:22-25',
@@ -332,6 +345,7 @@ const scriptures = [
     summary: 'The risen Christ stands at the door and knocks, inviting any who hear and open to dine with Him.',
     keyVerse: 'Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him.',
     themes: ['Invitation', 'Fellowship', 'Responsibility'],
+    category: 'Respond in Faith',
     context: [
       {
         heading: 'Revelation 3:19-21',
@@ -357,6 +371,7 @@ const scriptures = [
     summary: 'God pleads with the thirsty to come, listen diligently, and live.',
     keyVerse: 'Incline your ear, and come to me. Hear, and your soul will live.',
     themes: ['Invitation', 'Grace', 'Hearing'],
+    category: 'Respond in Faith',
     context: [
       {
         heading: 'Isaiah 55:1-3',
@@ -382,6 +397,7 @@ const scriptures = [
     summary: 'Despite God’s persistent pleas, Judah refused to obey or incline their ear.',
     keyVerse: 'They didn’t listen to me or incline their ear, but made their neck stiff.',
     themes: ['Warning', 'Responsibility', 'Prophets'],
+    category: 'Accountability & Awakening',
     context: [
       {
         heading: 'Jeremiah 7:23-28',
@@ -400,6 +416,32 @@ const scriptures = [
     ]
   },
   {
+    id: 'john-15-22',
+    reference: 'John 15:22',
+    title: 'No Excuse After Hearing Jesus',
+    translation: 'World English Bible',
+    summary: 'Jesus explains that His spoken revelation removes any excuse for unbelief.',
+    keyVerse: 'If I hadn\'t come and spoken to them, they wouldn\'t have sin; but now they have no excuse for their sin.',
+    themes: ['Accountability', 'Witness', 'Light'],
+    category: 'Accountability & Awakening',
+    context: [
+      {
+        heading: 'John 15:20-25',
+        text: `"Remember the word that I said to you... If they persecuted me, they will also persecute you... <span class="focus-text">If I hadn't come and spoken to them, they wouldn't have sin; but now they have no excuse for their sin.</span> He who hates me, hates my Father also... But this happened so that the word may be fulfilled."`
+      }
+    ],
+    analysis: [
+      {
+        title: 'Revelation Increases Responsibility',
+        body: 'Jesus locates guilt in the rejection of His spoken word. Exposure to the message—not secret regeneration—creates accountability.'
+      },
+      {
+        title: 'Hearing Divides Responders',
+        body: 'Those who hear either love or hate the Son. The text assumes a genuine choice in the face of light received.'
+      }
+    ]
+  },
+  {
     id: 'ezekiel-18-30-32',
     reference: 'Ezekiel 18:30-32',
     title: 'Turn and Live',
@@ -407,6 +449,7 @@ const scriptures = [
     summary: 'God commands Israel to repent, affirming He has no pleasure in anyone’s death.',
     keyVerse: 'Repent, and turn yourselves from all your transgressions... For I have no pleasure in the death of him who dies.',
     themes: ['Repentance', 'Life', 'Responsibility'],
+    category: 'Respond in Faith',
     context: [
       {
         heading: 'Ezekiel 18:30-32',
@@ -432,6 +475,7 @@ const scriptures = [
     summary: 'Moses assures Israel that the command is near, urging them to choose life by loving and obeying God.',
     keyVerse: 'The word is very near to you, in your mouth and in your heart, that you may do it.',
     themes: ['Choice', 'Obedience', 'Blessing'],
+    category: 'Respond in Faith',
     context: [
       {
         heading: 'Deuteronomy 30:11-20',
@@ -450,6 +494,32 @@ const scriptures = [
     ]
   },
   {
+    id: 'ephesians-5-14',
+    reference: 'Ephesians 5:14',
+    title: 'Awake, Rise, and Receive Christ’s Light',
+    translation: 'World English Bible',
+    summary: 'Paul cites a hymn urging sleepers to awaken so that Christ will shine upon them.',
+    keyVerse: 'Awake, you who sleep, and arise from the dead, and Christ will shine on you.',
+    themes: ['Awakening', 'Light', 'Response'],
+    category: 'Accountability & Awakening',
+    context: [
+      {
+        heading: 'Ephesians 5:11-14',
+        text: `Have no fellowship with the unfruitful works of darkness, but rather even reprove them... But all things, when they are reproved, are revealed by the light, for everything that reveals is light. <span class="focus-text">Therefore he says, "Awake, you who sleep, and arise from the dead, and Christ will shine on you."</span>`
+      }
+    ],
+    analysis: [
+      {
+        title: 'Call to Respond to Light',
+        body: 'The summons assumes sleepers can awaken. Christ’s shining follows the responsive act, not a hidden regeneration.'
+      },
+      {
+        title: 'Exposure Through Proclamation',
+        body: 'Light exposes deeds when proclamation reveals them, showing the ministry of the word that awakens listeners to repent.'
+      }
+    ]
+  },
+  {
     id: '2-corinthians-5-18-21',
     reference: '2 Corinthians 5:18-21',
     title: 'Ambassadors Plead: Be Reconciled to God',
@@ -457,6 +527,7 @@ const scriptures = [
     summary: 'God entrusts the message of reconciliation to ambassadors who implore hearers to respond.',
     keyVerse: 'We beg you on behalf of Christ, be reconciled to God.',
     themes: ['Reconciliation', 'Mission', 'Appeal'],
+    category: 'Mission & Mediation',
     context: [
       {
         heading: '2 Corinthians 5:17-21',
@@ -482,6 +553,7 @@ const scriptures = [
     summary: 'Paul anchors prayer and mission in God’s desire for all people to come to the knowledge of the truth.',
     keyVerse: 'God our Savior desires all people to be saved and come to full knowledge of the truth.',
     themes: ['God’s Heart', 'Intercession', 'Truth'],
+    category: 'Mission & Mediation',
     context: [
       {
         heading: '1 Timothy 2:1-6',

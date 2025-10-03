@@ -40,9 +40,36 @@ const narrativeSections = [
   },
 ];
 
+const categoryDetails = [
+  {
+    label: 'Hear and Believe',
+    description: 'Passages where hearing the proclaimed word becomes the spark for genuine belief.',
+  },
+  {
+    label: 'Respond in Faith',
+    description: 'Texts that invite hearers to repent, trust, and actively choose life in Christ.',
+  },
+  {
+    label: 'Spirit & New Life',
+    description: 'Moments showing the Spirit given through the heard word, bringing new birth and assurance.',
+  },
+  {
+    label: 'Mission & Mediation',
+    description: 'Witness-bearing passages where ambassadors partner with God to carry the invitation.',
+  },
+  {
+    label: 'Accountability & Awakening',
+    description: 'Warnings that reveal the responsibility that comes with receiving light and testimony.',
+  },
+];
+
 const spotlightContainer = document.querySelector('#spotlight-grid');
 const heroGrid = document.querySelector('#hero-grid');
 const timeline = document.querySelector('#timeline');
+
+function escapeAttribute(value) {
+  return value.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+}
 
 function renderHeroHighlights() {
   const highlights = getFeaturedScriptures(heroHighlightIds);
@@ -80,16 +107,44 @@ function renderTimeline() {
 }
 
 function renderSpotlights() {
-  scriptures.forEach((entry) => {
-    const card = createElement('article', { classes: 'card' });
-    card.innerHTML = `
-      <div class="badge">${entry.reference} · ${entry.translation}</div>
-      <h3>${entry.summary}</h3>
-      <p>${entry.keyVerse}</p>
-      <div class="tag-group">${formatThemes(entry.themes)}</div>
-      <a class="back-link" href="scripture.html?id=${entry.id}">Study this passage →</a>
+  const grouped = scriptures.reduce((acc, entry) => {
+    if (!acc[entry.category]) {
+      acc[entry.category] = [];
+    }
+    acc[entry.category].push(entry);
+    return acc;
+  }, {});
+
+  categoryDetails.forEach(({ label, description }) => {
+    const entries = grouped[label];
+    if (!entries || entries.length === 0) return;
+
+    const section = createElement('section', { classes: 'category-group' });
+    const header = createElement('div', { classes: 'category-header' });
+    header.innerHTML = `
+      <h3>${label}</h3>
+      <p>${description}</p>
     `;
-    spotlightContainer.appendChild(card);
+
+    const grid = createElement('div', { classes: ['grid', 'scripture-grid', 'category-grid'] });
+
+    entries
+      .sort((a, b) => a.reference.localeCompare(b.reference))
+      .forEach((entry) => {
+        const card = createElement('article', { classes: 'card' });
+        const translationTitle = `Translation: ${entry.translation}`;
+        card.innerHTML = `
+          <div class="badge" title="${escapeAttribute(translationTitle)}">${entry.reference}</div>
+          <h3>${entry.summary}</h3>
+          <p>${entry.keyVerse}</p>
+          <div class="tag-group">${formatThemes(entry.themes)}</div>
+          <a class="back-link" href="scripture.html?id=${entry.id}">Study this passage →</a>
+        `;
+        grid.appendChild(card);
+      });
+
+    section.append(header, grid);
+    spotlightContainer.appendChild(section);
   });
 }
 
