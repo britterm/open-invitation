@@ -6,7 +6,7 @@
   --color-surface: #ffffff;
   --color-muted: #6b7280;
   --color-strong: #1f2933;
-  --gradient-hero: linear-gradient(135deg, #1f3c88 0%, #fbb040 50%, #f76b8a 100%);
+  --gradient-hero: linear-gradient(135deg, #162447 0%, #9a3412 48%, #7f1d1d 100%);
   --font-sans: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
   --font-serif: 'Merriweather', 'Georgia', serif;
   --shadow-soft: 0 18px 40px rgba(31, 60, 136, 0.15);
@@ -90,6 +90,14 @@ img {
   box-decoration-break: clone;
 }
 
+.badge-scripture {
+  background-color:#fff6e5;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .text-muted {
   color: var(--color-muted);
 }
@@ -99,10 +107,10 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 999px;
-  padding: 0.35rem 0.9rem;
+  padding: 0.25rem 0.7rem;
   background: rgba(31, 60, 136, 0.1);
   color: var(--color-primary);
-  font-size: 0.85rem;
+  font-size: 0.70rem;
   font-weight: 600;
   margin: 0 0.35rem 0.35rem 0;
 }
@@ -158,4 +166,5 @@ img {
     padding: 1.5rem;
   }
 }
+
 
