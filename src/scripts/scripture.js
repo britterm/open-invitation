@@ -43,10 +43,10 @@ if (!scripture) {
   const tensionHtml = scripture.tensionResolution
     ? `
       <section class="tension-study">
-        <h2>Examining Alternate Interpretation</h2>
+        <h2>Going Deeper</h2>
         <p class="tension-question">${escapeHtml(scripture.tensionResolution.question)}</p>
-        <p class="tension-steelman"><strong>Steel man:</strong> ${escapeHtml(scripture.tensionResolution.steelman)}</p>
-        <p class="tension-response"><strong>Placed in context:</strong> ${escapeHtml(scripture.tensionResolution.response)}</p>
+        <p class="tension-steelman">${escapeHtml(scripture.tensionResolution.steelman)}</p>
+        <p class="tension-response">${escapeHtml(scripture.tensionResolution.response)}</p>
         ${supportsHtml}
       </section>
     `
@@ -61,10 +61,7 @@ if (!scripture) {
     <h1>${scripture.title}</h1>
     <p class="text-muted">${scripture.summary}</p>
     <div class="context-block">${buildContextHtml(scripture.context)}</div>
-    <div class="analysis-section">
-      <h2>Exegetical Reflections</h2>
-      ${buildAnalysisHtml(scripture.analysis)}
-    </div>
+    ${buildAnalysisHtml(scripture.analysis)}
     ${tensionHtml}
   `;
 

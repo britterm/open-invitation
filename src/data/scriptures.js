@@ -14,18 +14,18 @@ const scriptures = [
     category: "Invitation & Hearing",
     context: [
       {
-        heading: "1 Corinthians 2:10-16",
-        text: "God revealed these things to us through the Spirit... <span class=\"focus-text\">Now the natural man doesn't receive the things of God's Spirit, for they are foolishness to him, and he can't know them, because they are spiritually discerned.</span> But he who is spiritual discerns all things... We have the mind of Christ.",
+        heading: "1 Corinthians 2:12-3:3",
+        text: "But we received, not the spirit of the world, but the Spirit which is from God, that we might know the things freely given to us by God. We also speak these things, not in words which man's wisdom teaches, but which the Holy Spirit teaches, comparing spiritual things with spiritual things. <span class=\"focus-text\">Now the natural man doesn't receive the things of God's Spirit, for they are foolishness to him, and he can't know them, because they are spiritually discerned.</span> But he who is spiritual discerns all things, and he himself is judged by no one.  “For who has known the mind of the Lord that he should instruct him?” But we have Christ's mind.  Brothers, I couldn’t speak to you as to spiritual, but as to fleshly, as to babies in Christ. I fed you with milk, not with solid food, for you weren’t yet ready. Indeed, you aren’t ready even now, for you are still fleshly. For insofar as there is jealousy, strife, and factions among you, aren’t you fleshly, and don’t you walk in the ways of men?",
       },
     ],
     analysis: [
       {
         title: "Why Context Is Important",
-        body: "Paul contrasts the ways Spirit-taught words are received in the gathered church. Many Reformed readers take the \"natural person\" to be an unregenerate hearer who cannot believe until God irresistibly changes them, yet the flow of 2:6-3:4 shows Paul addressing baptized believers whose loyalties still lean on the age's wisdom; the labels shift as hearers welcome or resist the Spirit's message.",
+        body: "Paul is talking to believers, telling them that the Holy Spirit can use words to teach, but a \"natural person\" cannot receive this teaching.  He admonishes them - their fleshly ways prevent them from receiving these teachings.  They are still \"natural persons\".  <br><br>Paul is not talking about unbelievers.", 
       },
       {
-        title: "Open Invitation Engagement",
-        body: "The Spirit delivers revelation through proclaimed words (2:13), and Paul expects those words to land as the Corinthians yield to the Spirit's teaching. When some cling to factional pride they are called \"natural,\" yet Paul immediately urges them to mature (3:1-4). The wider context keeps the invitation open: anyone who embraces the message can share the mind of Christ (2:16).",
+        title: "An Invitation is a Choice",
+        body: "The Spirit delivers revelation through proclaimed words (2:13), and Paul wants the Corinthians to yield to the Spirit's teaching.  However, Paul calls them \"natural,\" and urges them to mature (3:1-4).   The choice is theirs to embrace this teaching and share the mind of Christ (2:16).",
       },
     ],
     tensionResolution: {
@@ -43,8 +43,8 @@ const scriptures = [
     },
   },
   {
-    id: "1-peter-1-22-25",
-    reference: "1 Peter 1:22-25",
+    id: "1-peter-1-23",
+    reference: "1 Peter 1:23",
     title: "Born Again Through the Living Word",
     translation: "World English Bible",
     summary:
@@ -56,7 +56,7 @@ const scriptures = [
     context: [
       {
         heading: "1 Peter 1:22-25",
-        text: 'Seeing you have purified your souls in your obedience to the truth... <span class="focus-text">Having been born again, not of corruptible seed, but of incorruptible, through the word of God, which lives and remains forever.</span> ... This is the word of Good News which was preached to you.',
+        text: "Seeing you have purified your souls in your obedience to the truth through the Spirit in sincere brotherly love, love one another from the heart fervently. <span class=\"focus-text\">Having been born again, not of corruptible seed, but of incorruptible, through the word of God, which lives and remains forever.</span> For all flesh is like grass and its glory like the flower of grass; the grass withers and the flower falls, but the Lord's word remains forever. This is the Good News that was preached to you.",
       },
     ],
     analysis: [
@@ -85,8 +85,12 @@ const scriptures = [
     category: "Response & Mission",
     context: [
       {
-        heading: "1 Timothy 2:1-6",
-        text: 'I exhort therefore, first of all, that petitions, prayers, intercessions, and giving of thanks be made for all people... <span class="focus-text">This is good and acceptable in the sight of God our Savior, who desires all people to be saved and come to full knowledge of the truth.</span> For there is one God, and one mediator between God and men, the man Christ Jesus, who gave himself as a ransom for all.',
+        heading: "1 Timothy 2:3-6",
+        text: "<span class=\"focus-text\">This is good and acceptable in the sight of God our Savior, who desires all people to be saved and come to full knowledge of the truth.</span> For there is one God and one mediator between God and men, the man Christ Jesus, who gave himself as a ransom for all, the testimony given in its own times.",
+      },
+      {
+        heading: "1 Timothy 1:18-2:10",
+        text: "Timothy, I commit this instruction to you according to the prophecies made about you, that you may wage the good warfare, holding faith and a good conscience, for some have rejected it and made shipwreck concerning the faith. I urge therefore that petitions, prayers, intercessions, and thanksgivings be made for all people, for kings and all who are in high positions, so we may lead a tranquil and quiet life in all godliness and reverence. God desires everyone to know the truth and has provided one mediator, Christ Jesus, who gave himself as a ransom for all. For this I was appointed a herald and apostle, teaching the nations in faith and truth, and I desire the men in every place to pray, lifting up holy hands without wrath and doubting, and likewise that women adorn themselves decently, with good works fitting for those who profess reverence to God.",
       },
     ],
     analysis: [
@@ -103,6 +107,35 @@ const scriptures = [
     selectorCategory: "Response & Mission",
   },
   {
+    id: "2-timothy-3-15-16",
+    reference: "2 Timothy 3:15-16",
+    title: "",
+    translation: "World English Bible",
+    summary: "",
+    keyVerse: "From infancy, you have known the holy Scriptures which are able to make you wise for salvation through faith which is in Christ Jesus. Every Scripture is God-breathed and profitable for teaching, for reproof, for correction, and for instruction in righteousness",
+    themes: ["faith", "wisdom", "teaching"],
+    category: "Invitation & Hearing",
+    context: [
+      {
+       heading: "2 Timothy 3:14-17",
+       text: "But you remain in the things which you have learned and have been assured of, knowing from whom you have learned them. <span class=\"focus-text\">From infancy, you have known the holy Scriptures which are able to make you wise for salvation through faith which is in Christ Jesus. Every Scripture is God-breathed and profitable for teaching, for reproof, for correction, and for instruction in righteousness,</span> that each person who belongs to God may be complete, thoroughly equipped for every good work."
+      },
+    ],
+    analysis: [
+      {
+        title: "Wisdom precedes Faith",
+        body: "This passage presents a clear sequence: knowing the Scriptures leads to wisdom, and this wisdom is 'for salvation through faith.' It establishes Scripture as the foundation of knowledge necessary for a person to place their faith in Christ. Salvation is not a blind leap but a convinced trust based on the reliable, God-breathed testimony of the Word.",
+      },
+      {
+        title: "Scripture as the Saving Instrument",
+        body: "The Scriptures are not merely a textbook of facts; they are 'able to make you wise.' The Greek word for 'able' here is 'dunamai,' from which we get 'dynamic' or 'dynamite.' The Word is powerful and sufficient. It is the active instrument God uses to teach, correct, and train, ultimately equipping a person not only for good works but for the very faith that saves.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Invitation & Hearing", 
+
+  },
+  {
     id: "2-corinthians-5-18-21",
     reference: "2 Corinthians 5:18-21",
     title: "Ambassadors Plead: Be Reconciled to God",
@@ -114,8 +147,12 @@ const scriptures = [
     category: "Response & Mission",
     context: [
       {
-        heading: "2 Corinthians 5:17-21",
-        text: 'Therefore if anyone is in Christ, he is a new creation... <span class="focus-text">We are therefore ambassadors on behalf of Christ, as though God were entreating by us. We beg you on behalf of Christ, be reconciled to God.</span> For him who knew no sin he made to be sin on our behalf, so that in him we might become the righteousness of God.',
+        heading: "2 Corinthians 5:18-21",
+        text: "All things are of God, who reconciled us to himself through Jesus Christ and gave to us the ministry of reconciliation; namely that God was in Christ reconciling the world to himself, not counting their trespasses to them, and committing to us the word of reconciliation. <span class=\"focus-text\">We are therefore ambassadors on behalf of Christ, as though God were entreating by us. We beg you on behalf of Christ: be reconciled to God.</span> He made him who knew no sin to be sin on our behalf, so that in him we might become the righteousness of God.",
+      },
+      {
+        heading: "2 Corinthians 5:14-6:3",
+        text: "The love of Christ compels us because we judge that one died for all, and therefore all died. If anyone is in Christ, he is a new creation; the old things have passed away and everything has become new. God reconciled us and entrusted the message to us, so we plead as ambassadors. Working together with him, we urge you not to receive his grace in vain, for he says, \"At an acceptable time I listened to you, and in a day of salvation I helped you.\" Behold, now is the acceptable time; behold, now is the day of salvation, and we give no occasion of stumbling in anything so that the ministry may not be blamed.",
       },
     ],
     analysis: [
@@ -144,8 +181,12 @@ const scriptures = [
     category: "Spirit & New Life",
     context: [
       {
-        heading: "Acts 10:39-48",
-        text: '"We are witnesses of everything he did both in the country of the Jews, and in Jerusalem... All the prophets testify about him, that through his name everyone who believes in him will receive remission of sins." <span class="focus-text">While Peter was still speaking these words, the Holy Spirit fell on all those who heard the word.</span> They of the circumcision who believed were amazed... Then Peter answered, "Can anyone forbid these people from being baptized with water? They have received the Holy Spirit just like us!"',
+        heading: "Acts 10:43-46",
+        text: "All the prophets testify about Jesus, that through his name everyone who believes in him will receive remission of sins. <span class=\"focus-text\">While Peter was still speaking these words, the Holy Spirit fell on all those who heard the word.</span> The believers of the circumcision who came with Peter were amazed, because the gift of the Holy Spirit was also poured out on the Gentiles, for they heard them speak in other languages and magnify God.",
+      },
+      {
+        heading: "Acts 10:34-48",
+        text: "Peter opened his mouth and said, \"Truly I perceive that God doesn't show favoritism, but in every nation he who fears him and works righteousness is acceptable to him.\" He proclaimed peace through Jesus Christ, who is Lord of all, and told how God anointed Jesus of Nazareth with the Holy Spirit and with power. While the message was still going forth the Spirit fell, and Peter asked, \"Can anyone forbid the water, that these should not be baptized, who have received the Holy Spirit as well as we?\" He commanded them to be baptized in the name of Jesus Christ and they asked him to stay some days.",
       },
     ],
     analysis: [
@@ -173,8 +214,12 @@ const scriptures = [
     category: "Response & Mission",
     context: [
       {
-        heading: "Acts 13:44-48",
-        text: 'The next Sabbath almost the whole city was gathered together to hear the word of God. But when the Jews saw the multitudes, they were filled with jealousy... Paul and Barnabas spoke out boldly, and said, "It was necessary that God\'s word should be spoken to you first. Since indeed you thrust it from you... we turn to the Gentiles." ... <span class="focus-text">As many as were disposed to eternal life believed.</span>',
+        heading: "Acts 13:46-48",
+        text: "Paul and Barnabas spoke out boldly and said, \"It was necessary that God's word should be spoken to you first. Since you thrust it away and judge yourselves unworthy of eternal life, behold, we turn to the Gentiles.\" <span class=\"focus-text\">As many as were disposed to eternal life believed.</span> The Gentiles rejoiced and glorified the word of the Lord, and the Lord's word was spread through the whole region.",
+      },
+      {
+        heading: "Acts 13:42-52",
+        text: "When they went out of the synagogue, the people begged that these words might be spoken to them the next Sabbath. Nearly the whole city was gathered to hear the word of God, but when the Jews saw the crowds they were filled with jealousy and contradicted the things spoken by Paul. The apostles said they were turning to the Gentiles as the Lord commanded, saying, \"I have set you as a light for the nations.\" The Gentiles rejoiced, those disposed to eternal life believed, and the disciples were filled with joy and with the Holy Spirit even as persecution was stirred up.",
       },
     ],
     analysis: [
@@ -216,8 +261,12 @@ const scriptures = [
     category: "Response & Mission",
     context: [
       {
-        heading: "Acts 16:29-34",
-        text: 'He called for lights, sprang in, fell down trembling before Paul and Silas, and brought them out and said, "Sirs, what must I do to be saved?" They said, <span class="focus-text">"Believe in the Lord Jesus Christ, and you will be saved, you and your household."</span> They spoke the word of the Lord to him, and to all who were in his house. He took them the same hour of the night, and washed their stripes; and was immediately baptized, he and all his household. He brought them up into his house, set food before them, and rejoiced greatly, with all his household, having believed in God.',
+        heading: "Acts 16:30-34",
+        text: "The jailer brought them out and said, \"Sirs, what must I do to be saved?\" They said, <span class=\"focus-text\">\"Believe in the Lord Jesus, and you will be saved, you and your household.\"</span> They spoke the Lord's word to him and to all who were in his house. He took them that same hour of the night and washed their stripes; he and all his household were immediately baptized. He brought them up into his house, set food before them, and rejoiced greatly with his entire household, having believed in God.",
+      },
+      {
+        heading: "Acts 16:25-34",
+        text: "About midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them. Suddenly there was a great earthquake, the prison doors were opened, and everyone's bonds were loosed. The jailer, about to kill himself, was stopped when Paul cried, \"Don't harm yourself, for we are all here.\" Trembling, he fell down before them and asked how to be saved. After hearing the word, he cared for their wounds, was baptized with his household, and rejoiced that he had believed in God.",
       },
     ],
     analysis: [
@@ -246,8 +295,12 @@ const scriptures = [
     category: "Response & Mission",
     context: [
       {
-        heading: "Acts 2:32-41",
-        text: '"This Jesus God raised up, to which we all are witnesses. Therefore being exalted by the right hand of God, and having received from the Father the promise of the Holy Spirit, he has poured out this, which you now see and hear." Now when they heard this, they were cut to the heart, and said to Peter and the rest of the apostles, "Brothers, what shall we do?" <span class="focus-text">Peter said to them, "Repent, and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of sins, and you will receive the gift of the Holy Spirit."</span> ... Then those who gladly received his word were baptized. There were added that day about three thousand souls.',
+        heading: "Acts 2:37-39",
+        text: "When they heard this, they were pierced in their hearts and said to Peter and the rest of the apostles, \"Brothers, what shall we do?\" <span class=\"focus-text\">Peter said to them, \"Repent, and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of sins, and you will receive the gift of the Holy Spirit.\"</span> For the promise is to you, to your children, and to all who are far off, even as many as the Lord our God will call.",
+      },
+      {
+        heading: "Acts 2:29-41",
+        text: "Peter testified that God raised Jesus up and exalted him to his right hand, pouring out the promised Holy Spirit. He declared that God has made him both Lord and Christ, and called the crowd to repent and be baptized. With many other words he testified and exhorted them, saying, \"Save yourselves from this crooked generation.\" Those who gladly received his word were baptized, and about three thousand souls were added that day.",
       },
     ],
     analysis: [
@@ -276,8 +329,12 @@ const scriptures = [
     category: "Invitation & Hearing",
     context: [
       {
-        heading: "Deuteronomy 30:11-20",
-        text: '<span class="focus-text">For this commandment which I command you today is not too hard for you, nor is it far off... The word is very near to you, in your mouth and in your heart, that you may do it.</span> ... I have set before you life and death, the blessing and the curse. Therefore choose life, that you may live, you and your descendants.',
+        heading: "Deuteronomy 30:14-19",
+        text: "<span class=\"focus-text\">The word is very near to you, in your mouth and in your heart, so that you may do it.</span> See, I have set before you today life and good, death and evil. I call heaven and earth to witness against you today, that I have set before you life and death, the blessing and the curse; therefore choose life, that you may live, you and your descendants.",
+      },
+      {
+        heading: "Deuteronomy 30:8-20",
+        text: "You shall return and obey Yahweh's voice, but the commandment isn't too hard for you nor far away. The word is near you so that you can do it. I have set before you life and death, blessing and curse; choose life so that you and your offspring may live, loving Yahweh your God, obeying his voice, and clinging to him, for he is your life and the length of your days.",
       },
     ],
     analysis: [
@@ -306,8 +363,12 @@ const scriptures = [
     category: "Spirit & New Life",
     context: [
       {
-        heading: "Ephesians 1:11-14",
-        text: 'In him we were assigned as a heritage... <span class="focus-text">In whom you also, having heard the word of truth, the Good News of your salvation--in whom, having also believed, you were sealed with the promised Holy Spirit.</span> He is a pledge of our inheritance, to the redemption of God\'s own possession.',
+        heading: "Ephesians 1:13-14",
+        text: "<span class=\"focus-text\">In Christ you also, having heard the word of truth, the Good News of your salvation, and having also believed, were sealed with the promised Holy Spirit.</span> He is the down payment of our inheritance, to the redemption of God's own possession, to the praise of his glory.",
+      },
+      {
+        heading: "Ephesians 1:9-23",
+        text: "He made known to us the mystery of his will, according to his good pleasure which he purposed in Christ, to sum up all things in him. In Christ we were assigned an inheritance, being predestined according to the purpose of him who works all things after the counsel of his will. Paul gives thanks because the Ephesians heard the word of truth, believed, and were sealed with the Spirit. He prays that the Father of glory would give them a spirit of wisdom and revelation, that the eyes of their hearts may be enlightened to know the hope of his calling, the riches of his inheritance, and the greatness of his power revealed in raising Christ and seating him above every authority for the church.",
       },
     ],
     analysis: [
