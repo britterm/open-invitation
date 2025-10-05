@@ -55,6 +55,36 @@ export function buildContextHtml(context) {
     .join('');
 }
 
+export function buildFocusOnlyHtml(context = [], defaultHeading = '') {
+  if (!Array.isArray(context) || context.length === 0) {
+    return '';
+  }
+
+  const focusEntries = context.filter((item = {}) => {
+    const { text = '' } = item;
+    return typeof text === 'string' && text.includes('<span class="focus-text">');
+  });
+
+  const preview = focusEntries.length ? focusEntries : [context[0]];
+
+  return preview
+    .map(({ heading, text }) => {
+      const normalizedHeading = defaultHeading || heading || '';
+      const headingHtml = normalizedHeading ? `<strong>${normalizedHeading}</strong>` : '';
+      if (!text) {
+        return headingHtml
+          ? `<p>${headingHtml}${normalizedHeading ? '<br>' : ''}</p>`
+          : '';
+      }
+      const focusMatch = text.match(/<span class="focus-text">([\s\S]*?)<\/span>/);
+      const focusHtml = focusMatch
+        ? `<span class="focus-text">${focusMatch[1]}</span>`
+        : text;
+      return `<p>${headingHtml}${normalizedHeading ? '<br>' : ''}${focusHtml}</p>`;
+    })
+    .join('');
+}
+
 export function buildAnalysisHtml(analysis) {
   return analysis
     .map(({ title, body }) => {

@@ -20,16 +20,12 @@ const scriptures = [
     ],
     analysis: [
       {
-        title: "Why Tension Arises",
-        body: "If the natural person cannot receive spiritual truth, how can anyone believe the gospel without a prior change of nature?",
-      },
-      {
-        title: "Reformed Emphasis",
-        body: "Calvinist theologians appeal to this verse to argue that regeneration must grant spiritual capacity before faith can arise.",
+        title: "Why Context Is Important",
+        body: "Paul contrasts the ways Spirit-taught words are received in the gathered church. Many Reformed readers take the \"natural person\" to be an unregenerate hearer who cannot believe until God irresistibly changes them, yet the flow of 2:6-3:4 shows Paul addressing baptized believers whose loyalties still lean on the age's wisdom; the labels shift as hearers welcome or resist the Spirit's message.",
       },
       {
         title: "Open Invitation Engagement",
-        body: "We note that Paul contrasts immature believers with spiritual ones in the following verses (3:1-4). The Spirit illuminates through proclaimed words (2:13); the warning is about resisting that illumination, not an ontological impossibility to respond.",
+        body: "The Spirit delivers revelation through proclaimed words (2:13), and Paul expects those words to land as the Corinthians yield to the Spirit's teaching. When some cling to factional pride they are called \"natural,\" yet Paul immediately urges them to mature (3:1-4). The wider context keeps the invitation open: anyone who embraces the message can share the mind of Christ (2:16).",
       },
     ],
     tensionResolution: {
@@ -183,16 +179,12 @@ const scriptures = [
     ],
     analysis: [
       {
-        title: "Why Tension Arises",
-        body: 'Luke highlights that all who were "appointed" to eternal life believed, language Calvinists cite to support effectual, sovereign choice. The verse seems to tie destiny directly to outcome.',
-      },
-      {
-        title: "Reformed Emphasis",
-        body: "Reformed interpreters read the passive verb as divine appointment prior to the sermon, viewing the Gentiles' faith as the fruit of God's irrevocable decree rather than a contingent response.",
+        title: "Why Context Is Important",
+        body: "Luke situates the participle \"tetagmenoi\" inside a scene where the synagogue thrusts away the word (v46) while Gentiles rejoice. Many Reformed interpreters read the passive as a decree made before the sermon, yet the narrative contrast highlights how hearers align themselves with Isaiah 49:6 as the mission turns outward.",
       },
       {
         title: "Open Invitation Engagement",
-        body: "We note that the same passage stresses hearing and voluntary rejection. Some scholars observe that the term can imply being aligned or disposed under the preached word. We argue that God's persuasive work through the message oriented listeners without erasing the genuine fork in the road presented to the synagogue.",
+        body: "Paul and Barnabas publicly call out the refusal, implying that the \"appointment\" happens as people respond to the message they hear. The verb can describe being set in order or disposed (compare Acts 15:2), so the story invites us to see the preached promise orienting receptive Gentiles without erasing genuine choice.",
       },
     ],
     alignment: "tension",
@@ -352,16 +344,12 @@ const scriptures = [
     ],
     analysis: [
       {
-        title: "Why Tension Arises",
-        body: "If people are spiritually dead, how can they respond before being made alive? Paul's imagery appears to require God to act first.",
-      },
-      {
-        title: "Reformed Emphasis",
-        body: "Reformed readers argue that deadness signifies total inability; regeneration must precede faith so that the sinner can respond.",
+        title: "Why Context Is Important",
+        body: "Paul paints a before-and-after portrait of people who once walked in trespasses but have now been raised with Christ. Many Reformed readers equate \"dead\" with total inability, concluding that God must regenerate individuals prior to any faith response, yet the paragraph leads straight into 2:8-10 where grace and faith operate together.",
       },
       {
         title: "Open Invitation Engagement",
-        body: "We read Paul describing the decisive transformation that occurs when grace meets faith (cf. 2:8). Deadness highlights hopelessness apart from Christ, yet the letter also stresses hearing the gospel (1:13) and believing. The making-alive happens as people trust the proclaimed message.",
+        body: "Ephesians frames new life around hearing and believing the gospel (1:13) and being incorporated into Christ's body. Paul recalls the community's former walk to magnify mercy, not to deny the summons to trust; the Spirit makes us alive as we look to Christ, and that same grace keeps forming our obedience (2:10; 4:1).",
       },
     ],
     tensionResolution: {
@@ -638,16 +626,12 @@ const scriptures = [
     ],
     analysis: [
       {
-        title: "Why Tension Arises",
-        body: "Receiving Jesus grants adoption, but John immediately clarifies that the new birth is not sourced in human willing. The sequence seems to ground becoming God's child entirely in divine initiative.",
-      },
-      {
-        title: "Reformed Emphasis",
-        body: "Calvinist interpreters hold that regeneration is monergistic: the Spirit begets life apart from human decision, enabling the subsequent act of receiving Christ.",
+        title: "Why Context Is Important",
+        body: "John celebrates that those who receive Jesus become God's children, then clarifies that this birth is \"of God\" rather than rooted in lineage or human scheming. Many Reformed commentators infer that the statement sequences an irresistible rebirth prior to faith, but the prologue's flow keeps the emphasis on the source of life rather than the absence of response.",
       },
       {
         title: "Open Invitation Engagement",
-        body: "We agree that new birth is God's gift, yet the prologue still highlights reception and belief. The denial of 'will of the flesh' pushes back against ancestral privilege and ritualism, not humble trust in the revealed Messiah.",
+        body: "The prologue repeatedly spotlights believing and receiving the Light who comes to everyone (1:9, 12). God's initiative grants the authority to become children, yet the text still honours the human side: those who welcome the Word are the ones described as born of God.",
       },
     ],
     tensionResolution: {
@@ -745,16 +729,12 @@ const scriptures = [
     ],
     analysis: [
       {
-        title: "Why Tension Arises",
-        body: "Jesus states that every person the Father gives will come, and that no one can come unless drawn. These lines appear to guarantee a one-to-one correspondence between divine action and human response.",
-      },
-      {
-        title: "Reformed Emphasis",
-        body: "Reformed interpreters see irresistible grace here: the giving precedes and secures coming; drawing is effectual and culminates in resurrection. The text fuels the claim that regeneration must precede faith.",
+        title: "Why Context Is Important",
+        body: "Jesus links the Father's giving and drawing with the people's coming to him. Many interpreters, especially in Reformed traditions, treat these lines as an irresistible sequence where certain individuals are given, drawn, and therefore infallibly come, yet the Bread of Life discourse simultaneously stresses listening and learning from the Father (v45).",
       },
       {
         title: "Open Invitation Engagement",
-        body: "We note that Jesus addresses hearers who have witnessed signs yet remain unconvinced (v. 36). Verse 45 ties drawing to being taught by God, implying revelation through Scripture and prophetic witness. The Father draws by instruction that still calls for a responsive 'coming'.",
+        body: "Jesus cites Isaiah 54:13 to show that everyone who hears and learns from the Father comes to him. Throughout the chapter the crowd is urged to believe (vv35, 40, 47) and some refuse, which frames the Father's drawing as persuasive instruction rather than coercion.",
       },
     ],
     tensionResolution: {
@@ -875,22 +855,22 @@ const scriptures = [
     category: "Accountability & Perseverance",
     context: [
       {
-        heading: "Romans 8:28-30",
-        text: 'We know that all things work together for good for those who love God... <span class="focus-text">For whom he foreknew, he also predestined to be conformed to the image of his Son... Whom he predestined, those he also called. Whom he called, those he also justified. Whom he justified, those he also glorified.</span>',
+        heading: "Romans 8:18-28",
+        text: "For I consider that the sufferings of this present time are not worthy to be compared with the glory that will be revealed in us. For the creation waits with eager expectation for the children of God to be revealed... Likewise the Spirit also helps our weaknesses. We don\'t know how to pray as we ought, but the Spirit himself makes intercession for us with groanings which can\'t be uttered. He who searches the hearts knows what is on the Spirit\'s mind, because he makes intercession for the saints according to God. We know that all things work together for good for those who love God, for those who are called according to his purpose.",
+      },
+      {
+        heading: "Romans 8:29-39",
+        text: "<span class=\"focus-text\">For whom he foreknew, he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers. Whom he predestined, those he also called. Whom he called, those he also justified. Whom he justified, those he also glorified.</span> What then shall we say about these things? If God is for us, who can be against us? He who didn\'t spare his own Son, but delivered him up for us all, how would he not also with him freely give us all things?... No, in all these things we are more than conquerors through him who loved us. For I am persuaded that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers, nor height, nor depth, nor any other created thing, will be able to separate us from the love of God, which is in Christ Jesus our Lord.",
       },
     ],
     analysis: [
       {
-        title: "Why Tension Arises",
-        body: "The sequence sounds airtight: everyone in view moves from predestination to glorification, leaving little room for contingency.",
-      },
-      {
-        title: "Reformed Emphasis",
-        body: "Classical Reformed theology sees this as proof that God effectually calls and justifies the elect without fail, ensuring perseverance.",
+        title: "Why Context Is Important",
+        body: "Paul strings together foreknowledge, predestination, calling, justification, and glorification. Many Reformed readings take the chain as an unbreakable decree applied to specific individuals regardless of their ongoing response, yet Paul is encouraging suffering believers who love God (v28) to stay confident in Christ.",
       },
       {
         title: "Open Invitation Engagement",
-        body: "We observe that the chain applies to those who 'love God' (8:28) and walk according to the Spirit. Foreknowledge can denote relational knowing of believers as a class. The assurance is for those remaining in Christ, not a denial that prior calls can be resisted.",
+        body: "The chain sits inside a section that calls us to walk by the Spirit (8:4-17) and keep loving God. Foreknowledge often signals God's relational recognition of a people, and the promise assumes believers remain in Christ (compare 11:20-23). The context reads as pastoral assurance for persevering disciples, not as a denial of human participation.",
       },
     ],
     tensionResolution: {
@@ -928,16 +908,12 @@ const scriptures = [
     ],
     analysis: [
       {
-        title: "Why Tension Arises",
-        body: "Regeneration and renewal sound like God's cleansing action that precedes any human merit, suggesting a unilateral transformation.",
-      },
-      {
-        title: "Reformed Emphasis",
-        body: "Many argue that this washing is the moment of new birth that enables faith, underscoring salvation as entirely God's doing apart from human cooperation.",
+        title: "Why Context Is Important",
+        body: "Paul credits salvation to God's mercy through the washing of regeneration and renewal by the Spirit. Many systems treat that wording as an irresistible moment of new birth prior to faith, yet the letter addresses people who already believed the message Paul preached (3:8).",
       },
       {
         title: "Open Invitation Engagement",
-        body: "We affirm that salvation is by mercy, yet observe that Paul ties this mercy to faith (3:8) and to justifying grace received. The Spirit's washing responds to repentant trust awakened by the gospel announcement.",
+        body: "The kindness that appeared in Jesus was announced to all (2:11; 3:4), and those who 'have believed God' are urged to devote themselves to good works (3:8). The washing depicts the Spirit cleansing repentant believers, highlighting divine initiative while leaving the call to respond to grace fully in place.",
       },
     ],
     tensionResolution: {
@@ -954,6 +930,603 @@ const scriptures = [
       ],
     },
   },
+  {
+    id: "matthew-11-28-30",
+    reference: "Matthew 11:28-30",
+    title: "Come to Me, All Who Labor",
+    translation: "World English Bible",
+    summary:
+      "Jesus invites every weary person to come to him, promising rest through a gentle discipleship yoke.",
+    keyVerse:
+      "Come to me, all you who labor and are heavily burdened, and I will give you rest.",
+    themes: ["Invitation", "Rest", "Discipleship"],
+    category: "Invitation & Hearing",
+    context: [
+      {
+        heading: "Matthew 11:27-30",
+        text: 'All things have been delivered to me by my Father... <span class="focus-text">Come to me, all you who labor and are heavily burdened, and I will give you rest.</span> Take my yoke upon you, and learn from me, for I am gentle and humble in heart.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Universal Appeal",
+        body: "Jesus addresses all who are weary and burdened, underscoring that any hearer may respond to his call.",
+      },
+      {
+        title: "Rest Found in Coming",
+        body: "Rest is offered through coming, taking, and learning from Jesus, highlighting responsive trust rather than automatic transfer.",
+      },
+      {
+        title: "Gentle Authority",
+        body: "His gentle, humble heart frames divine authority as invitational; he woos individuals into a yoke they must willingly receive.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Invitation & Hearing",
+  },
+  {
+    id: "revelation-22-17",
+    reference: "Revelation 22:17",
+    title: "The Spirit and the Bride Say Come",
+    translation: "World English Bible",
+    summary:
+      "Revelation closes with a shared summons from the Spirit and the church for anyone willing to receive the water of life.",
+    keyVerse:
+      "The Spirit and the bride say, Come! Let the one who hears say, Come! Whoever is thirsty, let him come. Whoever desires, let him take the water of life freely.",
+    themes: ["Invitation", "Spirit", "Water of Life"],
+    category: "Invitation & Hearing",
+    context: [
+      {
+        heading: "Revelation 22:16-17",
+        text: 'I, Jesus, have sent my angel to testify... <span class="focus-text">The Spirit and the bride say, Come! ... Whoever desires, let him take the water of life freely.</span>',
+      },
+    ],
+    analysis: [
+      {
+        title: "Final Canon Invitation",
+        body: "The Bible ends with an open call, reinforcing that divine desire is for hearers to respond, not for an exclusive few to be compelled.",
+      },
+      {
+        title: "Spirit and Church Together",
+        body: "Both the Spirit and the bride plead with listeners, depicting cooperative mission rather than unilateral regeneration.",
+      },
+      {
+        title: "Desire Matters",
+        body: "Access hinges on thirst and desire, highlighting human response within grace.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Invitation & Hearing",
+  },
+  {
+    id: "isaiah-45-22",
+    reference: "Isaiah 45:22",
+    title: "Turn and Be Saved, All the Earth",
+    translation: "World English Bible",
+    summary:
+      "Through Isaiah God summons every nation to turn toward him for salvation, insisting there is no other refuge.",
+    keyVerse:
+      "Turn to me, and be saved, all the ends of the earth; for I am God, and there is no other.",
+    themes: ["Nations", "Call", "Exclusive Salvation"],
+    category: "Invitation & Hearing",
+    context: [
+      {
+        heading: "Isaiah 45:20-25",
+        text: 'Gather yourselves and come... <span class="focus-text">Turn to me, and be saved, all the ends of the earth; for I am God, and there is no other.</span> By myself I have sworn... every knee shall bow.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Universal Scope",
+        body: "The invitation is addressed to all the ends of the earth, revealing God's missionary heart before Christ's incarnation.",
+      },
+      {
+        title: "Exclusive Rescue",
+        body: "While salvation is exclusively in Yahweh, it is inclusively offered - everyone must choose whether to turn.",
+      },
+      {
+        title: "Foreshadowing the Gospel",
+        body: "Paul later echoes this passage in Philippians 2, underscoring continuity in God's pursuit of responsive worshipers.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Invitation & Hearing",
+  },
+  {
+    id: "john-3-14-18",
+    reference: "John 3:14-18",
+    title: "Whoever Believes Has Eternal Life",
+    translation: "World English Bible",
+    summary:
+      "Jesus explains to Nicodemus that the Son is lifted up so that whoever believes may receive eternal life rather than condemnation.",
+    keyVerse:
+      "For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have eternal life.",
+    themes: ["Faith", "Love", "New Birth"],
+    category: "Invitation & Hearing",
+    context: [
+      {
+        heading: "John 3:14-18",
+        text: 'As Moses lifted up the serpent in the wilderness, even so must the Son of Man be lifted up, <span class="focus-text">that whoever believes in him should not perish, but have eternal life.</span> For God didn\'t send the Son into the world to judge the world, but that the world should be saved through him.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Belief as the Condition",
+        body: "Jesus repeatedly ties eternal life to believing, not to an unobservable change preceding faith.",
+      },
+      {
+        title: "World-Loving God",
+        body: "God's love for the world frames salvation as a broadly intended gift awaiting reception.",
+      },
+      {
+        title: "Condemnation for Refusal",
+        body: "The contrast with those who refuse to believe shows that human response explains differing outcomes.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Invitation & Hearing",
+  },
+  {
+    id: "john-12-32",
+    reference: "John 12:32",
+    title: "Lifted Up to Draw All",
+    translation: "World English Bible",
+    summary:
+      "Jesus predicts that his crucifixion will draw all people, signaling an expansive outreach rather than a selective pull.",
+    keyVerse:
+      "And I, if I am lifted up from the earth, will draw all people to myself.",
+    themes: ["Cross", "Drawing", "Witness"],
+    category: "Invitation & Hearing",
+    context: [
+      {
+        heading: "John 12:30-33",
+        text: 'Jesus answered, This voice has not come for my sake, but for your sakes... <span class="focus-text">And I, if I am lifted up from the earth, will draw all people to myself.</span> He said this, signifying by what kind of death he should die.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Cross-Centered Appeal",
+        body: "The drawing is linked to Jesus being lifted up on the cross and proclaimed, not to a hidden irresistible force.",
+      },
+      {
+        title: "All People in View",
+        body: "John broadens the audience beyond Israel (12:20-21); the cross aims at every kind of person.",
+      },
+      {
+        title: "Hearing Matters",
+        body: "The surrounding context stresses responding to the light while it is present, reinforcing responsible receptivity.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Invitation & Hearing",
+  },
+  {
+    id: "john-5-24",
+    reference: "John 5:24",
+    title: "Hearing and Believing Cross Death",
+    translation: "World English Bible",
+    summary:
+      "Jesus assures listeners that hearing his word and believing the Father moves a person from death into life with no condemnation.",
+    keyVerse:
+      "Most certainly I tell you, he who hears my word and believes him who sent me has eternal life, and doesn\'t come into judgment, but has passed out of death into life.",
+    themes: ["Hearing", "Belief", "Life"],
+    category: "Spirit & New Life",
+    context: [
+      {
+        heading: "John 5:19-29",
+        text: 'The Son can do nothing of himself, but what he sees the Father doing... <span class="focus-text">He who hears my word and believes him who sent me has eternal life.</span> The hour is coming, and now is, when the dead will hear the Son of God\'s voice.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Present Possession",
+        body: "Believing hearers have eternal life now, indicating faith is the Spirit\'s doorway into new life.",
+      },
+      {
+        title: "Passing from Death",
+        body: "The movement from death to life is described as the result of hearing and believing, not its prerequisite.",
+      },
+      {
+        title: "Voice that Awakens",
+        body: "Jesus\' voice awakens the dead as they hear, echoing the proclaimed gospel\'s quickening power.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Spirit & New Life",
+  },
+  {
+    id: "2-thessalonians-2-13-14",
+    reference: "2 Thessalonians 2:13-14",
+    title: "Called Through the Gospel",
+    translation: "World English Bible",
+    summary:
+      "Paul thanks God that the Thessalonians were chosen for salvation through sanctification by the Spirit and belief in the truth, having been called through the gospel proclamation.",
+    keyVerse:
+      "To which he called you through our Good News, for the obtaining of the glory of our Lord Jesus Christ.",
+    themes: ["Calling", "Sanctification", "Belief"],
+    category: "Spirit & New Life",
+    context: [
+      {
+        heading: "2 Thessalonians 2:13-15",
+        text: 'We are bound to always give thanks to God for you... <span class="focus-text">God chose you from the beginning for salvation through sanctification of the Spirit and belief in the truth, to which he called you through our Good News.</span> So then, brothers, stand firm.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Spirit and Belief Together",
+        body: "Sanctification by the Spirit is paired with belief in the truth, refusing to separate divine work from human response.",
+      },
+      {
+        title: "Gospel as the Means",
+        body: "The call arrives through the preached Good News, highlighting proclamation as God\'s chosen instrument.",
+      },
+      {
+        title: "Gratitude, Not Fatalism",
+        body: "Paul\'s thanksgiving fuels perseverance; he immediately exhorts them to stand firm, assuming their agency matters.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Spirit & New Life",
+  },
+  {
+    id: "1-thessalonians-2-13",
+    reference: "1 Thessalonians 2:13",
+    title: "The Word Works in Believers",
+    translation: "World English Bible",
+    summary:
+      "Paul rejoices that the Thessalonians received the preached word as God\'s word, and that it continues to work in those who believe.",
+    keyVerse:
+      "The word of God, which you heard from us, isn\'t the word of men, but, as it is in truth, the word of God, which also works in you who believe.",
+    themes: ["Word", "Faith", "Transformation"],
+    category: "Spirit & New Life",
+    context: [
+      {
+        heading: "1 Thessalonians 2:13",
+        text: '<span class="focus-text">When you received the word of God which you heard from us, you accepted it not as the word of men, but, as it is in truth, the word of God, which also works in you who believe.</span>',
+      },
+    ],
+    analysis: [
+      {
+        title: "Reception Matters",
+        body: "They welcomed the message, an act of responsive faith that allowed the word to take root.",
+      },
+      {
+        title: "Ongoing Work",
+        body: "God\'s word continues its work in those who believe, highlighting partnership with the Spirit rather than passivity.",
+      },
+      {
+        title: "Preached Word as Means",
+        body: "Paul points back to hearing from human messengers, demonstrating the Spirit uses audible proclamation.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Spirit & New Life",
+  },
+  {
+    id: "john-16-8-11",
+    reference: "John 16:8-11",
+    title: "Spirit Convicts the World",
+    translation: "World English Bible",
+    summary:
+      "Jesus promises that the Spirit will convict the world concerning sin, righteousness, and judgment when he comes.",
+    keyVerse:
+      "When he has come, he will convict the world about sin, about righteousness, and about judgment.",
+    themes: ["Spirit", "Conviction", "Witness"],
+    category: "Spirit & New Life",
+    context: [
+      {
+        heading: "John 16:7-11",
+        text: 'It is to your advantage that I go away... <span class="focus-text">When he has come, he will convict the world about sin, about righteousness, and about judgment.</span> ... about sin, because they don\'t believe in me.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Worldwide Focus",
+        body: "The Spirit\'s mission targets the world, not only an elect subset, preparing broad audiences to respond.",
+      },
+      {
+        title: "Conviction unto Faith",
+        body: "The specific sin confronted is unbelief, showing the Spirit works to bring people to faith rather than bypassing their response.",
+      },
+      {
+        title: "Cooperative Witness",
+        body: "In the same discourse Jesus sends disciples to testify (15:26-27), pairing Spirit conviction with human proclamation.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Spirit & New Life",
+  },
+  {
+    id: "acts-17-30-31",
+    reference: "Acts 17:30-31",
+    title: "God Commands All to Repent",
+    translation: "World English Bible",
+    summary:
+      "Paul concludes his Areopagus address by declaring that God now commands all people everywhere to repent in light of the coming judgment and risen Lord.",
+    keyVerse:
+      "The times of ignorance therefore God overlooked. But now he commands that all people everywhere should repent, because he has appointed a day in which he will judge the world in righteousness by the man whom he has ordained.",
+    themes: ["Repentance", "Judgment", "Mission"],
+    category: "Response & Mission",
+    context: [
+      {
+        heading: "Acts 17:24-31",
+        text: 'The God who made the world and all things in it... <span class="focus-text">He commands that all people everywhere should repent, because he has appointed a day in which he will judge the world in righteousness.</span> He has given assurance to all men, in that he has raised him from the dead.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Universal Command",
+        body: "Repentance is not a suggestion; God commands every person, showing responsibility is real.",
+      },
+      {
+        title: "Grounded in Resurrection",
+        body: "The assurance God offers is historical and public - the resurrection preached to listeners invites a reasoned response.",
+      },
+      {
+        title: "Missionary Urgency",
+        body: "Paul delivers this call to Gentiles steeped in idolatry, demonstrating that proclamation can confront and invite simultaneously.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Response & Mission",
+  },
+  {
+    id: "2-corinthians-6-1-2",
+    reference: "2 Corinthians 6:1-2",
+    title: "Do Not Receive Grace in Vain",
+    translation: "World English Bible",
+    summary:
+      "Paul urges believers not to receive God\'s grace in vain, citing Isaiah to stress that now is the favorable time of salvation.",
+    keyVerse:
+      "We beg you not to receive the grace of God in vain. For he says, At an acceptable time I listened to you, in a day of salvation I helped you. Behold, now is the acceptable time. Behold, now is the day of salvation.",
+    themes: ["Grace", "Urgency", "Partnership"],
+    category: "Response & Mission",
+    context: [
+      {
+        heading: "2 Corinthians 5:20-6:2",
+        text: 'We are therefore ambassadors on behalf of Christ... <span class="focus-text">We beg you not to receive the grace of God in vain.</span> For he says, At an acceptable time I listened to you... Behold, now is the day of salvation.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Grace Can Be Vain",
+        body: "Paul assumes it is possible to receive grace without fruitful response, proving human cooperation matters.",
+      },
+      {
+        title: "Ambassadorial Plea",
+        body: "The plea is delivered through human ambassadors, emphasizing that grace arrives via persuasive proclamation.",
+      },
+      {
+        title: "Urgency of Now",
+        body: "The acceptable time is present; delay is dangerous, reinforcing timely response.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Response & Mission",
+  },
+  {
+    id: "2-peter-3-9",
+    reference: "2 Peter 3:9",
+    title: "Not Wishing Any to Perish",
+    translation: "World English Bible",
+    summary:
+      "Peter explains the Lord\'s patience in delaying judgment: he doesn\'t wish any to perish but wants all to come to repentance.",
+    keyVerse:
+      "The Lord isn\'t slow concerning his promise, as some count slowness, but is patient with us, not wishing that any should perish, but that all should come to repentance.",
+    themes: ["Patience", "Repentance", "Promise"],
+    category: "Response & Mission",
+    context: [
+      {
+        heading: "2 Peter 3:8-10",
+        text: 'Don\'t forget this one thing, beloved, that one day is with the Lord as a thousand years... <span class="focus-text">He is patient with us, not wishing that any should perish, but that all should come to repentance.</span> But the day of the Lord will come as a thief.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Patience with Purpose",
+        body: "God\'s delay serves repentance opportunities, not the timing of a secret list executing.",
+      },
+      {
+        title: "All Invited",
+        body: "The verse explicitly states God desires all to repent, grounding mission in divine compassion.",
+      },
+      {
+        title: "Impending Accountability",
+        body: "The thief-like day still arrives, so listeners must respond before patience runs out.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Response & Mission",
+  },
+  {
+    id: "joel-2-28-32",
+    reference: "Joel 2:28-32",
+    title: "Pouring Out the Spirit on All Flesh",
+    translation: "World English Bible",
+    summary:
+      "Joel foretells a day when God pours out his Spirit on all flesh so that whoever calls on the Lord\'s name will be delivered.",
+    keyVerse:
+      "It will happen that whoever will call on Yahweh\'s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape.",
+    themes: ["Spirit", "Prophecy", "Call"],
+    category: "Spirit & New Life",
+    context: [
+      {
+        heading: "Joel 2:28-32",
+        text: '<span class="focus-text">I will pour out my Spirit on all flesh.</span> Your sons and your daughters will prophesy... I will show wonders in the heavens... It will happen that whoever will call on Yahweh\'s name shall be saved.',
+      },
+    ],
+    analysis: [
+      {
+        title: "All Flesh Promise",
+        body: "The Spirit\'s outpouring embraces all gender and age categories, foreshadowing an expansive gospel invitation.",
+      },
+      {
+        title: "Call for Deliverance",
+        body: "Salvation is linked to calling on Yahweh\'s name, a line Peter cites in Acts 2 to urge faith-filled response.",
+      },
+      {
+        title: "Prophetic Empowerment",
+        body: "Empowered sons and daughters become proclaimers, showing the Spirit stirs mission rather than bypassing it.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Spirit & New Life",
+  },
+  {
+    id: "romans-11-20-23",
+    reference: "Romans 11:20-23",
+    title: "Stand by Faith, Do Not Be Arrogant",
+    translation: "World English Bible",
+    summary:
+      "Paul warns Gentile believers that they stand by faith and can be cut off if they do not continue in God\'s kindness, while unbelieving Jews can be grafted in again if they do not persist in unbelief.",
+    keyVerse:
+      "Be not high-minded, but fear; for if God didn\'t spare the natural branches, neither will he spare you. See then the goodness and severity of God... toward you, goodness, if you continue in his goodness; otherwise you also will be cut off.",
+    themes: ["Faith", "Humility", "Perseverance"],
+    category: "Accountability & Perseverance",
+    context: [
+      {
+        heading: "Romans 11:17-24",
+        text: 'If some of the branches were broken off, and you, being a wild olive, were grafted in among them... <span class="focus-text">You stand by your faith. Don\'t be conceited, but fear... If you don\'t continue in his goodness; otherwise you also will be cut off.</span> They also, if they don\'t continue in unbelief, will be grafted in.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Faith Maintains the Graft",
+        body: "The metaphor shows ongoing faith keeps believers connected; arrogance and unbelief jeopardize their standing.",
+      },
+      {
+        title: "Severity and Kindness",
+        body: "God\'s posture toward individuals shifts with their response, affirming conditional security rather than fatalism.",
+      },
+      {
+        title: "Hope for the Resistant",
+        body: "Those currently in unbelief can yet be grafted back in, highlighting persistent invitation.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Accountability & Perseverance",
+  },
+  {
+    id: "hebrews-3-7-15",
+    reference: "Hebrews 3:7-15",
+    title: "Today, If You Hear His Voice",
+    translation: "World English Bible",
+    summary:
+      "Hebrews exhorts believers to listen today and not harden their hearts like Israel in the wilderness, warning that unbelief can shut people out of God\'s rest.",
+    keyVerse:
+      "Today if you will hear his voice, don\'t harden your hearts, as in the rebellion.",
+    themes: ["Exhortation", "Faithfulness", "Community"],
+    category: "Accountability & Perseverance",
+    context: [
+      {
+        heading: "Hebrews 3:7-15",
+        text: 'Therefore, even as the Holy Spirit says, <span class="focus-text">Today if you will hear his voice, don\'t harden your hearts.</span> Exhort one another day by day, lest any of you be hardened by the deceitfulness of sin.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Spirit Still Speaks",
+        body: "The voice of the Spirit addresses the community in the present, inviting fresh responses.",
+      },
+      {
+        title: "Danger of Hardening",
+        body: "Believers are warned not to follow Israel\'s unbelief, showing perseverance is not automatic.",
+      },
+      {
+        title: "Mutual Exhortation",
+        body: "Community encouragement is a means to keep faith alive, aligning with synergistic perseverance.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Accountability & Perseverance",
+  },
+  {
+    id: "1-john-5-1",
+    alignment: "tension",
+    selectorCategory: "Spirit & New Life",
+    reference: "1 John 5:1",
+    title: "Born of God and Believing Jesus",
+    translation: "World English Bible",
+    summary:
+      "John states that everyone believing Jesus is the Christ has been born of God, a verse often used to argue that new birth must precede faith.",
+    keyVerse:
+      "Whoever believes that Jesus is the Christ has been born of God. Whoever loves the Father also loves the child who is born of him.",
+    themes: ["New Birth", "Faith", "Family"],
+    category: "Spirit & New Life",
+    context: [
+      {
+        heading: "1 John 4:19-5:5",
+        text: 'We love him, because he first loved us... <span class="focus-text">Whoever believes that Jesus is the Christ has been born of God.</span> Whoever is born of God overcomes the world, and this is the victory that has overcome the world: our faith.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Why Context Is Important",
+        body: "John says everyone believing that Jesus is the Christ has been born of God. Reformed interpreters often treat the perfect tense as chronological proof that regeneration comes before faith, but the letter repeatedly identifies God's children by their ongoing trust and love.",
+      },
+      {
+        title: "Open Invitation Engagement",
+        body: "John's argument revolves around embracing the apostolic testimony (5:5, 10-13). The perfect tense points to the settled state of believers rather than mapping a hidden pre-faith moment, inviting readers to keep believing and loving the family as the evidence of new birth.",
+      },
+    ],
+    tensionResolution: {
+      question:
+        "Does 1 John 5:1 teach that regeneration must occur before anyone can believe the gospel?",
+      steelman:
+        "Because the verb for being born is perfect while the verb for believing is present, some argue birth logically and temporally precedes faith.",
+      response:
+        "Perfect tense in Greek often denotes a present state: those who are born are identifiable by their ongoing believing. The letter consistently links life to trusting the apostolic message (5:10-13); John never separates new birth from responsive faith.",
+      supports: [
+        "1 John circles back to believing (5:13) as the means for knowing life - faith is the pathway, not merely the result.",
+        "John 1:12-13 says those who received him and believed in his name were given authority to become God\'s children, framing birth as tied to reception.",
+        "In 5:4-5 overcoming the world is explained by believing; the emphasis is on present believing identity, not a hidden pre-faith change.",
+      ],
+    },
+  },
+  {
+    id: "philippians-1-29",
+    alignment: "tension",
+    selectorCategory: "Response & Mission",
+    reference: "Philippians 1:29",
+    title: "Granted to Believe and Suffer",
+    translation: "World English Bible",
+    summary:
+      "Paul tells the Philippians it has been granted to them on behalf of Christ not only to believe in him but also to suffer for his sake, a text used to claim faith is irresistibly given.",
+    keyVerse:
+      "To you it has been granted on behalf of Christ, not only to believe in him, but also to suffer on his behalf.",
+    themes: ["Grace", "Faith", "Suffering"],
+    category: "Response & Mission",
+    context: [
+      {
+        heading: "Philippians 1:27-30",
+        text: 'Only let your way of life be worthy of the Good News of Christ... <span class="focus-text">To you it has been granted on behalf of Christ, not only to believe in him, but also to suffer for his sake.</span> You are engaged in the same conflict you saw in me.',
+      },
+    ],
+    analysis: [
+      {
+        title: "Why Context Is Important",
+        body: "Paul tells the Philippians it has been granted to them on behalf of Christ to believe and to suffer. Some Reformed explanations treat the verb as evidence that faith is irresistibly bestowed on select individuals, yet the surrounding verses urge the church to stand firm in one spirit and strive together (1:27).",
+      },
+      {
+        title: "Open Invitation Engagement",
+        body: "The same grace that enables faith also empowers perseverance in hardship. Throughout the letter Paul assumes active participation: working out salvation (2:12-13), holding fast to the word (2:16), so the grant underscores God's generous support without cancelling the community's responsibility to respond.",
+      },
+    ],
+    tensionResolution: {
+      question:
+        "Does Philippians 1:29 mean faith is irresistibly granted to a preselected group?",
+      steelman:
+        "Paul uses the verb for gracious gifting, suggesting God unilaterally gives faith the same way he grants suffering.",
+      response:
+        "Granting frames faith and suffering as privileges within the mission. Throughout the letter Paul calls believers to continue working out their salvation (2:12-13); grace enables, but believers must actively trust and persevere.",
+      supports: [
+        "The call to stand firm in one spirit (1:27) places responsibility on the community.",
+        "In 2:13 God works in believers to will and act, yet this accompanies the command to work out salvation, not replace it.",
+        "Acts portrays many outsiders invited to faith - granting grace doesn\'t imply exclusion of others but empowerment to those who respond.",
+      ],
+    },
+  },
+
 ];
 
 export default scriptures;

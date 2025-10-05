@@ -2,6 +2,7 @@ import {
   getScriptureById,
   getRelatedScriptures,
   buildContextHtml,
+  buildFocusOnlyHtml,
   buildAnalysisHtml,
   createElement,
   formatThemes,
@@ -51,6 +52,10 @@ if (!scripture) {
     `
     : "";
 
+  const hasContext = Array.isArray(scripture.context) && scripture.context.length > 0;
+  const focusContextHtml = hasContext ? buildFocusOnlyHtml(scripture.context, scripture.reference) : "";
+  const fullContextHtml = hasContext ? buildContextHtml(scripture.context) : "";
+
   scriptureBody.innerHTML = `
     <div class="badge">${scripture.reference} - ${scripture.translation}</div>
     <h1>${scripture.title}</h1>
@@ -62,6 +67,137 @@ if (!scripture) {
     </div>
     ${tensionHtml}
   `;
+
+  if (hasContext) {
+    const contextBlock = scriptureBody.querySelector(".context-block");
+    if (contextBlock) {
+      contextBlock.classList.add("context-section");
+      const contextExtraId = `context-extra-${scripture.id}`;
+      contextBlock.innerHTML = `
+        <div class="context-header">
+          <h2>Passage Context</h2>
+          <button class="context-toggle" type="button" aria-expanded="false">
+            <svg class="context-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 15.5 5 8.5l1.4-1.4L12 12.7l5.6-5.6L19 8.5z"></path>
+            </svg>
+            <span class="toggle-label show-label">Show surrounding verses</span>
+            <span class="toggle-label hide-label">Hide surrounding verses</span>
+          </button>
+        </div>
+        <div class="context-focus">
+          ${focusContextHtml}
+        </div>
+        <div class="context-extra" data-context-extra hidden>
+          ${fullContextHtml}
+        </div>
+      `;
+
+      const contextToggle = contextBlock.querySelector(".context-toggle");
+      const contextExtra = contextBlock.querySelector("[data-context-extra]");
+      const contextFocus = contextBlock.querySelector(".context-focus");
+
+      if (contextToggle && contextExtra && contextFocus) {
+        contextExtra.id = contextExtraId;
+        contextToggle.setAttribute("aria-controls", contextExtraId);
+
+        const reduceMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+        let prefersReducedMotion = reduceMotionQuery ? reduceMotionQuery.matches : false;
+
+        const updateMotionPreference = (event) => {
+          prefersReducedMotion = event.matches;
+        };
+
+        if (reduceMotionQuery) {
+          if (typeof reduceMotionQuery.addEventListener === "function") {
+            reduceMotionQuery.addEventListener("change", updateMotionPreference);
+          } else if (typeof reduceMotionQuery.addListener === "function") {
+            reduceMotionQuery.addListener(updateMotionPreference);
+          }
+        }
+
+        const openExtra = () => {
+          contextToggle.setAttribute("aria-expanded", "true");
+          contextToggle.classList.add("is-active");
+          contextFocus.hidden = true;
+          contextExtra.hidden = false;
+          contextExtra.classList.add("is-visible");
+          if (prefersReducedMotion) {
+            contextExtra.style.maxHeight = "none";
+            return;
+          }
+          contextExtra.style.maxHeight = "0px";
+          requestAnimationFrame(() => {
+            contextExtra.style.maxHeight = `${contextExtra.scrollHeight}px`;
+          });
+        };
+
+        const closeExtra = () => {
+          contextToggle.setAttribute("aria-expanded", "false");
+          contextToggle.classList.remove("is-active");
+          if (prefersReducedMotion) {
+            contextExtra.hidden = true;
+            contextExtra.classList.remove("is-visible");
+            contextExtra.style.maxHeight = "";
+            contextFocus.hidden = false;
+            return;
+          }
+          contextExtra.classList.remove("is-visible");
+          const currentHeight = contextExtra.scrollHeight;
+          contextExtra.style.maxHeight = `${currentHeight}px`;
+          requestAnimationFrame(() => {
+            contextExtra.style.maxHeight = "0px";
+          });
+        };
+
+        contextToggle.addEventListener("click", () => {
+          const expanded = contextToggle.getAttribute("aria-expanded") === "true";
+          if (expanded) {
+            closeExtra();
+          } else {
+            openExtra();
+          }
+        });
+
+        if (!prefersReducedMotion) {
+          contextExtra.addEventListener("transitionend", (event) => {
+            if (event.propertyName !== "max-height") {
+              return;
+            }
+            const expanded = contextToggle.getAttribute("aria-expanded") === "true";
+            if (expanded) {
+              contextExtra.style.maxHeight = "none";
+            } else {
+              contextExtra.hidden = true;
+              contextExtra.style.maxHeight = "";
+              contextFocus.hidden = false;
+            }
+          });
+        }
+      }
+    }
+  }
+
+  const sidebarBackLink = document.querySelector(".section-inner > .back-link");
+  if (sidebarBackLink) {
+    sidebarBackLink.addEventListener("click", (event) => {
+      const referrer = document.referrer;
+      let canGoBack = false;
+      if (referrer) {
+        try {
+          const refUrl = new URL(referrer, window.location.href);
+          const sameOrigin = refUrl.origin === window.location.origin;
+          const refPath = refUrl.pathname.endsWith("/") || refUrl.pathname.endsWith("index.html");
+          canGoBack = sameOrigin && refPath;
+        } catch (error) {
+          canGoBack = false;
+        }
+      }
+      if (canGoBack && window.history.length > 1) {
+        event.preventDefault();
+        window.history.back();
+      }
+    });
+  }
 
   const sidebarContent = createElement("div", { classes: "card" });
   sidebarContent.innerHTML = `

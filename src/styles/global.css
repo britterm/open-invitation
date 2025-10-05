@@ -221,19 +221,6 @@ img {
   box-shadow: 0 16px 32px -18px rgba(31, 60, 136, 0.75);
 }
 
-.tension-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 999px;
-  background: rgba(220, 38, 38, 0.12);
-  color: #b91c1c;
-  font-weight: 800;
-  font-size: 0.95rem;
-}
-
 .card-tension {
   border: 1px solid rgba(185, 28, 28, 0.18);
 }
@@ -304,6 +291,28 @@ img {
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 1.1rem;
+}
+
+.tension-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 999px;
+  background: rgba(59, 130, 246, 0.12);
+  color: #1d4ed8;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.tension-icon svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.card:hover .tension-icon {
+  transform: scale(1.05);
 }
 
 .card-key-verse {

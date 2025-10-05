@@ -4,61 +4,13 @@ import scriptures, {
   createElement,
   formatThemes,
 } from "./utils.js";
+import narrativeSections from "../data/narratives.js";
+import { featureFlags } from "./featureFlags.js";
 
 const heroHighlightIds = [
   "isaiah-55-1-3",
   "john-20-30-31",
   "ephesians-1-13-14",
-];
-const narrativeSections = [
-  {
-    title: "A Call to Listen",
-    description:
-      "From the prophets onward, God pleads with His people to incline their ear. The invitation is open, the covenant is relational, and responsibility is real.",
-    scriptureId: "deuteronomy-30-11-20",
-    image: "src/img/listen.png",
-    imageAlt:
-      "Sunrise light casting across open fields and a narrow path forward",
-    accent: "#4f46e5",
-  },
-  {
-    title: "Prophets Summon Repentance",
-    description:
-      "Jeremiah and Ezekiel call the people to turn back, assuring them that the Lord takes no pleasure in death but delights when the wicked repent and live.",
-    scriptureId: "ezekiel-18-30-32",
-    image: "src/img/prophets.png",
-    imageAlt: "Ancient stone gate with warm light shining through the opening",
-    accent: "#f97316",
-  },
-  {
-    title: "Messiah Announces Good News",
-    description:
-      "Jesus proclaims life to all who believe, promising new birth through trust in His name. Hearing produces belief, and belief receives life.",
-    scriptureId: "john-20-30-31",
-    image: "src/img/jesus.png",
-    imageAlt: "Hands open in praise among a crowd lit by warm light",
-    accent: "#ec4899",
-  },
-  {
-    title: "Apostles Preach for Faith",
-    description:
-      "From Pentecost to Philippi, the Spirit moves as the word is proclaimed. Hearts are cut, households rejoice, and the Spirit falls when the message is heard.",
-    scriptureId: "acts-2-37-38",
-    image: "src/img/spirit.png",
-    imageAlt:
-      "Lantern light glowing over a gathered group in a stone courtyard",
-    accent: "#22d3ee",
-  },
-  {
-    title: "Hearing, Believing, Sealed",
-    description:
-      "Paul anchors assurance in the moment we hear the gospel, believe, and are sealed with the promised Spirit-no secret regeneration required beforehand.",
-    scriptureId: "ephesians-1-13-14",
-    image: "src/img/promise.png",
-    imageAlt:
-      "Close-up of hands holding an illuminated scroll in warm candlelight",
-    accent: "#8b5cf6",
-  },
 ];
 
 const ALL_CATEGORY_KEY = "All";
@@ -97,6 +49,52 @@ const categoryChips = document.querySelector("#category-chips");
 const categoryDescription = document.querySelector("#category-description");
 const heroGrid = document.querySelector("#hero-grid");
 const timeline = document.querySelector("#timeline");
+
+const conciseSpotlightsEnabled =
+  featureFlags && featureFlags.conciseSpotlights === true;
+
+const spotlightHint = document.querySelector("#spotlight-concise-hint");
+if (spotlightHint) {
+  spotlightHint.hidden = !conciseSpotlightsEnabled;
+}
+
+let spotlightTooltip;
+
+function ensureSpotlightTooltip() {
+  if (!conciseSpotlightsEnabled || spotlightTooltip) return;
+  spotlightTooltip = createElement('div', { classes: 'spotlight-tooltip' });
+  spotlightTooltip.setAttribute('aria-hidden', 'true');
+  spotlightTooltip.setAttribute('role', 'status');
+  spotlightTooltip.setAttribute('aria-live', 'polite');
+  document.body.appendChild(spotlightTooltip);
+  window.addEventListener(
+    'scroll',
+    () => {
+      hideSpotlightTooltip();
+    },
+    { passive: true }
+  );
+}
+
+function showSpotlightTooltip(text) {
+  if (!conciseSpotlightsEnabled) return;
+  ensureSpotlightTooltip();
+  if (!spotlightTooltip) return;
+  spotlightTooltip.textContent = text;
+  spotlightTooltip.setAttribute('aria-hidden', 'false');
+  spotlightTooltip.classList.add('is-visible');
+}
+
+function hideSpotlightTooltip() {
+  if (!spotlightTooltip) return;
+  spotlightTooltip.classList.remove('is-visible');
+  spotlightTooltip.setAttribute('aria-hidden', 'true');
+}
+
+if (conciseSpotlightsEnabled) {
+  ensureSpotlightTooltip();
+}
+
 
 const CARD_LEAVE_DURATION = 320;
 
@@ -223,6 +221,9 @@ function createSpotlightCard(entry, index) {
   if (entry.alignment === "tension") {
     classes.push("card-tension");
   }
+  if (conciseSpotlightsEnabled) {
+    classes.push("spotlight-card--concise");
+  }
   const card = createElement("article", { classes });
   card.style.setProperty("--stagger", `${index * 80}ms`);
 
@@ -234,7 +235,7 @@ function createSpotlightCard(entry, index) {
   const tensionTooltip =
     entry.alignment === "tension" && entry.tensionResolution
       ? entry.tensionResolution.question
-      : "Explores a debated interpretation";
+      : "Take a closer look at the surrounding context.";
 
   const tensionNote =
     entry.alignment === "tension"
@@ -243,8 +244,21 @@ function createSpotlightCard(entry, index) {
 
   const tensionIcon =
     entry.alignment === "tension"
-      ? `<span class="tension-icon" aria-label="Explores a debated interpretation" title="${escapeAttribute(tensionTooltip)}">!</span>`
+      ? `<span class="tension-icon" aria-label="Invites a closer look at the passage context" title="${escapeAttribute(tensionTooltip)}">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+              fill="currentColor"
+              d="M7.2 4a1.8 1.8 0 0 0-1.8 1.8V10a5 5 0 1 0 7.2 6.3h1.2A5 5 0 1 0 21.8 10V5.8A1.8 1.8 0 0 0 20 4h-2.3a1 1 0 0 0-.94.66L16 7h-8l-.76-2.34A1 1 0 0 0 7.2 4Z"
+            />
+          </svg>
+        </span>`
       : "";
+
+  const headingContent = conciseSpotlightsEnabled ? entry.reference : entry.summary;
+  const summaryId = `spotlight-summary-${entry.id}`;
+  const summaryMarkup = conciseSpotlightsEnabled
+    ? `<p id="${summaryId}" class="visually-hidden card-summary">${entry.summary}</p>`
+    : "";
 
   card.innerHTML = `
 
@@ -256,7 +270,7 @@ function createSpotlightCard(entry, index) {
 
     </div>
 
-    <h3>${entry.summary}</h3>
+    <h3>${headingContent}</h3>
 
     <p class="card-key-verse">${entry.keyVerse}</p>
 
@@ -264,11 +278,26 @@ function createSpotlightCard(entry, index) {
 
     ${tensionNote}
 
+    ${summaryMarkup}
+
     <div class="card-footer">
       <span class="category-label">${categoryInfo.label}</span>
       <a class="back-link" href="scripture.html?id=${entry.id}">Study this passage &rarr;</a>
     </div>
   `;
+
+  if (conciseSpotlightsEnabled) {
+    card.dataset.summary = entry.summary;
+    card.addEventListener("mouseenter", () => showSpotlightTooltip(entry.summary));
+    card.addEventListener("mouseleave", hideSpotlightTooltip);
+  }
+
+  const studyLink = card.querySelector(".back-link");
+  if (studyLink && conciseSpotlightsEnabled) {
+    studyLink.setAttribute("aria-describedby", summaryId);
+    studyLink.addEventListener("focus", () => showSpotlightTooltip(entry.summary));
+    studyLink.addEventListener("blur", hideSpotlightTooltip);
+  }
 
   requestAnimationFrame(() => {
     card.classList.add("is-active");
@@ -276,7 +305,11 @@ function createSpotlightCard(entry, index) {
 
   return card;
 }
+
 function populateSpotlightGrid(entries) {
+  if (conciseSpotlightsEnabled) {
+    hideSpotlightTooltip();
+  }
   if (!spotlightContainer) return;
   spotlightContainer.innerHTML = "";
 
