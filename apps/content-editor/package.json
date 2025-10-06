@@ -1,0 +1,21 @@
+{
+  "name": "content-editor",
+  "version": "0.1.0",
+  "description": "Content editor for Open Invitation data",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed-from-static.js",
+    "export": "node scripts/export-json.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.0.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
+

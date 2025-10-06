@@ -1,8 +1,8 @@
 const scriptures = [
   {
     id: "1-corinthians-2-14",
-    alignment: "tension",
     selectorCategory: "Invitation & Hearing",
+    alignment: "tension",
     reference: "1 Corinthians 2:14",
     title: "Natural Person and Spiritual Things",
     translation: "World English Bible",
@@ -909,7 +909,7 @@ const scriptures = [
     title: "The Golden Chain",
     translation: "World English Bible",
     summary:
-      "Paul strings foreknowledge, predestination, calling, justification, and glorification into an unbroken chain, a cornerstone for monergistic salvation.",
+      "Paul strings foreknowledge, predestination, calling, justification, and glorification into an unbroken chain.  Who and what is he talking about?",
     keyVerse:
       "Whom he predestined, those he also called. Whom he called, those he also justified. Whom he justified, those he also glorified.",
     themes: ["Election", "Calling", "Glory"],
@@ -926,27 +926,22 @@ const scriptures = [
     ],
     analysis: [
       {
-        title: "Why Context Is Important",
-        body: "Paul strings together foreknowledge, predestination, calling, justification, and glorification. Many Reformed readings take the chain as an unbreakable decree applied to specific individuals regardless of their ongoing response, yet Paul is encouraging suffering believers who love God (v28) to stay confident in Christ.",
+        "title": "The Power of Context: A Message for the Hurting",
+        "body": "To understand these verses, we must first look at what comes immediately before them. Paul isn't interested in writing a theological textbook; he's writing a letter of encouragement to people who are suffering. He acknowledges the 'groaning' of creation (8:22) and of believers (8:23) before offering a foundational promise: \"And we know (<span class=\"greek-word\">oida</span>) that for those who love God all things work together for good.\" The Greek word <span class=\"greek-word\">oida</span> is crucial, as it refers to knowledge gained from <strong>observation and experience</strong>. He is appealing to what they have seen and know to be true from the testimony of history: God has a proven track record of faithfulness to His people."
       },
       {
-        title: "Open Invitation Engagement",
-        body: "The chain sits inside a section that calls us to walk by the Spirit (8:4-17) and keep loving God. Foreknowledge often signals God's relational recognition of a people, and the promise assumes believers remain in Christ (compare 11:20-23). The context reads as pastoral assurance for persevering disciples, not as a denial of human participation.",
+        "title": "Paul's Audience: A Family in Need of Hope",
+        "body": "The church in Rome was a diverse mix of Jewish and Gentile believers. They needed a message that would unify them and give them a shared identity and hope. Paul's goal is to show them that they are all being invited into one family with a long, rich history. Paul is pointing to the 'great cloud of witnesses' who have gone before (Hebrews 12:1). He is telling the Romans - many of whom were Gentiles with no prior connection to Israel's story - that the destiny of the saints of old is the same destiny now offered to them. The message is one of <strong>inclusion</strong>, inviting them to be grafted into this historic family of faith. "
       },
-    ],
-    tensionResolution: {
-      question:
-        "What about this interpretation that the golden chain proving an unbreakable decree?",
-      steelman:
-        "The sequence from foreknown to glorified seems airtight, so many read it as a blueprint of unconditional election applied to specific individuals.",
-      response:
-        "Paul is offering assurance to believers who love God (8:28) in the face of suffering. 'Foreknow' often carries relational overtones; the focus is on God's commitment to conform those in Christ, not on denying human response.",
-      supports: [
-        "Verse 28 limits the promise to people presently loving God-covenant loyalty remains in view.",
-        "Romans 9-11 shows called people can resist (for example, unbelieving Israelites).",
-        "Foreknowledge in Scripture frequently denotes relationship (Amos 3:2; 1 Peter 1:2), not bare foresight of a fixed list.",
-      ],
-    },
+      {
+        "title": "Examining the Key Terms",
+        "body": "<p>The original Greek language reveals a straightforward and beautiful meaning.</p><ul><li><strong>\"Foreknew\"</strong> (<span class=\"greek-word\">proegnō</span>): This word is a combination of <span class=\"greek-word\">pro</span> (\"before\" or \"formerly\") and <span class=\"greek-word\">ginōskō</span> (\"to know\" in a personal, relational sense). It points to God's historical, covenantal relationship with the saints of old. It's a knowledge of <u>remembrance</u>, not a pre-vision of the future.</li><li><strong>\"Predestined\"</strong> (<span class=\"greek-word\">proōrisen</span>): This word combines <span class=\"greek-word\">pro</span> (\"before\") and <span class=\"greek-word\">horizō</span> (\"to set a boundary or horizon\"). God, from the beginning, set the <u>destination</u> for those who would enter into a relationship with Him: \"to be conformed to the image of his Son.\" This is about the goal, the path laid out for anyone who joins the family.</li><li><strong>The Past Tense Verbs:</strong> Paul uses a string of past-tense verbs: \"foreknew,\" \"predestined,\" \"called,\" \"justified,\" and even \"<u>glorified</u>.\" This is perhaps the strongest clue. He is describing a <u>completed process</u> for those who have already finished their race — <u>the saints of the past</u>. To suggest this unbroken chain of past-tense verbs refers to people in the present is a significant linguistic stretch.</li></ul>"
+      },
+      {
+        "title": "Bringing It Together: An Open Invitation",
+        "body": "<p>Other interpretations often suggest this passage is about God selecting specific individuals from eternity. This view creates serious problems: it seems to contradict the hundreds of passages calling on people to freely choose God, and it can portray God as having a \"secret will\" that contradicts His revealed desire for all to be saved.</p><p>A more coherent reading, one that honors the context and the grammar, sees this passage as a powerful message of assurance based on historical precedent. Paul is telling the suffering Romans: \"Look back at the saints God knew and loved. He laid out a glorious plan for them, calling them and justifying them, and He has now brought them to glory. This is the path He has laid out. This is the destiny He offers. His promises are trustworthy, and you are invited to join this same family and share in this same glorious inheritance.\"</p><p>This is not a closed list; it's an <strong>open invitation</strong>. The \"Golden Chain of Redemption\" is not a chain binding God's choice to a select few, but a well-trodden path of faithfulness, proving that the destination is real and the invitation is for you.</p>"
+      }
+    ]
   },
   {
     id: "titus-3-4-7",

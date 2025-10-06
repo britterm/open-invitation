@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Open Invitation Content Editor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/preview-styles/global.css" />
+    <link rel="stylesheet" href="/preview-styles/layout.css" />
+    <link rel="stylesheet" href="/preview-styles/components.css" />
+  </head>
+  <body>
+    <header class="app-header" data-header>
+      <div class="header-main">
+        <div class="header-copy">
+          <h1>Open Invitation Content Editor</h1>
+          <p class="tagline">
+            Manage hero copy, narrative sections, and scripture studies.
+          </p>
+        </div>
+        <button type="button" class="header-toggle" data-action="toggle-header" aria-expanded="true">
+          Collapse Header
+        </button>
+      </div>
+      <nav class="app-nav">
+        <a href="#hero-section">Hero</a>
+        <a href="#hero-tiles-section">Hero Tiles</a>
+        <a href="#narratives-section">Narratives</a>
+        <a href="#scriptures-section">Scriptures</a>
+      </nav>
+    </header>
+
+    <main class="app-main">
+      <section id="flash-region" aria-live="polite"></section>
+
+      <section id="hero-section" class="panel">
+        <header class="panel-header">
+          <h2>Hero</h2>
+          <button type="button" class="secondary" data-action="refresh-hero">Refresh</button>
+        </header>
+        <form id="hero-form" class="form-grid">
+          <label>
+            <span>Title</span>
+            <textarea name="title" rows="2" required></textarea>
+          </label>
+          <label class="wide">
+            <span>Description</span>
+            <textarea name="description" rows="5" required></textarea>
+          </label>
+          <label>
+            <span>Image Path</span>
+            <input name="imagePath" type="text" placeholder="src/img/home.png" />
+          </label>
+          <label>
+            <span>Image Alt</span>
+            <input name="imageAlt" type="text" placeholder="Hero image alt text" />
+          </label>
+          <div class="cta-group">
+            <h3>Primary CTA</h3>
+            <label>
+              <span>Label</span>
+              <input name="primaryCta.label" type="text" />
+            </label>
+            <label>
+              <span>Href</span>
+              <input name="primaryCta.href" type="text" />
+            </label>
+          </div>
+          <div class="cta-group">
+            <h3>Secondary CTA</h3>
+            <label>
+              <span>Label</span>
+              <input name="secondaryCta.label" type="text" />
+            </label>
+            <label>
+              <span>Href</span>
+              <input name="secondaryCta.href" type="text" />
+            </label>
+          </div>
+          <div class="form-actions">
+            <button type="submit">Save Hero</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="hero-tiles-section" class="panel">
+        <header class="panel-header">
+          <h2>Hero Tiles</h2>
+          <p class="panel-description">Select three featured passages that appear on the home page.</p>
+        </header>
+        <form id="hero-tiles-form" class="tiles-form">
+          <div class="tile-row" data-position="0">
+            <label>
+              <span>Tile 1 Scripture</span>
+              <select name="tile-0"></select>
+            </label>
+          </div>
+          <div class="tile-row" data-position="1">
+            <label>
+              <span>Tile 2 Scripture</span>
+              <select name="tile-1"></select>
+            </label>
+          </div>
+          <div class="tile-row" data-position="2">
+            <label>
+              <span>Tile 3 Scripture</span>
+              <select name="tile-2"></select>
+            </label>
+          </div>
+          <div class="form-actions">
+            <button type="submit">Save Tiles</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="narratives-section" class="panel">
+        <header class="panel-header">
+          <h2>Narratives</h2>
+          <button type="button" class="secondary" data-action="add-narrative">Add Narrative</button>
+        </header>
+        <div id="narratives-list" class="card-list"></div>
+        <dialog id="narrative-dialog">
+          <form method="dialog" id="narrative-form" class="form-grid">
+            <h3 class="dialog-title">Narrative Section</h3>
+            <input type="hidden" name="id" />
+            <label class="wide">
+              <span>Title</span>
+              <input name="title" type="text" required />
+            </label>
+            <label class="wide">
+              <span>Description</span>
+              <textarea name="description" rows="4" required></textarea>
+            </label>
+            <label>
+              <span>Scripture ID</span>
+              <input name="scriptureId" type="text" list="scripture-id-list" />
+            </label>
+            <label>
+              <span>Image Path</span>
+              <input name="imagePath" type="text" />
+            </label>
+            <label>
+              <span>Image Alt</span>
+              <input name="imageAlt" type="text" />
+            </label>
+            <label>
+              <span>Accent Color</span>
+              <input name="accent" type="text" placeholder="#4f46e5" />
+            </label>
+            <label>
+              <span>Position</span>
+              <input name="position" type="number" min="0" />
+            </label>
+            <menu class="dialog-actions">
+              <button value="cancel" class="secondary">Cancel</button>
+              <button value="submit" class="primary">Save</button>
+            </menu>
+            <button type="button" class="danger" data-action="delete-narrative">Delete</button>
+          </form>
+        </dialog>
+      </section>
+
+      <section id="scriptures-section" class="panel">
+        <header class="panel-header">
+          <h2>Scriptures</h2>
+          <div class="panel-controls">
+            <input id="scripture-search" type="search" placeholder="Search by reference or title" />
+            <button type="button" class="secondary" data-action="add-scripture">Add Scripture</button>
+          </div>
+        </header>
+        <div class="scripture-layout">
+          <aside>
+            <ul id="scripture-list" class="scripture-list" aria-label="Scripture entries"></ul>
+          </aside>
+          <section class="scripture-editor">
+            <form id="scripture-form" class="form-grid" hidden>
+              <header class="form-header">
+                <h3 id="scripture-form-title">Scripture</h3>
+                <button type="button" class="secondary" data-action="duplicate-scripture">Duplicate</button>
+              </header>
+              <label>
+                <span>ID</span>
+                <input name="id" type="text" required />
+              </label>
+              <label>
+                <span>Reference</span>
+                <input name="reference" type="text" required />
+              </label>
+              <label>
+                <span>Title</span>
+                <input name="title" type="text" required />
+              </label>
+              <label>
+                <span>Translation</span>
+                <input name="translation" type="text" />
+              </label>
+              <label class="wide">
+                <span>Summary</span>
+                <textarea name="summary" rows="3"></textarea>
+              </label>
+              <label class="wide">
+                <span>Key Verse</span>
+                <textarea name="keyVerse" rows="3"></textarea>
+              </label>
+              <label>
+                <span>Category</span>
+                <input name="category" type="text" />
+              </label>
+              <label>
+                <span>Selector Category</span>
+                <input name="selectorCategory" type="text" />
+              </label>
+              <label>
+                <span>Alignment</span>
+                <input name="alignment" type="text" />
+              </label>
+              <label class="wide">
+                <span>Themes (one per line)</span>
+                <textarea name="themes" rows="3"></textarea>
+              </label>
+              <label class="wide">
+                <span>Context (Heading :: Body per line)</span>
+                <textarea name="context" rows="4"></textarea>
+              </label>
+              <section class="analysis-editor wide">
+                <header class="analysis-editor__header">
+                  <h3>Analysis Sections</h3>
+                  <button type="button" class="secondary" data-action="add-analysis">Add Section</button>
+                </header>
+                <div id="analysis-list" class="repeatable-list"></div>
+              </section>
+              <label class="wide">
+                <span>Badges (one per line)</span>
+                <textarea name="badges" rows="3"></textarea>
+              </label>
+              <div class="form-actions">
+                <button type="submit">Save Scripture</button>
+                <button type="button" class="danger" data-action="delete-scripture">Delete</button>
+              </div>
+            </form>
+            <div id="scripture-empty" class="empty-state">
+              <p>Select a scripture to edit it, or create a new one.</p>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <datalist id="scripture-id-list"></datalist>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
