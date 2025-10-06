@@ -336,9 +336,9 @@
 }
 
 .spotlight-hint {
-  margin: 1rem 0 0;
+  margin: .25rem 0 0;
   color: rgba(15, 23, 42, 0.7);
-  font-size: 0.9rem;
+  font-size: small;
 }
 
 .spotlight-hint[hidden] {

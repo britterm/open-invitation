@@ -1,4 +1,10 @@
-const scriptures = [
+const processed = {
+  "1-corinthians-2-14": true,
+  "romans-8-29-30": true,
+  "2-thessalonians-2-13-14": true,
+};
+
+const scripturesData = [
   {
     id: "1-corinthians-2-14",
     selectorCategory: "Invitation & Hearing",
@@ -20,27 +26,18 @@ const scriptures = [
     ],
     analysis: [
       {
-        title: "Why Context Is Important",
-        body: "Paul is talking to believers, telling them that the Holy Spirit can use words to teach, but a \"natural person\" cannot receive this teaching.  He admonishes them - their fleshly ways prevent them from receiving these teachings.  They are still \"natural persons\".  <br><br>Paul is not talking about unbelievers.", 
+        "title": "Context: An Admonishment for Believers",
+        "body": "<p>Paul is not writing to unbelievers; his entire letter is addressed to <strong>\"the church of God in Corinth\"</strong> (1 Cor 1:2). The immediate context confirms he is diagnosing a problem <em>within</em> the church. In the very next verses, he calls the Corinthians <strong>\"infants in Christ\"</strong> (3:1) who can only handle milk, not solid food. He explicitly labels them <strong>\"fleshly\"</strong> (<span class=\"greek-word\">sarkikos</span>) because of the jealousy and quarreling in their community (3:3). The \"natural man\" of 2:14 is the \"infant in Christ\" of 3:1.</p>"
       },
       {
-        title: "An Invitation is a Choice",
-        body: "The Spirit delivers revelation through proclaimed words (2:13), and Paul wants the Corinthians to yield to the Spirit's teaching.  However, Paul calls them \"natural,\" and urges them to mature (3:1-4).   The choice is theirs to embrace this teaching and share the mind of Christ (2:16).",
+        "title": "The 'Natural' Person: Immature, Not Unsaved",
+        "body": "<p>The key phrase \"natural man\" comes from the Greek <span class=\"greek-word\">psychikos anthrōpos</span>. The word <span class=\"greek-word\">psychikos</span> derives from <span class=\"greek-word\">psychē</span>, which refers to the soul—the seat of natural human life, will, and affections. It stands in contrast to <span class=\"greek-word\">pneumatikos</span> (spiritual), which relates to the <span class=\"greek-word\">pneuma</span> (spirit).</p><p>A <span class=\"greek-word\">psychikos</span> person is one governed by their natural, soul-ish faculties, even if they are a believer. The issue is not the <em>absence</em> of the Holy Spirit, but the <em>failure to walk by</em> the Spirit. Believers possess a spiritual faculty, but they can choose to neglect it and operate out of their old, fleshly nature. This is a matter of immaturity, not inability.</p>"
       },
+      {
+        "title": "A Choice to Mature",
+        "body": "<p>When Paul says the natural man does not <strong>\"receive\"</strong> (<span class=\"greek-word\">dechetai</span>) the things of the Spirit, the word means he doesn't \"welcome\" or \"accept\" them. Because of their immaturity, the Corinthians are failing to welcome the deeper teachings—the \"solid food\"—of the faith. Their inability to <strong>\"know\"</strong> these truths is practical, not absolute. A toddler \"can't\" understand calculus, not because they lack a human brain, but because they are undeveloped.</p><p>Paul's final statement, that these things are <strong>\"spiritually discerned\"</strong> (<span class=\"greek-word\">pneumatikōs anakrinetai</span>), is the reason why. It simply states the required faculty for understanding. Since believers have the Spirit, this verse functions as a powerful exhortation: they must choose to stop living \"naturally\" and start using the spiritual capacity they received at conversion to grow into maturity.</p>"
+      }
     ],
-    tensionResolution: {
-      question:
-        "What about this interpretation that the natural person's inability to receive the Spirit's things?",
-      steelman:
-        "Since the natural person cannot accept spiritual truths, some argue a prior regenerative change is required before anyone can believe the gospel.",
-      response:
-        "Paul's solution is Spirit-taught words (2:13) and continued instruction (3:1-3). He scolds believers for remaining 'fleshly,' showing that these categories shift as listeners yield to the Spirit's teaching.",
-      supports: [
-        "Verse 13 frames revelation in communicated words, inviting hearers to welcome the message.",
-        "In 3:1-4 Paul addresses Christians who are still acting 'fleshly,' proving the labels describe posture, not fixed status.",
-        "Elsewhere (2 Corinthians 4) Paul explains that the veil lifts when people turn to the Lord-response matters.",
-      ],
-    },
   },
   {
     id: "1-peter-1-23",
@@ -1209,19 +1206,23 @@ const scriptures = [
     ],
     analysis: [
       {
-        title: "Spirit and Belief Together",
-        body: "Sanctification by the Spirit is paired with belief in the truth, refusing to separate divine work from human response.",
+        "title": "Context: A Tale of Two Destinies",
+        "body": "<p>To feel the full impact of verse 13, we must see what it's contrasted with. In the preceding verses (2:9-12), Paul describes those who are perishing because they <strong>\"refused to love the truth and so be saved.\"</strong> Their destiny is sealed by their own choice to reject the truth.</p><p>Paul then makes a dramatic turn in verse 13, starting with <strong>\"But...\"</strong> He is drawing a sharp line between the destiny of those who <em>refuse</em> the truth and the destiny of the Thessalonians, who have <em>embraced</em> it. This immediately frames the discussion around a response to God, not a predetermined divine decree.</p>"
       },
       {
-        title: "Gospel as the Means",
-        body: "The call arrives through the preached Good News, highlighting proclamation as God\'s chosen instrument.",
+        "title": "'God Chose You': A Corporate Affirmation",
+        "body": "<p>This is the central phrase. A Western, individualistic reading often interprets \"you\" as specific, pre-selected individuals. However, in its original context, this phrase is a powerful corporate affirmation.</p><p>The <strong>\"you\"</strong> refers to the Thessalonian church as a collective body, representing the Gentile world. Paul is affirming that the Gentile community, as a people group, is now the chosen, elect people of God. The phrase <strong>\"from the beginning\"</strong> (<span class=\"greek-word\">ap' archēs</span>) means God's plan to include the Gentiles was His eternal purpose, directly refuting the Judaizing claim that God's plan was only ever for ethnic Israel.</p><blockquote><p><strong>An Important Textual Note:</strong> Some of the earliest manuscripts have a different word here: <span class=\"greek-word\">aparchēn</span>, meaning <strong>\"as firstfruits.\"</strong> If this is the original wording, it powerfully strengthens this interpretation. Paul would be thanking God for the Thessalonians as the \"firstfruits\" of the Gentile harvest in their region—a representative sample of the much larger Gentile inclusion God was bringing about.</p></blockquote><p>This salvation is actualized through the Spirit's work and their own active <strong>\"belief in the truth,\"</strong> highlighting the participatory nature of their salvation.</p>"
       },
       {
-        title: "Gratitude, Not Fatalism",
-        body: "Paul\'s thanksgiving fuels perseverance; he immediately exhorts them to stand firm, assuming their agency matters.",
+        "title": "Called Through 'Our' Gospel",
+        "body": "<p>Paul makes the \"us\" vs. \"you\" distinction clear. He says God called <strong>\"you\"</strong> (the Gentile Thessalonians) to this glorious inclusion through the preaching of <strong>\"our\"</strong> (Paul and the other Jewish apostles) gospel. The message of salvation, historically entrusted to Israel, was now being brought to the Gentiles by Jewish messengers, proving that God was creating one new family from the two groups.</p><p>This was the \"mystery\" Paul speaks of in Ephesians 3—that the Gentiles would be made <strong>full co-heirs</strong> with Israel, sharing in the same promises and the same glory.</p>"
       },
+      {
+        "title": "Conclusion: An Affirmation of Inclusion",
+        "body": "<p>Read in its proper context, 2 Thessalonians 2:13 is not a proof-text for the pre-selection of certain individuals to the exclusion of others.</p><p>It is a passionate, pastoral, and anti-discriminatory declaration. It's the \"Apostle to the Gentiles\" reassuring a worried, predominantly Gentile church that their place in God's family is secure. Their inclusion was not an accident or a lesser status, but was God's beautiful and mysterious plan from the very beginning.</p>"
+      }
     ],
-    alignment: "affirming",
+    alignment: "tension",
     selectorCategory: "Spirit & New Life",
   },
   {
@@ -1584,5 +1585,48 @@ const scriptures = [
   },
 
 ];
+
+// Sort by canonical Bible order without changing any entry content
+const canonicalBooks = [
+  'Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy',
+  'Joshua', 'Judges', 'Ruth', '1 Samuel', '2 Samuel',
+  '1 Kings', '2 Kings', '1 Chronicles', '2 Chronicles', 'Ezra',
+  'Nehemiah', 'Esther', 'Job', 'Psalms', 'Proverbs',
+  'Ecclesiastes', 'Song of Solomon', 'Isaiah', 'Jeremiah', 'Lamentations',
+  'Ezekiel', 'Daniel', 'Hosea', 'Joel', 'Amos',
+  'Obadiah', 'Jonah', 'Micah', 'Nahum', 'Habakkuk',
+  'Zephaniah', 'Haggai', 'Zechariah', 'Malachi',
+  'Matthew', 'Mark', 'Luke', 'John', 'Acts',
+  'Romans', '1 Corinthians', '2 Corinthians', 'Galatians', 'Ephesians',
+  'Philippians', 'Colossians', '1 Thessalonians', '2 Thessalonians', '1 Timothy',
+  '2 Timothy', 'Titus', 'Philemon', 'Hebrews', 'James',
+  '1 Peter', '2 Peter', '1 John', '2 John', '3 John',
+  'Jude', 'Revelation'
+];
+const canonicalIndex = new Map(canonicalBooks.map((b, i) => [b, i]));
+
+function parseReference(ref) {
+  const m = ref && ref.match(/^([1-3]?\s?[A-Za-z ]+?)\s+(\d+):(\d+)/);
+  if (!m) {
+    return { book: ref || '', chapter: Number.MAX_SAFE_INTEGER, verse: Number.MAX_SAFE_INTEGER };
+  }
+  const book = m[1].trim();
+  const chapter = parseInt(m[2], 10) || 0;
+  const verse = parseInt(m[3], 10) || 0;
+  return { book, chapter, verse };
+}
+
+function compareByCanonical(a, b) {
+  const pa = parseReference(a.reference);
+  const pb = parseReference(b.reference);
+  const ia = canonicalIndex.has(pa.book) ? canonicalIndex.get(pa.book) : Number.MAX_SAFE_INTEGER;
+  const ib = canonicalIndex.has(pb.book) ? canonicalIndex.get(pb.book) : Number.MAX_SAFE_INTEGER;
+  if (ia !== ib) return ia - ib;
+  if (pa.chapter !== pb.chapter) return pa.chapter - pb.chapter;
+  if (pa.verse !== pb.verse) return pa.verse - pb.verse;
+  return (a.id || '').localeCompare(b.id || '');
+}
+
+const scriptures = [...scripturesData].sort(compareByCanonical);
 
 export default scriptures;

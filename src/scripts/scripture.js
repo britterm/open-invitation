@@ -57,10 +57,11 @@ if (!scripture) {
   const fullContextHtml = hasContext ? buildContextHtml(scripture.context) : "";
 
   scriptureBody.innerHTML = `
-    <div class="badge">${scripture.reference} - ${scripture.translation}</div>
-    <h1>${scripture.title}</h1>
+    <h1>${scripture.reference}<h1>
+    <h2>${scripture.title}</h2>
     <p class="text-muted">${scripture.summary}</p>
     <div class="context-block">${buildContextHtml(scripture.context)}</div>
+    <div class="badge" style="float: right; margin-top: .25rem">${scripture.translation}</div>
     ${buildAnalysisHtml(scripture.analysis)}
     ${tensionHtml}
   `;

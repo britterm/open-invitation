@@ -303,7 +303,6 @@ img {
   background: rgba(59, 130, 246, 0.12);
   color: #1d4ed8;
   flex-shrink: 0;
-  transition: transform 0.3s ease;
 }
 
 .tension-icon svg {
@@ -311,14 +310,9 @@ img {
   height: 1rem;
 }
 
-.card:hover .tension-icon {
-  transform: scale(1.05);
-}
-
 .card-key-verse {
   font-style: italic;
   color: var(--color-strong);
-  margin: 0 0 1.15rem;
 }
 
 .tension-summary {

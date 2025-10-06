@@ -3,6 +3,7 @@ import scriptures, {
   getFeaturedScriptures,
   createElement,
   formatThemes,
+  getMagnifyIcon,
 } from "./utils.js";
 import narrativeSections from "../data/narratives.js";
 import { featureFlags } from "./featureFlags.js";
@@ -245,12 +246,7 @@ function createSpotlightCard(entry, index) {
   const tensionIcon =
     entry.alignment === "tension"
       ? `<span class="tension-icon" aria-label="Invites a closer look at the passage context" title="${escapeAttribute(tensionTooltip)}">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path
-              fill="currentColor"
-              d="M7.2 4a1.8 1.8 0 0 0-1.8 1.8V10a5 5 0 1 0 7.2 6.3h1.2A5 5 0 1 0 21.8 10V5.8A1.8 1.8 0 0 0 20 4h-2.3a1 1 0 0 0-.94.66L16 7h-8l-.76-2.34A1 1 0 0 0 7.2 4Z"
-            />
-          </svg>
+          <magnify-icon></magnify-icon>
         </span>`
       : "";
 
@@ -261,7 +257,7 @@ function createSpotlightCard(entry, index) {
     : "";
 
   card.innerHTML = `
-
+    <a href="scripture.html?id=${entry.id}">
     <div class="card-head">
 
       <div class="badge" title="${escapeAttribute(translationTitle)}">${entry.reference}</div>
@@ -282,8 +278,9 @@ function createSpotlightCard(entry, index) {
 
     <div class="card-footer">
       <span class="category-label">${categoryInfo.label}</span>
-      <a class="back-link" href="scripture.html?id=${entry.id}">Study this passage &rarr;</a>
+      Study this passage &rarr;
     </div>
+    </a>
   `;
 
   if (conciseSpotlightsEnabled) {
@@ -335,8 +332,8 @@ function renderSpotlightCards() {
       currentCategory === ALL_CATEGORY_KEY
         ? true
         : entry.selectorCategory === currentCategory,
-    )
-    .sort((a, b) => a.reference.localeCompare(b.reference));
+    );
+  // .sort((a, b) => a.reference.localeCompare(b.reference));
 
   const currentCards = Array.from(
     spotlightContainer.querySelectorAll(".filter-card"),
@@ -354,6 +351,24 @@ function renderSpotlights() {
   renderCategoryChips();
   renderSpotlightCards();
 }
+
+// Define custom element for magnify icon
+class MagnifyIcon extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = getMagnifyIcon();
+    this.style.display = 'inline-flex';
+    this.style.verticalAlign = 'middle';
+    this.style.width = '1rem';
+    this.style.height = '1rem';
+    const svg = this.querySelector('svg');
+    if (svg) {
+      svg.style.width = '100%';
+      svg.style.height = '100%';
+    }
+  }
+}
+customElements.define('magnify-icon', MagnifyIcon);
+
 renderHeroHighlights();
 renderTimeline();
 renderSpotlights();
