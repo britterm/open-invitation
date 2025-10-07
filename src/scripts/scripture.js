@@ -37,16 +37,16 @@ if (!scripture) {
       : [];
   const supportsHtml = tensionSupports.length
     ? `<ul class="tension-points">${tensionSupports
-        .map((point) => `<li>${escapeHtml(point)}</li>`)
+        .map((point) => `<li>${point}</li>`)
         .join("")}</ul>`
     : "";
   const tensionHtml = scripture.tensionResolution
     ? `
       <section class="tension-study">
         <h2>Going Deeper</h2>
-        <p class="tension-question">${escapeHtml(scripture.tensionResolution.question)}</p>
-        <p class="tension-steelman">${escapeHtml(scripture.tensionResolution.steelman)}</p>
-        <p class="tension-response">${escapeHtml(scripture.tensionResolution.response)}</p>
+        <div class="tension-question">${scripture.tensionResolution.question}</div>
+        <div class="tension-steelman">${scripture.tensionResolution.steelman}</div>
+        <div class="tension-response">${scripture.tensionResolution.response}</div>
         ${supportsHtml}
       </section>
     `

@@ -618,14 +618,9 @@ const scripturesData = [
       }
     ],
     "tensionResolution": {
-      "question": "What about this interpretation that Acts 13:48 teaches a fixed roster of regenerated listeners?",
-      "steelman": "Because 'appointed to eternal life' is a passive perfect, some argue Luke is reporting that God had already decreed which Gentiles would believe, proving irresistible grace.",
-      "response": "Luke frames the statement inside a public choice: the synagogue thrusts the word away while the Gentiles welcome it. Tasso can describe aligning oneself under orders, so the narrative highlights how the preached promise reoriented responsive hearers rather than revealing a secret decree.",
-      "supports": [
-        "Verses 46-47 stress responsibility ('you thrust it away'); the appointment note completes that contrast.",
-        "Tasso/tetagmenoi elsewhere can describe voluntary arrangement (see Acts 15:2), so the participle need not imply a hidden decree.",
-        "Paul cites Isaiah 49:6, celebrating mission momentum as Gentiles step into the light they have now heard."
-      ]
+      "question": "What about the interpretation that Acts 13:48 teaches a fixed roster of regenerated listeners?",
+      "steelman": "Because the word for 'appointed' (<span class=\"greek-word\">tetagmenoi</span>) is a perfect passive participle, some argue it means God had already decreed from eternity which specific Gentiles would believe, presenting this as a proof-text for irresistible grace.",
+      "response": "<p>While that is one interpretation, the immediate context and the word itself support a different reading centered on the posture of the hearer. The Greek word <span class=\"greek-word\">tetagmenoi</span> does not have to refer to a pre-temporal, divine decree. It can also describe those who have 'disposed themselves' or 'arranged themselves' for something.</p><p>This reading is strengthened by several key points:</p><ul><li><strong>The Context of Choice:</strong> The event is framed by the choice in verse 46, where the Jewish leaders actively <strong>\"thrust away\"</strong> the word and <strong>\"judge yourselves unworthy.\"</strong> The Gentiles' positive disposition is a direct contrast to this willful rejection.</li><li><strong>Voluntary Arrangement:</strong> The same root word is used in Acts 15:2 to describe a voluntary decision to 'appoint' (arrange for) Paul and Barnabas to go to Jerusalem. The word itself does not demand a deterministic meaning.</li><li><strong>Mission Momentum:</strong> Paul's quote from Isaiah 49:6 celebrates the gospel's momentum as it moves to the Gentiles, who are now joyfully stepping into the light they have heard. The focus is on the public, historical shift, not a secret, eternal decree.</li></ul><p>In this light, the verse describes how those Gentiles who were receptive and had 'disposed themselves' for eternal life were the ones who believed, in sharp contrast to those who had judged themselves unworthy.</p>"
     }
   },
   {
@@ -1065,7 +1060,7 @@ const scripturesData = [
       },
       {
         "title": "An Appeal to the Will",
-        "body": "<p>The core of the passage is built on two active commands: <strong>\"Awake\"</strong> (<span class=\"greek-word\">egeire</span>) and <strong>\"Arise\"</strong> (<span class=\"greek-word\">anasta</span>). These are imperatives—direct appeals to the human will, issued in the context of the Holy Spirit's work of convicting the world of its sin (John 16:8). By issuing these commands, the Spirit affirms that the hearer has the God-given capacity to respond to His conviction. The call is not to passively wait for a divine intervention to awaken them, but to actively participate in their own spiritual awakening. It is a summons to choose light over darkness, to shake off the stupor of sin and stand up.</p>"
+        "body": "<p>The core of the passage is built on two active commands: <strong>\"Awake\"</strong> (<span class=\"greek-word\">egeire</span>) and <strong>\"Arise\"</strong> (<span class=\"greek-word\">anasta</span>). These are imperatives - direct appeals to the human will, issued in the context of the Holy Spirit's work of convicting the world of its sin (John 16:8). By issuing these commands, the Spirit affirms that the hearer has the God-given capacity to respond to His conviction. The call is not to passively wait for a divine intervention to awaken them, but to actively participate in their own spiritual awakening. It is a summons to choose light over darkness, to shake off the stupor of sin and stand up.</p>"
       },
       {
         "title": "The Promised Illumination",
@@ -1282,10 +1277,10 @@ const scripturesData = [
     ],
   },
   {
-    "id": "hebrews-3-7-15",
+    "id": "hebrews-3-15",
     "alignment": "affirming",
     "selectorCategory": "Accountability & Perseverance",
-    "reference": "Hebrews 3:7-15",
+    "reference": "Hebrews 3:15",
     "title": "Today, If You Hear His Voice",
     "translation": "World English Bible",
     "summary": "Hebrews exhorts believers to listen today and not harden their hearts like Israel in the wilderness, warning that unbelief can shut people out of God's rest.",
@@ -1298,30 +1293,30 @@ const scripturesData = [
     "category": "Accountability & Perseverance",
     "context": [
       {
-        "heading": "Hebrews 3:7-15",
-        "text": "Therefore, even as the Holy Spirit says, <span class=\"focus-text\">Today if you will hear his voice, don't harden your hearts.</span> Exhort one another day by day, lest any of you be hardened by the deceitfulness of sin."
+        "heading": "Hebrews 3:7-19",
+        "text": "Therefore, even as the Holy Spirit says, \"Today if you will hear his voice, Don't harden your hearts, as in the provocation, Like as in the day of the trial in the wilderness, Where your fathers tested me by proving me, And saw my works for forty years. Therefore I was displeased with that generation, And said, 'They always err in their heart, But they didn't know my ways;' As I swore in my wrath, 'They will not enter into my rest.'\" Beware, brothers, lest perhaps there will be in any one of you an evil heart of unbelief, in falling away from the living God; but exhort one another day by day, so long as it is called \"today;\" lest any one of you be hardened by the deceitfulness of sin. For we have become partakers of Christ, if we hold fast the beginning of our confidence firm to the end: while it is said, <span class=\"focus-text\">\"Today if you will hear his voice, Don't harden your hearts, as in the provocation.\"</span> For who, when they heard, did provoke? No, didn't all those who came out of Egypt by Moses? With whom was he displeased forty years? Wasn't it with those who sinned, whose bodies fell in the wilderness? To whom did he swear that they should not enter into his rest, but to those who were disobedient? We see that they were not able to enter in because of unbelief.",
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Spirit Still Speaks",
-        "body": "The voice of the Spirit addresses the community in the present, inviting fresh responses."
+        "title": "An Enduring Warning from the Past",
+        "body": "<p>The author's argument is built around a lengthy quotation from Psalm 95, which recounts Israel's tragic failure in the wilderness. The story of that generation, who saw God's works for forty years yet failed to enter His \"rest\" because of their unbelief, is presented as a sobering and directly relevant warning to New Covenant believers. The author makes it clear that the danger of a hardened, unbelieving heart is not just an Old Testament problem but a present-day reality for the community of faith.</p>"
       },
       {
-        "title": "Danger of Hardening",
-        "body": "Believers are warned not to follow Israel's unbelief, showing perseverance is not automatic."
+        "title": "The Urgent Choice of 'Today'",
+        "body": "<p>The central command, framed by the urgent word <strong>\"Today,\"</strong> is a direct appeal to the human will: <strong>\"don’t harden your hearts.\"</strong> The responsibility for the heart's condition is placed squarely on the individual hearer. The passage assumes that believers have the ongoing choice and capacity to either keep their hearts soft and responsive to God's voice or to allow them to become calloused and hard through unbelief. It is not a statement about a state of being, but a command to make the right choice in the present moment.</p>"
       },
       {
-        "title": "Mutual Exhortation",
-        "body": "Community encouragement is a means to keep faith alive, aligning with synergistic perseverance."
+        "title": "The Real Danger of Falling Away",
+        "body": "<p>The reason for this urgent command is the real and present danger outlined just verses earlier. The author warns his audience, whom he addresses as <strong>\"brothers,\"</strong> to take care lest any of them have an \"evil, unbelieving heart, leading you to <strong>fall away from the living God</strong>\" (v. 12). The command in verse 15 to \"not harden your hearts\" is not a hypothetical exercise; it is a vital instruction for persevering in a faith that can be abandoned. The passage powerfully supports a conditional salvation, where continued belief and a soft heart are necessary to finally enter God's promised rest.</p>"
       }
     ]
   },
   {
-    "id": "hebrews-4-2",
+    "id": "hebrews-4-2-12",
     "alignment": "affirming",
     "selectorCategory": "Invitation & Hearing",
-    "reference": "Hebrews 4:2",
+    "reference": "Hebrews 4:2-12",
     "title": "The Message Profits Those Who Combine Hearing with Faith",
     "translation": "World English Bible",
     "summary": "Good news must be mixed with faith in those who hear; otherwise it does not benefit them.",
@@ -1334,18 +1329,22 @@ const scripturesData = [
     "category": "Invitation & Hearing",
     "context": [
       {
-        "heading": "Hebrews 4:1-3",
-        "text": "Let us fear therefore, lest perhaps anyone of you should seem to have come short of a promise of entering into his rest. <span class=\"focus-text\">For indeed we have had good news preached to us, even as they also did; but the word they heard didn't profit them, because it wasn't mixed with faith in those who heard.</span> For we who have believed enter into that rest."
+        "heading": "Hebrews 4:2-12",
+        "text": "<span class=\"focus-text\">For indeed we have had good news preached to us, even as also they, but the word of hearing did not profit them, because it was not mixed with faith by those who heard.</span> For we who have believed do enter into that rest, even as he has said, \"As I swore in my wrath, They will not enter into my rest;\" although the works were finished from the foundation of the world. For he has said somewhere about the seventh day like this, \"God rested on the seventh day from all his works;\" and in this place again, \"They will not enter into my rest.\" Seeing therefore it remains that some should enter therein, and they to whom the good news were before preached failed to enter in because of disobedience, he again defines a certain day, today, saying through David so long a time afterward (just as has been said), \"Today if you will hear his voice, Don't harden your hearts.\" For if Joshua had given them rest, he would not have spoken afterward of another day. There remains therefore a Sabbath rest for the people of God. For he who has entered into his rest has himself also rested from his works, as God did from his. Let us therefore give diligence to enter into that rest, that no man fall after the same example of disobedience. <span class=\"focus-text\">For the word of God is living, and active, and sharper than any two-edged sword, and piercing even to the dividing of soul and spirit, of both joints and marrow, and quick to discern the thoughts and intents of the heart.</span>",
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Hearing Can Be Fruitless",
-        "body": "The warning acknowledges that some hear without faith. If regeneration preceded hearing, the word would always profit. Instead, faith must be the response to the message."
+        "title": "Faith: The Key that Unlocks the Word's Power",
+        "body": "<p>The author begins by drawing a powerful parallel in verse 2. The same \"good news\" of God's promise was preached to the generation in the wilderness and to us. The message itself had the same life-giving potential for both groups. The difference in outcome, he states, was not in the Word, but in the response. The Word <strong>\"did not benefit them, because it was not united by faith.\"</strong> This verse powerfully demonstrates that the effectiveness of the gospel is conditional; its power is only activated when a person chooses to unite themself with its truth through an act of personal faith.</p>"
       },
       {
-        "title": "Belief Grants Rest",
-        "body": "Those who believe enter rest. The sequence underscores that rest follows faith, which follows hearing."
+        "title": "The Convicting Power of God's Word",
+        "body": "<p>The passage then explains <em>how</em> the gospel demands such a clear response. The Word of God is described as <strong>\"living and active, sharper than any two-edged sword,\"</strong> piercing our innermost being and <strong>\"discerning the thoughts and intentions of the heart\"</strong> (v. 12). This is the very instrument the Holy Spirit uses to bring conviction. As Jesus promised, the Spirit convicts the world of sin, righteousness, and judgment (John 16:8), and He does so by wielding this sharp, exposing truth of God's Word. The Word lays the human heart bare, leaving no room for excuses and demanding a choice.</p>"
+      },
+      {
+        "title": "The Urgent and Necessary Response",
+        "body": "<p>Given the power of the Word and the necessity of faith, the author issues an urgent call to action. He repeats the command from Psalm 95: <strong>\"'Today, if you hear his voice, do not harden your hearts'\"</strong> (v. 7). The opportunity to respond is always now. This response requires diligent effort, as seen in the command to <strong>\"strive to enter that rest\"</strong> (v. 11). Salvation is not a passive experience that happens to a person, but a promised rest that requires a diligent and persevering faith to enter. The choice to hear, to not harden one's heart, and to strive is presented as a continuous and vital personal responsibility.</p>"
       }
     ]
   },
@@ -1356,7 +1355,7 @@ const scripturesData = [
     "reference": "Hebrews 11:6",
     "title": "Without Faith It Is Impossible to Please God",
     "translation": "World English Bible",
-    "summary": "Faith is required to approach God; one must believe He exists and rewards seekers.",
+    "summary": "Hebrews 11 provides a masterful survey of Old Testament heroes to demonstrate a single, timeless principle: the only way to please God and inherit His promises has always been through an active and obedient faith; a personal choice to trust in His unseen reality and act on His Word.",
     "keyVerse": "Without faith it is impossible to be well pleasing to him.",
     "themes": [
       "Faith",
@@ -1366,29 +1365,39 @@ const scripturesData = [
     "category": "Accountability & Perseverance",
     "context": [
       {
-        "heading": "Hebrews 11:5-6",
-        "text": "By faith, Enoch was taken away so that he wouldn't see death... <span class=\"focus-text\">Without faith it is impossible to be well pleasing to him; for he who comes to God must believe that he exists, and that he is a rewarder of those who seek him.</span>"
+        "heading": "Hebrews 11:1-40, 12:1-2",
+        "text": "Now faith is assurance of things hoped for, proof of things not seen. For by this, the elders obtained testimony. By faith, we understand that the universe has been framed by the word of God, so that what is seen has not been made out of things which are visible. By faith, Abel offered to God a more excellent sacrifice than Cain, through which he had testimony given to him that he was righteous, God bearing witness with respect to his gifts; and through it he, being dead, still speaks. By faith, Enoch was translated, so that he should not see death, and he was not found, because God translated him. For he has had testimony given to him that before his translation he had been well pleasing to God. <span class=\"focus-text\">Without faith it is impossible to be well pleasing to him, for he who comes to God must believe that he exists,   and that he is a rewarder of those who seek him.</span> By faith, Noah, being warned about things not yet seen, moved with godly fear, prepared an ark for the saving of his house, through which he condemned the world, and became heir of the righteousness which is according to faith. By faith, Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance. He went out, not knowing where he went. By faith, he lived as an alien in the land of promise, as in a land not his own, dwelling in tents, with Isaac and Jacob, the heirs with him of the same promise. For he looked for the city which has the foundations, whose builder and maker is God. By faith, even Sarah herself received power to conceive, and she bore a child when she was past age, since she counted him faithful who had promised. Therefore they were fathered by one, and him as good as dead, as many as the stars of the sky in multitude, and as innumerable as the sand which is by the sea shore. These all died in faith, not having received the promises, but having seen them and embraced them from afar, and having confessed that they were strangers and pilgrims on the earth. For those who say such things make it clear that they are seeking after a country of their own. If indeed they had been thinking of that country from which they went out, they would have had enough time to return. But now they desire a better country, that is, a heavenly one. Therefore God is not ashamed of them, to be called their God, for he has prepared a city for them. By faith, Abraham, being tested, offered up Isaac. Yes, he who had gladly" +
+          " received the promises was offering up his one and only son; even he to whom it was said, \"In Isaac will your seed be called;\" accounting that God is able to raise up, even from the dead. Figuratively speaking, he also did receive him back from the dead. By faith, Isaac blessed Jacob and Esau, even concerning things to come. By faith, Jacob, when he was dying, blessed each of the sons of Joseph, and worshiped, leaning on the top of his staff. By faith, Joseph, when his end was near, made mention of the departure of the children of Israel; and gave instructions concerning his bones. By faith, Moses, when he was born, was hidden for three months by his parents, because they saw that he was a beautiful child, and they were not afraid of the king's commandment. By faith, Moses, when he had grown up, refused to be called the son of Pharaoh's daughter, choosing rather to share ill treatment with the people of God, than to enjoy the pleasures of sin for a time; accounting the reproach of Christ greater riches than the treasures of Egypt; for he looked to the reward. By faith, he left Egypt, not fearing the wrath of the king; for he endured, as seeing him who is invisible. By faith, he kept the Passover, and the sprinkling of the blood, that the destroyer of the firstborn should not touch them. By faith, they passed through the Red sea as by dry land. When the Egyptians tried to do so, they were swallowed up. By faith, the walls of Jericho fell down, after they had been encircled for seven days. By faith, Rahab, the prostitute, didn't perish with those who were disobedient, having received the spies in peace. What will I more say? For the time will fail me if I tell of Gideon, Barak, Samson, Jephthah, David, Samuel, and the prophets; who, through faith, subdued kingdoms, worked out righteousness, obtained promises, stopped the mouths of lions, quenched the power of fire, escaped the edge of the sword, from weakness were made strong, grew mighty in war, and turned to flight armies of aliens. Women received their dead by resurrection. Others were tortured, not accepting their deliverance, that they might obtain a better resurrection. Others were tried by mocking and scourging, yes, moreover by bonds and imprisonment. They were stoned. They were sawn apart. They were tempted. They were slain with the sword. They went around in sheepskins, in goatskins; being destitute, afflicted," +
+          " ill-treated (of whom the world was not worthy), wandering in deserts and mountains and caves, and the holes of the earth. These all, having had testimony given to them through their faith, didn't receive the promise, God having provided some better thing concerning us, so that apart from us they should not be made perfect. Therefore let us also, seeing we are surrounded by so great a cloud of witnesses, lay aside every weight and the sin which so easily entangles us, and let us run with patience the race that is set before us, looking to Jesus, the author and perfecter of faith, who for the joy that was set before him endured the cross, despising shame, and has sat down at the right hand of the throne of God.",
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Faith is Prerequisite to Nearness",
-        "body": "The author insists that anyone who comes must believe. The requirement sits on the human side of the relationship, not on a hidden pre-faith regeneration."
+        "title": "The Foundational Principle of Faith",
+        "body": "<p>The chapter's thesis is stated with absolute clarity in verse 6: <strong>\"And without faith it is impossible to please him.\"</strong> The author establishes belief as the non-negotiable prerequisite for any authentic relationship with God. To even \"draw near to God,\" a person must first choose to believe that He exists and that He rewards those who genuinely seek Him. Faith is defined not as a blind leap, but as a confident trust in God's unseen reality and a conviction in His future promises (v. 1). This entire chapter serves as an extended demonstration of this foundational principle.</p>"
       },
       {
-        "title": "God Rewards Seekers",
-        "body": "The verse affirms genuine seeking. God responds to those who seek Him, undercutting deterministic assumptions that deny meaningful pursuit."
+        "title": "Faith as a Forward-Looking Choice",
+        "body": "<p>The story of Abraham is presented as a prime example of faith in action. The text says, \"By faith Abraham <strong>obeyed</strong> when he was called to go out... not knowing where he was going\" (v. 8). His faith was not a passive feeling but an active, obedient choice made in response to God's specific call. He chose to leave the security of the familiar for the uncertainty of an unseen promise. This showcases faith as a forward-looking trust that empowers individuals to act on God's word, even when it defies human logic.</p>"
+      },
+      {
+        "title": "Faith as a Present Allegiance",
+        "body": "<p>The example of Moses powerfully frames faith as a present-day choice of identity and allegiance. The text highlights his deliberate decision: \"By faith Moses... <strong>refused</strong> to be called the son of Pharaoh's daughter, <strong>choosing</strong> rather to be mistreated with the people of God than to enjoy the fleeting pleasures of sin\" (vv. 24-25). This was a conscious act of the will. Moses weighed his immediate comfort and status against the future reward of identifying with Christ, and he chose God. His faith was not a predetermined state but an active choice of values and loyalty.</p>"
+      },
+      {
+        "title": "The Unifying Story of Faith",
+        "body": "<p>After listing a great multitude of heroes, the author concludes by noting that though they were all commended for their faith, they \"did not receive what was promised\" in their lifetimes (v. 39). Their faith was always looking forward. This was part of God's plan to unite all believers from all time into one complete story, which finds its fulfillment in Jesus. This \"great cloud of witnesses\" is not a separate class of spiritual giants; they are our forerunners in the same race, encouraging us to also respond to God's open invitation and live by faith.</p>"
       }
     ]
   },
   {
-    "id": "james-1-18-21",
+    "id": "james-1-21",
     "alignment": "affirming",
     "selectorCategory": "Spirit & New Life",
-    "reference": "James 1:18-21",
+    "reference": "James 1:21",
     "title": "Receive the Implanted Word",
     "translation": "World English Bible",
-    "summary": "James urges believers to receive the implanted word with meekness because it can save their souls.",
+    "summary": "James commands his readers to actively repent by \"putting away\" all sin and then to humbly \"receive\" the proclaimed Word of God. He affirms that this Word has the inherent power to save, a power that is made effective through the channel of this humble and active reception.",
     "keyVerse": "Receive with meekness the implanted word, which is able to save your souls.",
     "themes": [
       "Word",
@@ -1398,29 +1407,33 @@ const scripturesData = [
     "category": "Spirit & New Life",
     "context": [
       {
-        "heading": "James 1:18-22",
-        "text": "Of his own will he brought us forth by the word of truth... Therefore, putting away all filthiness and overflowing wickedness, <span class=\"focus-text\">receive with meekness the implanted word, which is able to save your souls.</span> But be doers of the word, and not only hearers, deluding your own selves."
+        "heading": "James 1:18-25",
+        "text": " Of his own will he brought us forth by the word of truth, that we should be a kind of first fruits of his creatures. So, then, my beloved brothers, let every man be swift to hear, slow to speak, and slow to anger; for the anger of man doesn't produce the righteousness of God. <span class=\"focus-text\">Therefore, putting away all filthiness and overflowing of wickedness, receive with humility the implanted word, which is able to save your souls.</span> But be doers of the word, and not only hearers, deluding your own selves. For if anyone is a hearer of the word and not a doer, he is like a man beholding his natural face in a mirror; for he sees himself, and goes away, and immediately forgets what kind of man he was. But he who looks into the perfect law, the law of freedom, and continues, not being a hearer who forgets but a doer of the work, this man will be blessed in what he does."
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "God Births by the Word",
-        "body": "James credits God with bringing us forth through the word, not apart from it. The word is the instrument, calling for receptive hearts."
+        "title": "Preparing the Soil: An Act of the Will",
+        "body": "<p>James begins this exhortation with a command for active preparation. The instruction to be <strong>\"putting away all filthiness and overflowing of wickedness\"</strong> is a clear call to repentance. It is presented as an action that the hearer must choose to perform, which assumes their ability to make such a choice. In this agricultural metaphor, the soil of the heart must first be cleared of weeds before the good seed of the Word can be properly received. This places the initial responsibility for one's posture towards God squarely on the individual.</p>"
       },
       {
-        "title": "Ongoing Reception Required",
-        "body": "Believers must keep receiving the word. Salvation is tied to meekly embracing what is spoken, underscoring ongoing responsiveness."
+        "title": "The Humble Reception of the Word",
+        "body": "<p>The central command of the verse is to <strong>\"receive with humility the implanted word.\"</strong> The Greek verb for \"receive\" (<span class=\"greek-word\">dexasthe</span>) means to actively \"welcome\" or \"accept,\" not to be a passive container. The Word is described as \"implanted,\" meaning it has already been sown by the preacher. The listener's responsibility is to choose to welcome that seed into the prepared soil of their heart with a humble, teachable spirit. This presents a clear picture of a divine offer being met by a human choice.</p>"
+      },
+      {
+        "title": "The Word's Power to Save",
+        "body": "<p>James concludes by stating the potential of this Word: it <strong>\"is able to save your souls.\"</strong> The Word of God possesses the inherent, divine power for salvation. However, this power is made effective through the channel of humble reception. The passage lays out a clear sequence: 1) We choose to repent (\"put away sin\"). 2) We choose to humbly receive the proclaimed Word. 3) The Word then enacts its saving power in our lives. This affirms that a responsive faith is the key that unlocks the salvation contained in the Word of Truth, a point James reinforces by immediately demanding that we be <strong>\"doers of the word, and not hearers only.\"</strong></p>"
       }
     ]
   },
   {
-    "id": "1-peter-1-23",
+    "id": "1-peter-1-22-23",
     "alignment": "affirming",
     "selectorCategory": "Spirit & New Life",
-    "reference": "1 Peter 1:23",
+    "reference": "1 Peter 1:22-23",
     "title": "Born Again Through the Living Word",
     "translation": "World English Bible",
-    "summary": "Peter ties new birth to the living and abiding word of God that was preached to believers.",
+    "summary": "Peter exhorts believers to love one another, reminding them that their souls were purified and they were born again when they chose to respond in \"obedience to the truth.\" The new birth is presented as the result of the \"incorruptible seed\" of God's Word being received by an active and obedient faith.",
     "keyVerse": "Having been born again, not of corruptible seed, but of incorruptible, through the word of God.",
     "themes": [
       "New Birth",
@@ -1430,18 +1443,22 @@ const scripturesData = [
     "category": "Spirit & New Life",
     "context": [
       {
-        "heading": "1 Peter 1:22-25",
-        "text": "Seeing you have purified your souls in your obedience to the truth through the Spirit in sincere brotherly love, love one another from the heart fervently. <span class=\"focus-text\">Having been born again, not of corruptible seed, but of incorruptible, through the word of God, which lives and remains forever.</span> For all flesh is like grass and its glory like the flower of grass; the grass withers and the flower falls, but the Lord's word remains forever. This is the Good News that was preached to you."
+        "heading": "1 Peter 1:13-25",
+        "text": "Therefore, prepare your minds for action, be sober and set your hope perfectly on the grace that will be brought to you at the revelation of Jesus Christ -- as children of obedience, not conforming yourselves according to your former lusts as in your ignorance, but just as he who called you is holy, you yourselves also be holy in all of your behavior; because it is written, \"You shall be holy; for I am holy.\" If you call on him as Father, who without respect of persons judges according to each man's work, pass the time of your living as strangers here in reverent fear: knowing that you were redeemed, not with corruptible things, with silver or gold, from the useless way of life handed down from your fathers, but with precious blood, as of a lamb without spot, the blood of Christ; who was foreknown indeed before the foundation of the world, but was revealed at the end of times for your sake, who through him are believers in God, that raised him from the dead, and gave him glory; so that your faith and hope might be in God. <span class=\"focus-text\">Seeing you have purified your souls in your obedience to the truth through the Spirit in sincere brotherly affection, love one another from the heart fervently: having been born again, not of corruptible seed, but of incorruptible, through the word of God, which lives and remains forever.</span> For, \"All flesh is like grass, And all of man's glory like the flower in the grass. The grass withers, and its flower falls; But the Lord's word endures forever.\" This is the word of good news which was preached to you"
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "New Birth via the Word",
-        "body": "Peter explicitly connects new birth to the preached word. Regeneration happens through, not prior to, hearing the gospel message."
+        "title": "The Human Response: Obedience to the Truth",
+        "body": "<p>Peter begins his exhortation to love by reminding the believers of the active role they played in their salvation. He states that they have <strong>\"purified your souls in your obedience to the truth.\"</strong> The act of purification is directly linked to their \"obedience.\" This \"obedience to the truth\" is a clear description of active faith - hearing the gospel message and making a conscious choice to align one's life with it. This is not a passive event that happened to them, but a decisive response they made to the truth that was presented.</p>"
       },
       {
-        "title": "Obedience to the Truth",
-        "body": "Purifying souls comes through obeying the truth. Faithful response is part of the process, indicating real agency."
+        "title": "The Divine Instrument: The Incorruptible Seed",
+        "body": "<p>Verse 23 describes the divine side of this transformation. The new, purified life they now possess is the result of having been <strong>\"born again.\"</strong> Peter is clear that this new birth is not from a human or perishable source (\"corruptible seed\"), but from an eternal and divine one: the <strong>\"incorruptible seed... the word of God.\"</strong> The Word is presented as the divine instrument, the living seed that contains the very power of God to produce new and eternal life.</p>"
+      },
+      {
+        "title": "The Sequence of the New Birth",
+        "body": "<p>Together, these verses reveal a clear and harmonious sequence. The Word of God, the \"incorruptible seed,\" is preached. A person then chooses to respond with <strong>\"obedience to the truth\"</strong> (faith). It is through this active, faith-filled reception of the divine seed that the miracle of the <strong>new birth</strong> occurs. The passage does not describe a new birth that happens <em>before</em> a person can obey, but a new birth that happens <em>through</em> the instrument of the Word when it is met with the obedience of faith.</p>"
       }
     ]
   },
@@ -1452,7 +1469,7 @@ const scripturesData = [
     "reference": "2 Peter 3:9",
     "title": "Not Wishing Any to Perish",
     "translation": "World English Bible",
-    "summary": "Peter explains the Lord's patience in delaying judgment: he doesn't wish any to perish but wants all to come to repentance.",
+    "summary": "In response to scoffers who mock the delay of Christ's return, Peter explains that this delay is not a sign of weakness, but a profound expression of God's patience. He reveals that God's heartfelt and universal desire is that no one should perish, but that every person would come to repentance.",
     "keyVerse": "The Lord isn't slow concerning his promise, as some count slowness, but is patient with us, not wishing that any should perish, but that all should come to repentance.",
     "themes": [
       "Patience",
@@ -1462,22 +1479,18 @@ const scripturesData = [
     "category": "Response & Mission",
     "context": [
       {
-        "heading": "2 Peter 3:8-10",
-        "text": "Don't forget this one thing, beloved, that one day is with the Lord as a thousand years... <span class=\"focus-text\">He is patient with us, not wishing that any should perish, but that all should come to repentance.</span> But the day of the Lord will come as a thief."
+        "heading": "2 Peter 3:3-10",
+        "text": "knowing this first, that in the last days mockers will come, walking after their own lusts, and saying, \"Where is the promise of his coming?\" For, from the day that the fathers fell asleep, all things continue as they were from the beginning of the creation. For this they willfully forget, that there were heavens from of old, and an earth formed out of water and amid water, by the word of God; by which means the world that then was, being overflowed with water, perished. But the heavens that now are, and the earth, by the same word have been stored up for fire, being reserved against the day of judgment and destruction of ungodly men. But don't forget this one thing, beloved, that one day is with the Lord as a thousand years, and a thousand years as one day. <span class=\"focus-text\">The Lord is not slow concerning his promise, as some count slowness; but is longsuffering towards us, not wishing that any should perish, but that all should come to repentance.</span> But the day of the Lord will come as a thief in the night; in which the heavens will pass away with a great noise, and the elements will be dissolved with fervent heat, and the earth and the works that are in it will be burned up."
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Patience with Purpose",
-        "body": "God's delay serves repentance opportunities, not the timing of a secret list executing."
+        "title": "The Patience of God",
+        "body": "<p>This verse is Peter's primary answer to the scoffers who mistake the delay of Christ's return for a failed promise. He reframes this delay completely. It is not a sign of God's weakness or forgetfulness, but a profound expression of His character: His <strong>patience</strong>. God is not slow; He is actively and mercifully providing more time. This verse explains the loving purpose behind that extension of time, revealing His heart for all humanity.</p>"
       },
       {
-        "title": "All Invited",
-        "body": "The verse explicitly states God desires all to repent, grounding mission in divine compassion."
-      },
-      {
-        "title": "Impending Accountability",
-        "body": "The thief-like day still arrives, so listeners must respond before patience runs out."
+        "title": "A Universal Desire for Salvation",
+        "body": "<p>Peter explains God's patience with two parallel and powerfully universal statements. First, God is <strong>\"not wishing that any should perish.\"</strong> This is a clear declaration of His benevolent, saving desire for every single person. Second, His positive desire is <strong>\"that all should come to repentance.\"</strong> The Greek word for \"all\" (<span class=\"greek-word\">pantas</span>) is used without qualification. This verse does not teach that all <em>will</em> be saved, but it powerfully affirms God's universal saving <em>will</em>. It shows that the door to salvation remains open to all, and the reason for this extended offer of grace is God's own patient and loving desire for every person to choose to turn and live.</p>"
       }
     ]
   },
@@ -1488,7 +1501,7 @@ const scripturesData = [
     "reference": "1 John 5:1",
     "title": "Born of God and Believing Jesus",
     "translation": "World English Bible",
-    "summary": "John states that everyone believing Jesus is the Christ has been born of God, a verse often used to argue that new birth must precede faith.",
+    "summary": "John provides a test for assurance, explaining that ongoing belief in Jesus is the clear evidence of the new birth. He defines the victory that overcomes the world as our faith, which is a personal choice to accept God's public testimony concerning His Son, in whom we find eternal life.",
     "keyVerse": "Whoever believes that Jesus is the Christ has been born of God. Whoever loves the Father also loves the child who is born of him.",
     "themes": [
       "New Birth",
@@ -1498,18 +1511,22 @@ const scripturesData = [
     "category": "Spirit & New Life",
     "context": [
       {
-        "heading": "1 John 4:19-5:5",
-        "text": "We love him, because he first loved us... <span class=\"focus-text\">Whoever believes that Jesus is the Christ has been born of God.</span> Whoever is born of God overcomes the world, and this is the victory that has overcome the world: our faith."
+        "heading": "1 John 5:1-12",
+        "text": "<span class=\"focus-text\">Whoever believes that Jesus is the Christ is born of God. Whoever loves the father also loves the child who is born of him.</span> By this we know that we love the children of God, when we love God and keep his commandments. For this is the love of God, that we keep his commandments. His commandments are not grievous. For whatever is born of God overcomes the world. This is the victory that has overcome the world: your faith. Who is he who overcomes the world, but he who believes that Jesus is the Son of God? This is he who came by water and blood, Jesus Christ; not with the water only, but with the water and the blood. It is the Spirit who bears witness, because the Spirit is the truth. For there are three who bear witness, the Spirit, and the water, and the blood; and the three agree as one. If we receive the witness of men, the witness of God is greater; for this is God's testimony which he has testified concerning his Son. He who believes in the Son of God has the witness in him. He who doesn't believe God has made him a liar, because he has not believed in the testimony that God has given concerning his Son. The testimony is this, that God gave to us eternal life, and this life is in his Son. He who has the Son has the life. He who doesn't have God's Son doesn't have the life."
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Why Context Is Important",
-        "body": "John says everyone believing that Jesus is the Christ has been born of God. Reformed interpreters often treat the perfect tense as chronological proof that regeneration comes before faith, but the letter repeatedly identifies God's children by their ongoing trust and love."
+        "title": "Belief as the Evidence of New Birth",
+        "body": "<p>John begins with a powerful statement for assurance: <strong>\"Whoever believes that Jesus is the Christ has been born of God.\"</strong> He is not laying out a strict chronological sequence (i.e., first a person is born of God, then they believe). Rather, he is stating that present, ongoing belief is the clear and certain <em>evidence</em> that the new birth has taken place. For John, the act of believing and the state of being born of God are two inseparable sides of the same coin of conversion. If you are currently believing, that is the proof that you have been born of God.</p>"
       },
       {
-        "title": "Open Invitation Engagement",
-        "body": "John's argument revolves around embracing the apostolic testimony (5:5, 10-13). The perfect tense points to the settled state of believers rather than mapping a hidden pre-faith moment, inviting readers to keep believing and loving the family as the evidence of new birth."
+        "title": "Faith is the Victory",
+        "body": "<p>John immediately clarifies this relationship a few verses later. He states, \"For whatever is <strong>born of God</strong> overcomes the world.\" He then explicitly defines how this victory is achieved: <strong>\"This is the victory that has overcome the world: your faith.\"</strong> He equates the state of being \"born of God\" with achieving the victory, and then he names that victory \"faith.\" He asks rhetorically, \"Who is he who overcomes the world, but he who <strong>believes</strong> that Jesus is the Son of God?\" For John, being \"born of God\" and actively \"believing\" are functionally synonymous descriptions of a true Christian.</p>"
+      },
+      {
+        "title": "A Testimony Demanding a Choice",
+        "body": "<p>The foundation for our belief is not a hidden, internal work, but God's objective and public <strong>\"witness\"</strong> or <strong>\"testimony\"</strong> concerning His Son. John argues that to reject this clear evidence - the Spirit, the water (baptism), and the blood (crucifixion) - is to \"make God a liar\" (v. 10). This frames belief not as a predetermined outcome, but as a responsible choice to accept the sufficient evidence God has provided. The content of this witness is the gospel itself: <strong>\"that God gave to us eternal life, and this life is in his Son\"</strong> (v. 11). This life is received when we accept God's testimony - that is, when we believe.</p>"
       }
     ],
     "tensionResolution": {
@@ -1540,18 +1557,22 @@ const scripturesData = [
     "category": "Accountability & Perseverance",
     "context": [
       {
-        "heading": "Revelation 3:19-21",
-        "text": "\"As many as I love, I reprove and chasten. Be zealous therefore, and repent. <span class=\"focus-text\">Behold, I stand at the door and knock. If anyone hears my voice and opens the door, then I will come in to him, and will dine with him, and he with me.</span> He who overcomes, I will give to him to sit down with me on my throne.\""
+        "heading": "Revelation 3:14-22",
+        "text": "\"To the angel of the assembly in Laodicea write: \"The Amen, the Faithful and True Witness, the Head of God's creation, says these things: \"I know your works, that you are neither cold nor hot. I wish you were cold or hot. So, because you are lukewarm, and neither hot nor cold, I will vomit you out of my mouth. Because you say, 'I am rich, and have gotten riches, and have need of nothing;' and don't know that you are the wretched one, miserable, poor, blind, and naked; I counsel you to buy from me gold refined by fire, that you may become rich; and white garments, that you may clothe yourself, and that the shame of your nakedness may not be revealed; and eye salve to anoint your eyes, that you may see. As many as I love, I reprove and chasten. Be zealous therefore, and repent. <span class=\"focus-text\">Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him, and will dine with him, and he with me.</span> He who overcomes, I will give to him to sit down with me on my throne, as I also overcame, and sat down with my Father on his throne. He who has an ear, let him hear what the Spirit says to the assemblies.\""
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Conditional Fellowship",
-        "body": "Jesus waits for the door to be opened. The promise hinges on hearing and responding, supporting a dynamic relationship rather than automatic entrance."
+        "title": "Context: A Call to a Lukewarm Church",
+        "body": "<p>While this verse is a beautiful illustration of the gospel call to an unbeliever, its primary context is a message to the self-sufficient and spiritually complacent church of Laodicea. They had become so lukewarm that Christ pictures Himself as being on the outside, seeking renewed fellowship. His urgent plea is motivated by His love (v. 19) and is preceded by a direct command to <strong>\"be zealous and repent.\"</strong> The image is a powerful call to revival for believers who have grown distant from the Lord.</p>"
       },
       {
-        "title": "Call to Repent",
-        "body": "Repentance is urged alongside the invitation, showing that hearing His voice invites tangible change."
+        "title": "The Divine Posture: A Respectful Knock",
+        "body": "<p>The imagery of Jesus's action is profoundly significant: <strong>\"Behold, I stand at the door and knock.\"</strong> Christ always takes the gracious initiative; He is the one who seeks us. However, His posture is that of a gentleman, not a burglar. He stands and knocks, patiently waiting to be invited in. He does not force the lock or break down the door. This is a beautiful picture of a non-coercive grace that honors human dignity and the freedom of choice, waiting to be welcomed.</p>"
+      },
+      {
+        "title": "The Human Responsibility: Opening the Door",
+        "body": "<p>The promise of intimate fellowship is made entirely conditional on the human response. Jesus says, <strong>\"If anyone hears my voice and opens the door, I will come in...\"</strong> The word \"if\" makes the outcome dependent on our choice. The responsibility to \"hear\" His voice and to \"open the door\" of our heart and life rests entirely with the individual. This verse is one of the clearest biblical illustrations of the open invitation. Christ's call is personal and seeking, but He only enters where He is willingly received.</p>"
       }
     ]
   },
@@ -1562,7 +1583,7 @@ const scripturesData = [
     "reference": "Revelation 22:17",
     "title": "The Spirit and the Bride Say Come",
     "translation": "World English Bible",
-    "summary": "Revelation closes with a shared summons from the Spirit and the church for anyone willing to receive the water of life.",
+    "summary": "At the very end of Scripture, the Spirit and the Church unite in a final, universal call to \"Come.\" The invitation is extended to all who are thirsty and all who desire it, affirming that the free gift of the water of life is a personal choice to be made by all who hear.",
     "keyVerse": "The Spirit and the bride say, Come! Let the one who hears say, Come! Whoever is thirsty, let him come. Whoever desires, let him take the water of life freely.",
     "themes": [
       "Invitation",
@@ -1572,22 +1593,22 @@ const scripturesData = [
     "category": "Invitation & Hearing",
     "context": [
       {
-        "heading": "Revelation 22:16-17",
-        "text": "I, Jesus, have sent my angel to testify... <span class=\"focus-text\">The Spirit and the bride say, Come! ... Whoever desires, let him take the water of life freely.</span>"
+        "heading": "Revelation 22:12-21",
+        "text": "\"Behold, I come quickly. My reward is with me, to repay to each man according to his work. I am the Alpha and the Omega, the First and the Last, the Beginning and the End. Blessed are those who do his commandments, that they may have the right to the tree of life, and may enter in by the gates into the city. Outside are the dogs, the sorcerers, the sexually immoral, the murderers, the idolaters, and everyone who loves and practices falsehood. I, Jesus, have sent my angel to testify these things to you for the assemblies. I am the root and the offspring of David; the Bright and Morning Star.\" <span class=\"focus-text\">The Spirit and the bride say, \"Come!\" He who hears, let him say, \"Come!\" He who is thirsty, let him come. He who desires, let him take the water of life freely.</span>  I testify to every man who hears the words of the prophecy of this book, if anyone adds to them, may God add to him the plagues which are written in this book. If anyone takes away from the words of the book of this prophecy, may God take away his part from the tree of life, and out of the holy city, which are written in this book. He who testifies these things says, \"Yes, I come quickly.\" Amen! Come, Lord Jesus. The grace of the Lord Jesus be with all the saints. Amen."
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Final Canon Invitation",
-        "body": "The Bible ends with an open call, reinforcing that divine desire is for hearers to respond, not for an exclusive few to be compelled."
+        "title": "The Cosmic Invitation",
+        "body": "<p>This verse is the final, climactic invitation of the entire Bible. The call to <strong>\"Come!\"</strong> originates from the perfect unity of the divine (<strong>the Spirit</strong>) and the redeemed community (<strong>the bride</strong>). This invitation is then immediately extended to every person who hears it - \"He who hears, let him say, 'Come!'\" - commissioning them to echo the same call. It's a beautiful picture of the triune God and His church working together to extend the gospel to the ends of the earth.</p>"
       },
       {
-        "title": "Spirit and Church Together",
-        "body": "Both the Spirit and the bride plead with listeners, depicting cooperative mission rather than unilateral regeneration."
+        "title": "The Only Qualification: Thirst",
+        "body": "<p>The invitation is not for the worthy, the righteous, or the pre-selected. The qualification is stunningly simple: <strong>\"He who is thirsty.\"</strong> The only prerequisite for receiving the water of life is to recognize one's own spiritual need. The offer is then broadened even further to <strong>\"He who desires\"</strong> (<span class=\"greek-word\">ho thelōn</span>, literally \"the one who wills\"). This reduces the condition to the most basic, fundamental act of the human will. It is the most inclusive requirement imaginable, offered to anyone who feels their need for God.</p>"
       },
       {
-        "title": "Desire Matters",
-        "body": "Access hinges on thirst and desire, highlighting human response within grace."
+        "title": "The Final Choice: 'Come' and 'Take'",
+        "body": "<p>The Bible concludes not with a deterministic decree, but with a direct appeal to human action. The commands are simple and empowering: <strong>\"let him come\"</strong> and <strong>\"let him take.\"</strong> The responsibility to act upon the invitation rests with the individual. The \"water of life\" is offered <strong>\"freely,\"</strong> without price, but it must be willingly received. This final verse is a magnificent summary of the open invitation: God provides the free gift, the Spirit and the Church issue the call, and every thirsty soul has the freedom and responsibility to come and take.</p>"
       }
     ]
   }
