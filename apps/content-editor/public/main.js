@@ -17,11 +17,12 @@ const deleteNarrativeBtn = narrativeForm.querySelector('[data-action="delete-nar
 const addNarrativeBtn = document.querySelector('[data-action="add-narrative"]');
 const scriptureList = document.querySelector('#scripture-list');
 const scriptureSearch = document.querySelector('#scripture-search');
+const scriptureDialog = document.querySelector('#scripture-dialog');
 const scriptureForm = document.querySelector('#scripture-form');
-const scriptureEmpty = document.querySelector('#scripture-empty');
 const addScriptureBtn = document.querySelector('[data-action="add-scripture"]');
-const deleteScriptureBtn = scriptureForm.querySelector('[data-action="delete-scripture"]');
-const duplicateScriptureBtn = scriptureForm.querySelector('[data-action="duplicate-scripture"]');
+const deleteScriptureBtn = document.querySelector('[data-action="delete-scripture"]');
+const duplicateScriptureBtn = document.querySelector('[data-action="duplicate-scripture"]');
+const closeDialogBtn = document.querySelector('[data-action="close-dialog"]');
 const scriptureFormTitle = document.querySelector('#scripture-form-title');
 const scriptureIdList = document.querySelector('#scripture-id-list');
 const flashRegion = document.querySelector('#flash-region');
@@ -286,24 +287,54 @@ function openNarrativeDialog(id) {
 function bindScriptures() {
   scriptureSearch.addEventListener('input', renderScriptureList);
 
+  // Bind collapsible sections
+  scriptureDialog.querySelectorAll('.toggle-section').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const section = btn.closest('.collapsible-section');
+      toggleSection(section);
+    });
+  });
+
+  scriptureDialog.querySelectorAll('.section-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const section = header.closest('.collapsible-section');
+      toggleSection(section);
+    });
+  });
+
   addScriptureBtn?.addEventListener('click', () => {
     state.selectedScriptureId = null;
     scriptureForm.reset();
     renderAnalysisSections([]);
-    scriptureForm.hidden = false;
-    scriptureEmpty.hidden = true;
     scriptureFormTitle.textContent = 'New Scripture';
     deleteScriptureBtn.hidden = true;
     duplicateScriptureBtn.hidden = true;
     scriptureForm.elements.id.readOnly = false;
     scriptureForm.elements.id.value = '';
+    
+    // Expand all sections
+    scriptureDialog.querySelectorAll('.collapsible-section').forEach(section => {
+      section.classList.remove('collapsed');
+      updateToggleButton(section);
+    });
+    
+    if (typeof scriptureDialog.showModal === 'function') {
+      scriptureDialog.showModal();
+    } else {
+      scriptureDialog.setAttribute('open', 'true');
+    }
     scriptureForm.elements.id.focus();
   });
 
   scriptureList.addEventListener('click', async (event) => {
-    const button = event.target.closest('button[data-id]');
-    if (!button) return;
-    await openScripture(button.dataset.id);
+    const card = event.target.closest('.scripture-card');
+    if (!card) return;
+    await openScripture(card.dataset.id);
+  });
+
+  closeDialogBtn?.addEventListener('click', () => {
+    scriptureDialog.close();
   });
 
   scriptureForm.addEventListener('submit', async (event) => {
@@ -320,7 +351,7 @@ function bindScriptures() {
       });
       flash(`Scripture ${isUpdate ? 'updated' : 'created'}`);
       await loadScriptures();
-      await openScripture(result.id);
+      scriptureDialog.close();
     } catch (error) {
       flash(error.message || 'Failed to save scripture', { type: 'error' });
     }
@@ -328,13 +359,12 @@ function bindScriptures() {
 
   deleteScriptureBtn.addEventListener('click', async () => {
     if (!state.selectedScriptureId) return;
-    if (!confirm('Delete this scripture entry?')) return;
+    if (!confirm('Are you sure you want to delete this scripture? This action cannot be undone.')) return;
     try {
       await fetchJson(`/api/scriptures/${state.selectedScriptureId}`, { method: 'DELETE' });
       flash('Scripture deleted');
       state.selectedScriptureId = null;
-      scriptureForm.hidden = true;
-      scriptureEmpty.hidden = false;
+      scriptureDialog.close();
       await loadScriptures();
     } catch (error) {
       flash(error.message || 'Failed to delete scripture', { type: 'error' });
@@ -360,6 +390,63 @@ function bindScriptures() {
   });
 }
 
+function toggleSection(section) {
+  const isCollapsed = section.classList.toggle('collapsed');
+  updateToggleButton(section);
+  
+  if (isCollapsed) {
+    updateSectionPreview(section);
+  }
+}
+
+function updateToggleButton(section) {
+  const btn = section.querySelector('.toggle-section');
+  const isCollapsed = section.classList.contains('collapsed');
+  btn.textContent = isCollapsed ? 'Expand' : 'Collapse';
+}
+
+function updateSectionPreview(section) {
+  const sectionName = section.dataset.section;
+  const preview = section.querySelector('.section-preview');
+  
+  if (!preview) return;
+  
+  let content = '';
+  
+  switch (sectionName) {
+    case 'metadata':
+      const ref = scriptureForm.elements.reference.value;
+      const title = scriptureForm.elements.title.value;
+      const category = scriptureForm.elements.category.value;
+      const themes = scriptureForm.elements.themes.value.split('\n').filter(Boolean);
+      content = `
+        <p><strong>${escapeHtml(ref)}</strong> - ${escapeHtml(title)}</p>
+        ${category ? `<p>Category: ${escapeHtml(category)}</p>` : ''}
+        ${themes.length ? `<p>Themes: ${themes.map(escapeHtml).join(', ')}</p>` : ''}
+      `;
+      break;
+    case 'summaries':
+      const summary = scriptureForm.elements.summary.value;
+      const keyVerse = scriptureForm.elements.keyVerse.value;
+      content = `
+        ${summary ? `<p><strong>Summary:</strong> ${escapeHtml(summary)}</p>` : ''}
+        ${keyVerse ? `<p><strong>Key Verse:</strong> <em>${escapeHtml(keyVerse)}</em></p>` : ''}
+      `;
+      break;
+    case 'context':
+      const contextText = scriptureForm.elements.context.value;
+      const contexts = parseDelimitedEntries(contextText);
+      content = contexts.map(c => `<p><strong>${escapeHtml(c.heading || '')}</strong><br>${escapeHtml(c.text || '')}</p>`).join('');
+      break;
+    case 'analysis':
+      const analysisSections = collectAnalysisSections();
+      content = analysisSections.map(a => `<p><strong>${escapeHtml(a.title)}</strong><br>${escapeHtml(a.body.substring(0, 100))}...</p>`).join('');
+      break;
+  }
+  
+  preview.innerHTML = content || '<p style="color: #94a3b8; font-style: italic;">No content</p>';
+}
+
 function bindAnalysisEditor() {
   addAnalysisBtn?.addEventListener('click', () => {
     const card = addAnalysisSection({ title: '', body: '' });
@@ -369,12 +456,22 @@ function bindAnalysisEditor() {
 
   analysisList?.addEventListener('click', (event) => {
     const removeButton = event.target.closest('[data-action="remove-analysis"]');
-    if (!removeButton) return;
-    const card = removeButton.closest('.analysis-item');
-    if (!card) return;
-    card.remove();
-    if (analysisList.children.length === 0) {
-      addAnalysisSection({ title: '', body: '' });
+    if (removeButton) {
+      const card = removeButton.closest('.analysis-item');
+      if (!card) return;
+      card.remove();
+      if (analysisList.children.length === 0) {
+        addAnalysisSection({ title: '', body: '' });
+      }
+      return;
+    }
+
+    const toggleButton = event.target.closest('[data-action="toggle-analysis"]');
+    if (toggleButton) {
+      const card = toggleButton.closest('.analysis-item');
+      if (!card) return;
+      toggleAnalysisItem(card);
+      return;
     }
   });
 
@@ -394,15 +491,24 @@ async function openScripture(id) {
     const result = await fetchJson(`/api/scriptures/${id}`);
     state.selectedScriptureId = id;
     fillScriptureForm(result);
-    highlightActiveScripture();
+    
+    // Expand all sections when opening
+    scriptureDialog.querySelectorAll('.collapsible-section').forEach(section => {
+      section.classList.remove('collapsed');
+      updateToggleButton(section);
+    });
+    
+    if (typeof scriptureDialog.showModal === 'function') {
+      scriptureDialog.showModal();
+    } else {
+      scriptureDialog.setAttribute('open', 'true');
+    }
   } catch (error) {
     flash(error.message || 'Failed to load scripture', { type: 'error' });
   }
 }
 
 function fillScriptureForm(entry) {
-  scriptureForm.hidden = false;
-  scriptureEmpty.hidden = true;
   scriptureFormTitle.textContent = entry.reference;
   scriptureForm.elements.id.value = entry.id;
   scriptureForm.elements.id.readOnly = true;
@@ -422,11 +528,44 @@ function fillScriptureForm(entry) {
   duplicateScriptureBtn.hidden = false;
 }
 
-function highlightActiveScripture() {
-  const buttons = scriptureList.querySelectorAll('button[data-id]');
-  buttons.forEach((btn) => {
-    btn.classList.toggle('is-active', btn.dataset.id === state.selectedScriptureId);
-  });
+const canonicalBooks = [
+  'Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy',
+  'Joshua', 'Judges', 'Ruth', '1 Samuel', '2 Samuel',
+  '1 Kings', '2 Kings', '1 Chronicles', '2 Chronicles', 'Ezra',
+  'Nehemiah', 'Esther', 'Job', 'Psalms', 'Proverbs',
+  'Ecclesiastes', 'Song of Solomon', 'Isaiah', 'Jeremiah', 'Lamentations',
+  'Ezekiel', 'Daniel', 'Hosea', 'Joel', 'Amos',
+  'Obadiah', 'Jonah', 'Micah', 'Nahum', 'Habakkuk',
+  'Zephaniah', 'Haggai', 'Zechariah', 'Malachi',
+  'Matthew', 'Mark', 'Luke', 'John', 'Acts',
+  'Romans', '1 Corinthians', '2 Corinthians', 'Galatians', 'Ephesians',
+  'Philippians', 'Colossians', '1 Thessalonians', '2 Thessalonians', '1 Timothy',
+  '2 Timothy', 'Titus', 'Philemon', 'Hebrews', 'James',
+  '1 Peter', '2 Peter', '1 John', '2 John', '3 John',
+  'Jude', 'Revelation'
+];
+const canonicalIndex = new Map(canonicalBooks.map((b, i) => [b, i]));
+
+function parseReference(ref) {
+  const m = ref && ref.match(/^([1-3]?\s?[A-Za-z ]+?)\s+(\d+):(\d+)/);
+  if (!m) {
+    return { book: ref || '', chapter: Number.MAX_SAFE_INTEGER, verse: Number.MAX_SAFE_INTEGER };
+  }
+  const book = m[1].trim();
+  const chapter = parseInt(m[2], 10) || 0;
+  const verse = parseInt(m[3], 10) || 0;
+  return { book, chapter, verse };
+}
+
+function compareByCanonical(a, b) {
+  const pa = parseReference(a.reference);
+  const pb = parseReference(b.reference);
+  const ia = canonicalIndex.has(pa.book) ? canonicalIndex.get(pa.book) : Number.MAX_SAFE_INTEGER;
+  const ib = canonicalIndex.has(pb.book) ? canonicalIndex.get(pb.book) : Number.MAX_SAFE_INTEGER;
+  if (ia !== ib) return ia - ib;
+  if (pa.chapter !== pb.chapter) return pa.chapter - pb.chapter;
+  if (pa.verse !== pb.verse) return pa.verse - pb.verse;
+  return (a.id || '').localeCompare(b.id || '');
 }
 
 function renderScriptureList() {
@@ -435,19 +574,31 @@ function renderScriptureList() {
   state.scriptures
     .filter((entry) => {
       if (!query) return true;
-      return [entry.reference, entry.title, entry.id]
+      return [entry.reference, entry.title, entry.id, entry.summary]
         .filter(Boolean)
         .some((value) => value.toLowerCase().includes(query));
     })
+    .sort(compareByCanonical)
     .forEach((entry) => {
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.dataset.id = entry.id;
-      button.innerHTML = `<strong>${escapeHtml(entry.reference)}</strong><br /><span>${escapeHtml(entry.title ?? '')}</span>`;
-      if (entry.id === state.selectedScriptureId) {
-        button.classList.add('is-active');
+      const card = document.createElement('div');
+      card.className = 'scripture-card';
+      card.dataset.id = entry.id;
+      
+      let cardHtml = `
+        <span class="reference">${escapeHtml(entry.reference)}</span>
+        <h3>${escapeHtml(entry.title ?? '')}</h3>
+      `;
+      
+      if (entry.summary) {
+        cardHtml += `<p class="summary">${escapeHtml(entry.summary)}</p>`;
       }
-      scriptureList.appendChild(button);
+      
+      if (entry.keyVerse) {
+        cardHtml += `<p class="key-verse">${escapeHtml(entry.keyVerse)}</p>`;
+      }
+      
+      card.innerHTML = cardHtml;
+      scriptureList.appendChild(card);
     });
 }
 
@@ -511,19 +662,24 @@ function addAnalysisSection(section) {
   const titleText = section.title ?? '';
   const bodyText = section.body ?? '';
   card.innerHTML = `
-    <header>
+    <header class="analysis-item-header">
       <h4>${escapeHtml(titleText || 'Analysis Section')}</h4>
-      <button type="button" class="remove-analysis" data-action="remove-analysis">Remove</button>
+      <div class="analysis-item-actions">
+        <button type="button" class="toggle-analysis secondary" data-action="toggle-analysis">Collapse</button>
+        <button type="button" class="remove-analysis" data-action="remove-analysis">Remove</button>
+      </div>
     </header>
-    <label class="wide">
-      <span>Title</span>
-      <input type="text" name="analysis-title" data-role="analysis-title" value="${escapeHtml(titleText)}" />
-    </label>
-    <label class="wide">
-      <span>Body (HTML allowed)</span>
-      <textarea name="analysis-body" rows="4" data-role="analysis-body">${bodyText}</textarea>
-    </label>
-    <div class="analysis-preview" data-role="analysis-preview" aria-live="polite"></div>
+    <div class="analysis-item-content">
+      <label class="wide">
+        <span>Title</span>
+        <input type="text" name="analysis-title" data-role="analysis-title" value="${escapeHtml(titleText)}" />
+      </label>
+      <label class="wide">
+        <span>Body (HTML allowed)</span>
+        <textarea name="analysis-body" rows="4" data-role="analysis-body">${bodyText}</textarea>
+      </label>
+    </div>
+    <div class="analysis-item-preview" data-role="analysis-preview"></div>
   `;
   analysisList.appendChild(card);
   updateAnalysisPreview(card);
@@ -545,6 +701,28 @@ function collectAnalysisSections() {
       return { title, body };
     })
     .filter(Boolean);
+}
+
+function toggleAnalysisItem(card) {
+  const isCollapsed = card.classList.toggle('collapsed');
+  const toggleBtn = card.querySelector('[data-action="toggle-analysis"]');
+  const content = card.querySelector('.analysis-item-content');
+  const preview = card.querySelector('[data-role="analysis-preview"]');
+  
+  if (toggleBtn) {
+    toggleBtn.textContent = isCollapsed ? 'Expand' : 'Collapse';
+  }
+  
+  if (content) {
+    content.hidden = isCollapsed;
+  }
+  
+  if (preview) {
+    // Always update preview when toggling
+    updateAnalysisPreview(card);
+    // Preview is always visible (shown below content when expanded, or alone when collapsed)
+    preview.hidden = false;
+  }
 }
 
 function updateAnalysisPreview(card) {

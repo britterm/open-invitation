@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Open Invitation Content Editor</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="/preview-styles/global.css" />
+    <!-- <link rel="stylesheet" href="/preview-styles/global.css" />
     <link rel="stylesheet" href="/preview-styles/layout.css" />
-    <link rel="stylesheet" href="/preview-styles/components.css" />
+    <link rel="stylesheet" href="/preview-styles/components.css" /> -->
   </head>
   <body>
     <header class="app-header" data-header>
@@ -168,82 +168,123 @@
             <button type="button" class="secondary" data-action="add-scripture">Add Scripture</button>
           </div>
         </header>
-        <div class="scripture-editor-layout">
-          <aside>
-            <ul id="scripture-list" class="scripture-list" aria-label="Scripture entries"></ul>
-          </aside>
-          <section class="scripture-editor">
-            <form id="scripture-form" class="form-grid" hidden>
-              <header class="form-header">
-                <h3 id="scripture-form-title">Scripture</h3>
-                <button type="button" class="secondary" data-action="duplicate-scripture">Duplicate</button>
-              </header>
-              <label>
-                <span>ID</span>
-                <input name="id" type="text" required />
-              </label>
-              <label>
-                <span>Reference</span>
-                <input name="reference" type="text" required />
-              </label>
-              <label>
-                <span>Title</span>
-                <input name="title" type="text" required />
-              </label>
-              <label>
-                <span>Translation</span>
-                <input name="translation" type="text" />
-              </label>
-              <label class="wide">
-                <span>Summary</span>
-                <textarea name="summary" rows="3"></textarea>
-              </label>
-              <label class="wide">
-                <span>Key Verse</span>
-                <textarea name="keyVerse" rows="3"></textarea>
-              </label>
-              <label>
-                <span>Category</span>
-                <input name="category" type="text" />
-              </label>
-              <label>
-                <span>Selector Category</span>
-                <input name="selectorCategory" type="text" />
-              </label>
-              <label>
-                <span>Alignment</span>
-                <input name="alignment" type="text" />
-              </label>
-              <label class="wide">
-                <span>Themes (one per line)</span>
-                <textarea name="themes" rows="3"></textarea>
-              </label>
-              <label class="wide">
-                <span>Context (Heading :: Body per line)</span>
-                <textarea name="context" rows="4"></textarea>
-              </label>
-              <section class="analysis-editor wide">
-                <header class="analysis-editor__header">
-                  <h3>Analysis Sections</h3>
-                  <button type="button" class="secondary" data-action="add-analysis">Add Section</button>
-                </header>
-                <div id="analysis-list" class="repeatable-list"></div>
-              </section>
-              <label class="wide">
-                <span>Badges (one per line)</span>
-                <textarea name="badges" rows="3"></textarea>
-              </label>
-              <div class="form-actions">
-                <button type="submit">Save Scripture</button>
-                <button type="button" class="danger" data-action="delete-scripture">Delete</button>
-              </div>
-            </form>
-            <div id="scripture-empty" class="empty-state">
-              <p>Select a scripture to edit it, or create a new one.</p>
-            </div>
-          </section>
-        </div>
+        <div id="scripture-list" class="scripture-cards"></div>
       </section>
+
+      <dialog id="scripture-dialog">
+        <form id="scripture-form" method="dialog">
+          <header class="dialog-header">
+            <h3 id="scripture-form-title">Scripture</h3>
+            <button type="button" class="secondary" data-action="duplicate-scripture">Duplicate</button>
+          </header>
+
+          <section class="collapsible-section" data-section="metadata">
+            <header class="section-header">
+              <h4>Metadata</h4>
+              <button type="button" class="toggle-section" data-toggle="metadata">Collapse</button>
+            </header>
+            <div class="section-content" data-content="metadata">
+              <div class="form-grid">
+                <label>
+                  <span>ID</span>
+                  <input name="id" type="text" required />
+                </label>
+                <label>
+                  <span>Reference</span>
+                  <input name="reference" type="text" required />
+                </label>
+                <label>
+                  <span>Title</span>
+                  <input name="title" type="text" required />
+                </label>
+                <label>
+                  <span>Translation</span>
+                  <input name="translation" type="text" />
+                </label>
+                <label>
+                  <span>Category</span>
+                  <input name="category" type="text" />
+                </label>
+                <label>
+                  <span>Selector Category</span>
+                  <input name="selectorCategory" type="text" />
+                </label>
+                <label>
+                  <span>Alignment</span>
+                  <input name="alignment" type="text" />
+                </label>
+                <label class="wide">
+                  <span>Themes (one per line)</span>
+                  <textarea name="themes" rows="3"></textarea>
+                </label>
+                <label class="wide">
+                  <span>Badges (one per line)</span>
+                  <textarea name="badges" rows="3"></textarea>
+                </label>
+              </div>
+            </div>
+            <div class="section-preview" data-preview="metadata" hidden></div>
+          </section>
+
+          <section class="collapsible-section" data-section="summaries">
+            <header class="section-header">
+              <h4>Summaries</h4>
+              <button type="button" class="toggle-section" data-toggle="summaries">Collapse</button>
+            </header>
+            <div class="section-content" data-content="summaries">
+              <div class="form-grid">
+                <label class="wide">
+                  <span>Summary</span>
+                  <textarea name="summary" rows="3"></textarea>
+                </label>
+                <label class="wide">
+                  <span>Key Verse</span>
+                  <textarea name="keyVerse" rows="3"></textarea>
+                </label>
+              </div>
+            </div>
+            <div class="section-preview" data-preview="summaries" hidden></div>
+          </section>
+
+          <section class="collapsible-section" data-section="context">
+            <header class="section-header">
+              <h4>Context</h4>
+              <button type="button" class="toggle-section" data-toggle="context">Collapse</button>
+            </header>
+            <div class="section-content" data-content="context">
+              <div class="form-grid">
+                <label class="wide">
+                  <span>Context (Heading :: Body per line)</span>
+                  <textarea name="context" rows="4"></textarea>
+                </label>
+              </div>
+            </div>
+            <div class="section-preview" data-preview="context" hidden></div>
+          </section>
+
+          <section class="collapsible-section" data-section="analysis">
+            <header class="section-header">
+              <h4>Analysis Sections</h4>
+              <button type="button" class="toggle-section" data-toggle="analysis">Collapse</button>
+            </header>
+            <div class="section-content" data-content="analysis">
+              <div class="analysis-editor-container">
+                <button type="button" class="secondary" data-action="add-analysis">Add Section</button>
+                <div id="analysis-list" class="repeatable-list"></div>
+              </div>
+            </div>
+            <div class="section-preview" data-preview="analysis" hidden></div>
+          </section>
+
+          <menu class="dialog-actions">
+            <button type="button" class="danger" data-action="delete-scripture">Delete</button>
+            <div class="dialog-actions-right">
+              <button type="button" value="cancel" class="secondary" data-action="close-dialog">Close</button>
+              <button type="submit" class="primary">Save Scripture</button>
+            </div>
+          </menu>
+        </form>
+      </dialog>
     </main>
 
     <datalist id="scripture-id-list"></datalist>
