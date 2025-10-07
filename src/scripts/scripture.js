@@ -57,13 +57,15 @@ if (!scripture) {
   const fullContextHtml = hasContext ? buildContextHtml(scripture.context) : "";
 
   scriptureBody.innerHTML = `
-    <h1>${scripture.reference}<h1>
+    <h1><img src="src/img/bible.jpg" alt="Bible" width="30px"> ${scripture.reference}<h1>
     <h2>${scripture.title}</h2>
     <p class="text-muted">${scripture.summary}</p>
     <div class="context-block">${buildContextHtml(scripture.context)}</div>
     <div class="badge" style="float: right; margin-top: .25rem">${scripture.translation}</div>
     ${buildAnalysisHtml(scripture.analysis)}
     ${tensionHtml}
+    <br>
+    <span role="img" aria-label="thinking face">🤔</span> <i>What thread of curiosity has this passage given you? Keep pulling on it and see where it leads!</i>
   `;
 
   if (hasContext) {

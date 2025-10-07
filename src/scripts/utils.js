@@ -88,7 +88,7 @@ export function buildAnalysisHtml(analysis) {
     .map(({ title, body }) => {
       return `
         <div class="analysis-section">
-          <h3>${title}</h3>
+          <h3><img src="src/img/research.png" alt="Lightbulb" width="35px" style="margin-bottom:-7px;"> ${title}</h3>
           <p>${body}</p>
         </div>
       `;

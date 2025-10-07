@@ -15,6 +15,8 @@ const processed = {
 const scripturesData = [
   {
     "id": "deuteronomy-30-14",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "Deuteronomy 30:14",
     "title": "The Word Is Near You",
     "translation": "World English Bible",
@@ -45,12 +47,12 @@ const scripturesData = [
         "title": "Paul's Echo: The Word of Faith for All",
         "body": "<p>This understanding is powerfully affirmed by the Apostle Paul, who quotes this very passage in <strong>Romans 10:6-8</strong> to describe the gospel itself. Paul replaces \"the command\" with \"the word of faith that we proclaim.\" For Paul, the righteousness that comes by faith is just as accessible as the command was to Israel.</p><p>The principle is the same: the message of salvation is not a hidden secret or an impossible task. It is near to everyone, in their mouth to confess that Jesus is Lord and in their heart to believe. Paul uses this Old Testament text to show that the gospel is a universal, <strong>open invitation</strong>, affirming the consistent biblical truth that humanity has the God-given ability to respond to His call.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
     "id": "isaiah-45-22",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "Isaiah 45:22",
     "title": "Turn and Be Saved, All the Earth",
     "translation": "World English Bible",
@@ -81,12 +83,12 @@ const scripturesData = [
         "title": "The Simple Condition for Salvation",
         "body": "<p>The structure of the verse reveals a profound truth about the path to salvation. The sequence is clear: <strong>\"Turn to me <em>and</em> be saved.\"</strong> Salvation is presented as the direct consequence of turning to God. The human action of turning - an act of will and faith - is the condition for receiving the divine gift of salvation. This verse powerfully affirms that the door to salvation is opened by our response to God's gracious and universal call.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
     "id": "isaiah-55-3",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "Isaiah 55:3",
     "title": "Hear and Receive Everlasting Life",
     "translation": "World English Bible",
@@ -117,12 +119,12 @@ const scripturesData = [
         "title": "The Sequence of Salvation",
         "body": "<p>This chapter provides a beautifully clear sequence for how one enters into a life-giving relationship with God. The order is foundational: <strong>1)</strong> God issues a gracious and universal call. <strong>2)</strong> The person responds by inclining their ear, coming, hearing, and seeking. <strong>3)</strong> God grants the divine result of life, pardon, and a covenant relationship. This passage powerfully affirms that our hearing precedes our new life. God has given everyone a generous offer; it's truly an open invitation.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
     "id": "jeremiah-7-23-24",
+    "alignment": "affirming",
+    "selectorCategory": "Accountability & Perseverance",
     "reference": "Jeremiah 7:23-24",
     "title": "They Would Not Listen",
     "translation": "World English Bible",
@@ -153,12 +155,12 @@ const scripturesData = [
         "title": "A Willful Rebellion",
         "body": "<p>Verse 24 describes the people's response not as a tragic inability, but as a deliberate and obstinate choice. In direct contrast to God's command, \"they didn’t listen or incline their ear.\" Instead, they \"walked in their own counsels and in the <strong>stubbornness of their evil heart</strong>.\" The Hebrew for \"stubbornness\" (<span class=\"hebrew-word\">sherirut</span>) denotes a firm, defiant obstinacy of the will. Their sin is presented as a conscious decision to follow their own rebellious hearts rather than God. They \"went backward, and not forward,\" a powerful metaphor for their willful spiritual regression. This passage powerfully affirms that the human will is active and responsible for its spiritual direction.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Accountability & Perseverance"
+    ]
   },
   {
     "id": "ezekiel-18-31-32",
+    "alignment": "affirming",
+    "selectorCategory": "Accountability & Perseverance",
     "reference": "Ezekiel 18:31-32",
     "title": "Turn and Live",
     "translation": "World English Bible",
@@ -193,12 +195,12 @@ const scripturesData = [
         "title": "The Heart of God (Verse 32)",
         "body": "<p>The chapter concludes with a perfect summary of God's character and His call to humanity. He first reveals His heart: <strong>\"For I have no pleasure in the death of him who dies.\"</strong> This is a clear declaration of God's universal, benevolent desire for all to be saved. Based on this truth, He issues the logical and final command: <strong>\"therefore turn yourselves, and live.\"</strong> The sequence is the essence of the open invitation: because God wants life for you, the path is simple and direct. The human action of turning results in the divine gift of life.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Accountability & Perseverance"
+    ]
   },
   {
     "id": "matthew-11-15",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "Matthew 11:15",
     "title": "Who Has Ears, Let Him Hear",
     "translation": "World English Bible",
@@ -225,9 +227,7 @@ const scripturesData = [
         "title": "From Hearing to Coming",
         "body": "<p>This call to \"hear\" in verse 15 sets the stage for the chapter's beautiful climax. After rebuking the cities that saw His works but refused to repent, Jesus extends one of His most famous invitations in verse 28: <strong>\"Come to me, all who labor and are heavy laden, and I will give you rest.\"</strong> The two commands are perfectly linked. The personal responsibility to \"hear\" the truth (v. 15) is the necessary first step to answering the universal invitation to \"come\" for rest (v. 28). The chapter affirms that God provides both the capacity to hear and the open invitation to come; the choice to do so rests with each person.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
     "id": "john-1-12-13",
@@ -267,6 +267,8 @@ const scripturesData = [
   },
   {
     "id": "john-3-16",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "John 3:16",
     "title": "Whoever Believes Has Eternal Life",
     "translation": "World English Bible",
@@ -297,12 +299,12 @@ const scripturesData = [
         "title": "The Purpose: To Save the World (Verse 17)",
         "body": "<p>Verse 17 serves as a powerful confirmation of God's intent. It explicitly states that God's purpose in sending His Son was <strong>not to condemn the world</strong>, but <strong>\"that the world should be saved through him.\"</strong> This reinforces the positive, benevolent, and universal scope of God's mission. His goal is the salvation of the world, made possible through the Son and activated by the simple act of faith described in the preceding verses. The passage is a definitive statement of God's open-hearted offer of salvation to all people.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
     "id": "john-5-24-25",
+    "alignment": "affirming",
+    "selectorCategory": "Spirit & New Life",
     "reference": "John 5:24-25",
     "title": "Hearing and Believing == Eternal Life",
     "translation": "World English Bible",
@@ -333,9 +335,7 @@ const scripturesData = [
         "title": "The Life-Giving Voice (Verse 25)",
         "body": "<p>Jesus expands on this reality in verse 25, describing a present spiritual resurrection. He says that the spiritually \"dead\" will hear His voice. This implies that even those who are spiritually dead retain the capacity to hear the call. Crucially, He does not say that all who are dead will live. Instead, He makes the outcome conditional: <strong>\"and those who hear will live.\"</strong> In this context, \"hearing\" is the same responsive act of faith described in verse 24. Life is granted to those who choose to truly listen and receive the Son's word. It is a powerful affirmation that the call goes out to all, but life comes to those who respond.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Spirit & New Life"
+    ]
   },
   {
     "id": "john-6-39-40",
@@ -375,6 +375,8 @@ const scripturesData = [
   },
   {
     "id": "john-12-40",
+    "alignment": "tension",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "John 12:40",
     "title": "Blindness and Hardening",
     "translation": "World English Bible",
@@ -409,12 +411,12 @@ const scripturesData = [
         "title": "A Two-Fold Consequence",
         "body": "<p>These two aspects of judgment often work together. A person willfully rejects the light. In response, God may begin to <strong>withdraw</strong> His restraining grace, leaving the heart less sensitive. As the Word continues to be preached, this now-insensitive heart becomes even more calloused and hardened, solidifying a state of unbelief. In this complex process, the ultimate responsibility remains with the individual who first chose to reject the truth, with God's judgment confirming them in that tragic choice.</p>"
       }
-    ],
-    "alignment": "tension",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
     "id": "john-15-22",
+    "alignment": "affirming",
+    "selectorCategory": "Accountability & Perseverance",
     "reference": "John 15:22",
     "title": "No Excuse After Hearing Jesus",
     "translation": "World English Bible",
@@ -441,12 +443,12 @@ const scripturesData = [
         "title": "The Rejection with 'No Excuse'",
         "body": "<p>The conclusion of the verse - <strong>\"but now they have no excuse for their sin\"</strong> - is a profound statement about the human will. An excuse would imply some mitigating factor, such as a lack of information or an inability to respond. Jesus removes all such possibilities. They heard His words and saw His works, yet they chose to reject Him. Their unbelief, therefore, was not a result of a disabled will, but a culpable and willful choice against the clear light of truth. This verse powerfully affirms the biblical principle that God holds people responsible for the choices they make in response to the truth He reveals.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Accountability & Perseverance"
+    ]
   },
   {
     "id": "john-16-8",
+    "alignment": "affirming",
+    "selectorCategory": "Spirit & New Life",
     "reference": "John 16:8",
     "title": "Spirit Convicts the World",
     "translation": "World English Bible",
@@ -473,12 +475,12 @@ const scripturesData = [
         "title": "The Nature of Divine 'Conviction'",
         "body": "<p>The key to this verse is the word <strong>\"convict\"</strong> (from the Greek <span class=\"greek-word\">elenchō</span>), which is a legal term. It means to expose, to bring to light, or to present compelling evidence, much like a prosecutor convinces a jury of the truth. The Spirit's role is not to force belief through an irresistible act of regeneration. Rather, He acts as the divine prosecutor who illuminates the truth to the human mind and conscience. He presents the undeniable case concerning our <strong>sin</strong> (unbelief in Jesus), Christ's <strong>righteousness</strong> (proven by His return to the Father), and the reality of <strong>judgment</strong> (demonstrated by the defeat of the prince of this world).</p><p>This conviction makes a genuine and responsible choice possible. The Spirit removes all excuses and makes the truth of the gospel undeniably clear, enabling any person to respond in faith.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Spirit & New Life"
+    ]
   },
   {
     "id": "john-20-30-31",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "John 20:30-31",
     "title": "Written Testimony for Believing Life",
     "translation": "World English Bible",
@@ -505,12 +507,12 @@ const scripturesData = [
         "title": "The Sequence: Believing Unto Life",
         "body": "<p>Verse 31 lays out the biblical sequence of salvation with unambiguous clarity: <strong>\"...and that believing you may have life in his name.\"</strong> The human action of <strong>believing</strong> is presented as the gateway to the divine gift of <strong>life</strong>. The word for \"life\" here (<span class=\"greek-word\">zōē</span>) is John's term for the very essence of salvation - resurrection life, eternal life, the regenerative work of God. As the explicit conclusion to his Gospel, John's statement provides a definitive summary of the open invitation: the call is for all to believe in Jesus based on the evidence, and through that very act of faith, receive new, eternal life from God.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
     "id": "acts-2-37-38",
+    "alignment": "affirming",
+    "selectorCategory": "Response & Mission",
     "reference": "Acts 2:37-38",
     "title": "Pierced by the Word, Responding in Repentance",
     "translation": "World English Bible",
@@ -546,12 +548,12 @@ const scripturesData = [
         "title": "Forgiveness and the Gift",
         "body": "<p>Peter presents the forgiveness of sins and the reception of the Holy Spirit as the <strong>divine result</strong> that follows their obedience. The grammar is a clear promise: Repent and be baptized... <strong>\"and you will receive the gift of the Holy Spirit.\"</strong> The divine gift of the indwelling Spirit - the very essence of regeneration - is explicitly conditioned on their prior act of repentance. This narrative provides a clear model of the biblical <em>ordo salutis</em>: conviction leads to a choice of faith and repentance, which in turn opens the door to forgiveness and the regenerative gift of the Spirit.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Response & Mission"
+    ]
   },
   {
     "id": "acts-10-42-43",
+    "alignment": "affirming",
+    "selectorCategory": "Spirit & New Life",
     "reference": "Acts 10:42-43",
     "title": "Gentiles Receive the Spirit While Hearing",
     "translation": "World English Bible",
@@ -578,12 +580,12 @@ const scripturesData = [
         "title": "The Universal Condition for Forgiveness",
         "body": "<p>Verse 43 contains the core of the gospel promise, which Peter grounds in the consistent witness of \"all the prophets.\" The terms are stunningly simple and universal: <strong>\"everyone who believes in him will receive remission of sins.\"</strong></p><ul><li><strong>\"Everyone\"</strong>: In this context, this word is revolutionary. It explicitly extends the promise of salvation beyond Israel to all people, Gentile and Jew alike, without distinction.</li><li><strong>\"who believes in him\"</strong>: Peter names a single, simple condition for receiving this forgiveness - an active, personal faith in Jesus.</li><li><strong>\"will receive remission of sins\"</strong>: This is the divine gift that is promised as a direct result of believing.</li></ul><p>The immediate aftermath, where the Holy Spirit falls upon them as they hear and believe the word (v. 44), perfectly illustrates the biblical sequence: a universal offer is heard, a personal choice to believe is made, and the divine gift of forgiveness and the Spirit is received.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Spirit & New Life"
+    ]
   },
   {
     "id": "acts-13-46-48",
+    "alignment": "tension",
+    "selectorCategory": "Response & Mission",
     "reference": "Acts 13:46-48",
     "title": "Turning to the Gentiles with Good News",
     "translation": "World English Bible",
@@ -615,8 +617,6 @@ const scripturesData = [
         "body": "<p>The passage presents a perfect and deliberate contrast. On one hand, the jealous leaders were ill-disposed, actively rejecting the Word and thus \"judging themselves unworthy.\" On the other hand, the glad Gentiles were well-disposed, joyfully receiving the Word, having \"disposed themselves for\" eternal life. In both cases, belief or unbelief is the result of the posture of the human heart in response to the universally preached gospel. The individual's choice and disposition are presented as central to their eternal destiny.</p>"
       }
     ],
-    "alignment": "tension",
-    "selectorCategory": "Response & Mission",
     "tensionResolution": {
       "question": "What about this interpretation that Acts 13:48 teaches a fixed roster of regenerated listeners?",
       "steelman": "Because 'appointed to eternal life' is a passive perfect, some argue Luke is reporting that God had already decreed which Gentiles would believe, proving irresistible grace.",
@@ -630,6 +630,8 @@ const scripturesData = [
   },
   {
     "id": "acts-16-31",
+    "alignment": "affirming",
+    "selectorCategory": "Response & Mission",
     "reference": "Acts 16:31",
     "title": "Believe in the Lord Jesus and Be Saved",
     "translation": "World English Bible",
@@ -656,12 +658,12 @@ const scripturesData = [
         "title": "A Model for Salvation",
         "body": "<p>The entire narrative provides a powerful model for the biblical sequence of salvation. First, a person is confronted with their need. Second, they are given a clear command to <strong>believe</strong>. Third, they are given the promise that <strong>salvation</strong> is the immediate result of that belief. The offer is then extended to the jailer's entire household, with the same condition applying to all. The story confirms this when, after hearing the Word, the jailer and his family are baptized and he rejoices because he has <strong>\"believed in God with his whole household\"</strong> (v. 34). This event perfectly illustrates that a personal choice to believe is the open door to the gift of salvation for all who will accept it.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Response & Mission"
+    ]
   },
   {
     "id": "acts-17-30-31",
+    "alignment": "affirming",
+    "selectorCategory": "Response & Mission",
     "reference": "Acts 17:30-31",
     "title": "God Commands All to Repent",
     "translation": "World English Bible",
@@ -688,9 +690,7 @@ const scripturesData = [
         "title": "The Universal Command to Repent",
         "body": "<p>The core of Paul's conclusion is a divine imperative: God <strong>\"now... commands that all people everywhere should repent.\"</strong> The command is explicitly <strong>universal</strong>, affirming that the gospel invitation extends to every person without exception. Furthermore, the command is to <strong>repent</strong> - a direct appeal to the human will to change one's mind and direction. A universal and genuine command from a just God implies a universal ability to respond. God's command is not a meaningless gesture to people who are unable to obey; it is a sincere call to action, affirming that the choice to turn to Him is a real possibility for all who hear.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Response & Mission"
+    ]
   },
   {
     "id": "romans-8-29-30",
@@ -738,6 +738,8 @@ const scripturesData = [
   },
   {
     "id": "romans-10-13-15",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "Romans 10:13-15",
     "title": "Sent Voices Carry the Invitation",
     "translation": "World English Bible",
@@ -764,12 +766,12 @@ const scripturesData = [
         "title": "The Golden Chain of Evangelism",
         "body": "<p>Building on the universal promise that <strong>\"Whoever will call on the name of the Lord will be saved,\"</strong> Paul lays out the logical and necessary steps that make this promise a reality. He asks a series of rhetorical questions that reveal a clear and divinely ordained sequence:</p><ul><li>God <strong>sends</strong> messengers...</li><li>who <strong>preach</strong> the Word...</li><li>which enables people to <strong>hear</strong>...</li><li>which provides the basis for them to <strong>believe</strong>...</li><li>which allows them to <strong>call</strong> on the Lord...</li><li>which results in their <strong>salvation</strong>.</li></ul><p>This \"Golden Chain of Evangelism\" presents a beautiful model of the open invitation. It affirms that faith is not a mysterious work that appears without cause, but a reasonable and necessary response to a proclaimed message that is heard and understood. Faith is the crucial bridge that connects hearing God's call to receiving His gift of salvation.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
     "id": "romans-10-17",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "Romans 10:17",
     "title": "Faith Comes by Hearing Christ",
     "translation": "World English Bible",
@@ -797,12 +799,12 @@ const scripturesData = [
         "title": "Means Matter to Paul",
         "body": "The cascading questions--sent ones, preaching, hearing, believing--show God partnering with messengers whose obedience matters. Even readers who stress unconditional election must wrestle with Paul's emphasis on means; Open Invitation highlights the relational dynamics at play."
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
     "id": "romans-11-20-21",
+    "alignment": "affirming",
+    "selectorCategory": "Accountability & Perseverance",
     "reference": "Romans 11:20-21",
     "title": "Stand by Faith, Do Not Be Arrogant",
     "translation": "World English Bible",
@@ -829,14 +831,12 @@ const scripturesData = [
         "title": "A Warning Against Presumption",
         "body": "<p>Based on this reality, Paul issues a stern pastoral warning. He commands the Gentile believers, who now stand by faith, <strong>\"Don’t be conceited, but fear.\"</strong> The reason for this sober warning is stated plainly in verse 21: <strong>\"for if God didn’t spare the natural branches, neither will he spare you.\"</strong> This is a direct statement that a believer's position is conditional and not automatically guaranteed. Just as Israel was cut off for unbelief, Gentile believers can also be cut off if they abandon the very faith by which they stand. This passage serves as a powerful biblical argument for a conditional salvation, urging believers to persevere in their faith.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Accountability & Perseverance"
+    ]
   },
   {
     "id": "1-corinthians-2-14",
-    "selectorCategory": "Invitation & Hearing",
     "alignment": "tension",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "1 Corinthians 2:14",
     "title": "Natural Person and Spiritual Things",
     "translation": "World English Bible",
@@ -871,6 +871,8 @@ const scripturesData = [
   },
   {
     "id": "2-corinthians-5-20-21",
+    "alignment": "affirming",
+    "selectorCategory": "Response & Mission",
     "reference": "2 Corinthians 5:20-21",
     "title": "Ambassadors Plead: Be Reconciled to God",
     "translation": "World English Bible",
@@ -897,12 +899,12 @@ const scripturesData = [
         "title": "The Personal Plea to Be Reconciled",
         "body": "<p>While the provision of reconciliation is universal, its personal application requires a response. This is why Paul has been given the \"ministry of reconciliation.\" As an ambassador for Christ, his job is to deliver God's message, which he summarizes in verse 20 as a direct command and a heartfelt plea: <strong>\"Be reconciled to God.\"</strong> This command would be meaningless if reconciliation were an automatic or irresistible act of God. It is a genuine appeal to the human will, calling on every person to <em>personally accept</em> the peace treaty that God has already offered to the entire world. The choice to be reconciled rests with each individual who hears the plea.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Response & Mission"
+    ]
   },
   {
     "id": "2-corinthians-6-1-2",
+    "alignment": "affirming",
+    "selectorCategory": "Response & Mission",
     "reference": "2 Corinthians 6:1-2",
     "title": "Do Not Receive Grace in Vain",
     "translation": "World English Bible",
@@ -929,12 +931,12 @@ const scripturesData = [
         "title": "The Urgency of 'Now'",
         "body": "<p>To add weight to his plea, Paul quotes Isaiah 49:8 and applies it with force to the present moment. His declaration, <strong>\"Behold, now is the acceptable time. Behold, now is the day of salvation,\"</strong> creates a profound sense of urgency. The offer of reconciliation is not an abstract concept for a future time; it is a present reality, an open door that demands an immediate response. This highlights the critical importance of the choice presented in the previous verse. The day of salvation is here, and the invitation must be answered.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Response & Mission"
+    ]
   },
   {
     "id": "galatians-3-5",
+    "alignment": "affirming",
+    "selectorCategory": "Spirit & New Life",
     "reference": "Galatians 3:5",
     "title": "The Spirit Received by Hearing with Faith",
     "translation": "World English Bible",
@@ -961,12 +963,12 @@ const scripturesData = [
         "title": "The Channel of God's Power",
         "body": "<p>The question Paul poses has only one possible answer. God's power was not being supplied to them because of their strenuous efforts to keep the law, but through <strong>\"the hearing of faith\"</strong>. The process begins with <strong>hearing</strong> the proclaimed gospel message, which then prompts a personal response of <strong>faith</strong>. Paul powerfully affirms that the flow of God's Spirit is conditional upon a person's receptive belief. God's empowering work is His response to their faith, establishing a clear model where hearing and believing are the necessary precursors to experiencing the blessings of the Spirit.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Spirit & New Life"
+    ]
   },
   {
     "id": "ephesians-1-13-14",
+    "alignment": "affirming",
+    "selectorCategory": "Spirit & New Life",
     "reference": "Ephesians 1:13-14",
     "title": "Hearing, Believing, Sealed with the Spirit",
     "translation": "World English Bible",
@@ -997,9 +999,7 @@ const scripturesData = [
         "title": "The Seal as a Guarantee",
         "body": "<p>The sealing of the Holy Spirit is God's mark of ownership and protection on those who now belong to Him through faith. The Spirit Himself is described as the <strong>\"guarantee\"</strong> (<span class=\"greek-word\">arrabōn</span>), a term from commerce for a deposit or down payment that guarantees the full payment will be made. This divine guarantee is not given to <em>cause</em> faith, but is given as a consequence <em>of</em> faith. It secures the glorious future inheritance for all who have willingly entered God's predestined family by believing the gospel message.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Spirit & New Life"
+    ]
   },
   {
     "id": "ephesians-2-1-5",
@@ -1039,6 +1039,8 @@ const scripturesData = [
   },
   {
     "id": "ephesians-5-14",
+    "alignment": "affirming",
+    "selectorCategory": "Spirit & New Life",
     "reference": "Ephesians 5:14",
     "title": "Awake, Rise, and Receive Christ's Light",
     "translation": "World English Bible",
@@ -1052,22 +1054,24 @@ const scripturesData = [
     "category": "Spirit & New Life",
     "context": [
       {
-        "heading": "Ephesians 5:11-14",
-        "text": "Have no fellowship with the unfruitful works of darkness, but rather even reprove them... But all things, when they are reproved, are revealed by the light, for everything that reveals is light. <span class=\"focus-text\">Therefore he says, \"Awake, you who sleep, and arise from the dead, and Christ will shine on you.\"</span>"
+        "heading": "Ephesians 5:1-16",
+        "text": "Be therefore imitators of God, as beloved children. Walk in love, even as Christ also loved you, and gave himself up for us, an offering and a sacrifice to God for a sweet-smelling fragrance. But sexual immorality, and all uncleanness, or covetousness, let it not even be mentioned among you, as becomes saints; nor filthiness, nor foolish talking, or jesting, which are not appropriate; but rather giving of thanks. Know this for sure, that no sexually immoral person, nor unclean person, nor covetous man, who is an idolater, has any inheritance in the kingdom of Christ and God. Let no man deceive you with empty words. For because of these things, the wrath of God comes on the sons of disobedience. Don't be therefore partakers with them. For you were once darkness, but are now light in the Lord. Walk as children of light, for the fruit of the Spirit is in all goodness and righteousness and truth, proving what is well-pleasing to the Lord. Have no fellowship with the unfruitful works of darkness, but rather even reprove them. For the things which are done by them in secret, it is a shame even to speak of. But all things, when they are reproved, are revealed by the light, for everything that is revealed is light. <span class=\"focus-text\">Therefore he says, \"Awake, you who sleep, and arise from the dead, and Christ will shine on you.\"</span> Therefore watch carefully how you walk, not as unwise, but as wise; redeeming the time, because the days are evil."
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Call to Respond to Light",
-        "body": "The summons assumes sleepers can awaken. Christ's shining follows the responsive act, not a hidden regeneration."
+        "title": "Not a Metaphysical Diagnosis",
+        "body": "<p>The passage begins with a powerful command: <strong>\"Awake, O sleeper, and arise from the dead.\"</strong> This is a rich metaphor, likely from an early Christian hymn, used to describe a state of spiritual stupor and separation from God. It's crucial to understand this metaphor as Paul intends it. A \"sleeper\" is not a corpse; they possess the capacity to be awakened. Likewise, the one who is spiritually \"dead\" is not inert, but actively walking in darkness (as described earlier in the letter).</p>"
       },
       {
-        "title": "Exposure Through Proclamation",
-        "body": "Light exposes deeds when proclamation reveals them, showing the ministry of the word that awakens listeners to repent."
+        "title": "An Appeal to the Will",
+        "body": "<p>The core of the passage is built on two active commands: <strong>\"Awake\"</strong> (<span class=\"greek-word\">egeire</span>) and <strong>\"Arise\"</strong> (<span class=\"greek-word\">anasta</span>). These are imperatives—direct appeals to the human will, issued in the context of the Holy Spirit's work of convicting the world of its sin (John 16:8). By issuing these commands, the Spirit affirms that the hearer has the God-given capacity to respond to His conviction. The call is not to passively wait for a divine intervention to awaken them, but to actively participate in their own spiritual awakening. It is a summons to choose light over darkness, to shake off the stupor of sin and stand up.</p>"
+      },
+      {
+        "title": "The Promised Illumination",
+        "body": "<p>The verse concludes with a beautiful promise that is conditional on the preceding commands: <strong>\"...and Christ will shine on you.\"</strong> The glorious light of Christ is presented as the divine result that follows the human response. The sequence is clear: when a person chooses to \"awake\" and \"arise,\" Christ faithfully meets them with His life-giving light. The illumination is not an irresistible force that causes the awakening; it is the gracious reward for answering the call. This powerfully affirms the biblical pattern where a personal choice of faith opens the door to the regenerative and illuminating power of God.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Spirit & New Life"
+    ]
   },
   {
     "id": "philippians-1-29",
@@ -1087,36 +1091,32 @@ const scripturesData = [
     "context": [
       {
         "heading": "Philippians 1:27-30",
-        "text": "Only let your way of life be worthy of the Good News of Christ... <span class=\"focus-text\">To you it has been granted on behalf of Christ, not only to believe in him, but also to suffer for his sake.</span> You are engaged in the same conflict you saw in me."
+        "text": "Only let your manner of life be worthy of the gospel of Christ, that, whether I come and see you or am absent, I may hear of your state, that you stand firm in one spirit, with one soul striving for the faith of the gospel; and in nothing frightened by the adversaries, which is for them a proof of destruction, but to you of salvation, and that from God. <span class=\"focus-text\">Because it has been granted to you on behalf of Christ, not only to believe in him, but also to suffer on his behalf,</span> having the same conflict which you saw in me, and now hear is in me."
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Why Context Is Important",
-        "body": "Paul tells the Philippians it has been granted to them on behalf of Christ to believe and to suffer. Some Reformed explanations treat the verb as evidence that faith is irresistibly bestowed on select individuals, yet the surrounding verses urge the church to stand firm in one spirit and strive together (1:27)."
+        "title": "A Call to Stand Firm in Suffering",
+        "body": "<p>Paul is not writing a systematic theology on the mechanics of conversion. His purpose in this section is to encourage the Philippian believers to stand firm in the face of persecution (v. 27-28). The entire theme is the nature of their ongoing Christian walk. He frames their suffering not as a defeat, but as a sign of God's validation and a shared experience with Christ and Paul himself. The verse is intended as a comfort and an honor, not as a technical explanation of how faith originates.</p>"
       },
       {
-        "title": "Open Invitation Engagement",
-        "body": "The same grace that enables faith also empowers perseverance in hardship. Throughout the letter Paul assumes active participation: working out salvation (2:12-13), holding fast to the word (2:16), so the grant underscores God's generous support without cancelling the community's responsibility to respond."
+        "title": "The Privilege of Partnership",
+        "body": "<p>The key to this verse is the Greek word for \"it has been granted,\" <span class=\"greek-word\">echaristhē</span>, which comes from <span class=\"greek-word\">charis</span> (grace). It means \"to bestow graciously as a favor or privilege.\" Paul is framing the entire Christian life as a gift of grace. This \"granting\" is not an irresistible force that creates faith in a passive individual. Rather, it is the gracious bestowing of the high honor and privilege of participating in the story of Christ. Just as a king might \"grant\" a commoner the privilege of an audience, God has graciously given us the opportunity to enter into a relationship with Him.</p>"
+      },
+      {
+        "title": "The Parallel Gifts: Believing and Suffering",
+        "body": "<p>The structure of the verse reveals its meaning. Paul uses a parallel construction: God has granted you the privilege <strong>\"not only to believe in him, but also to suffer for his sake.\"</strong> Believing and suffering are presented as two sides of the same gracious gift of partnership with Christ. No one argues that God sovereignly forces suffering upon believers against their will. Rather, suffering is a reality of the Christian life that we are privileged to endure for His sake. Since both are presented in the same way, we should understand the \"gift\" of belief in the same way: it is the gracious opportunity and honor to place our faith in Christ, which is the entry point into a life that will also include the honor of suffering for Him.</p>"
       }
-    ],
-    "tensionResolution": {
-      "question": "Does Philippians 1:29 mean faith is irresistibly granted to a preselected group?",
-      "steelman": "Paul uses the verb for gracious gifting, suggesting God unilaterally gives faith the same way he grants suffering.",
-      "response": "Granting frames faith and suffering as privileges within the mission. Throughout the letter Paul calls believers to continue working out their salvation (2:12-13); grace enables, but believers must actively trust and persevere.",
-      "supports": [
-        "The call to stand firm in one spirit (1:27) places responsibility on the community.",
-        "In 2:13 God works in believers to will and act, yet this accompanies the command to work out salvation, not replace it.",
-        "Acts portrays many outsiders invited to faith - granting grace doesn't imply exclusion of others but empowerment to those who respond."
-      ]
-    }
+    ]
   },
   {
     "id": "1-thessalonians-2-13",
+    "alignment": "affirming",
+    "selectorCategory": "Spirit & New Life",
     "reference": "1 Thessalonians 2:13",
     "title": "The Word Works in Believers",
     "translation": "World English Bible",
-    "summary": "Paul rejoices that the Thessalonians received the preached word as God's word, and that it continues to work in those who believe.",
+    "summary": "Paul celebrates that the Thessalonians actively welcomed his message as the Word of God, thereby unleashing its divine power to work effectively within them as believers.",
     "keyVerse": "The word of God, which you heard from us, isn't the word of men, but, as it is in truth, the word of God, which also works in you who believe.",
     "themes": [
       "Word",
@@ -1126,33 +1126,29 @@ const scripturesData = [
     "category": "Spirit & New Life",
     "context": [
       {
-        "heading": "1 Thessalonians 2:13",
-        "text": "<span class=\"focus-text\">When you received the word of God which you heard from us, you accepted it not as the word of men, but, as it is in truth, the word of God, which also works in you who believe.</span>"
+        "heading": "1 Thessalonians 2:10-13",
+        "text": "You are witnesses with God, how holy, righteously, and blamelessly we behaved ourselves toward you who believe. As you know how we exhorted, comforted, and implored everyone of you, as a father does his own children, to the end that you should walk worthily of God, who calls you into his own kingdom and glory. <span class=\"focus-text\">For this cause we also thank God without ceasing, that, when you received from us the word of the message of God, you accepted it not as the word of men, but, as it is in truth, the word of God, which also works in you who believe.</span>"
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Reception Matters",
-        "body": "They welcomed the message, an act of responsive faith that allowed the word to take root."
+        "title": "The Choice to Welcome the Word",
+        "body": "<p>Paul begins by celebrating the Thessalonians' active response to his preaching. He highlights the crucial choice they made when they heard the gospel. Though the message came from human lips, they <strong>\"accepted\"</strong> or <strong>\"welcomed\"</strong> it not as a human philosophy, but as what it truly was: the very Word of God. This was not a passive reception but an active discernment and embrace. It was an act of their will to look past the human messenger and receive the divine message in faith, a choice that Paul commends as the foundation for their new life.</p>"
       },
       {
-        "title": "Ongoing Work",
-        "body": "God's word continues its work in those who believe, highlighting partnership with the Spirit rather than passivity."
-      },
-      {
-        "title": "Preached Word as Means",
-        "body": "Paul points back to hearing from human messengers, demonstrating the Spirit uses audible proclamation."
+        "title": "A Power That Works in Believers",
+        "body": "<p>The verse concludes by describing the consequence of their faith. Paul states that the Word of God is a living and powerful force that <strong>\"works in you who believe.\"</strong> The Greek for \"works\" (<span class=\"greek-word\">energeitai</span>) is where we get our word \"energy,\" and it describes an effective, active power. Crucially, Paul specifies the sphere of this divine energy: it is operative <strong>\"in you who believe.\"</strong> The power of the Word is not presented as an irresistible force that creates faith from nothing, but as a transformative power that is unleashed <em>within</em> the person who has first welcomed the message. This verse provides a clear sequence: the choice to believe opens the door for the powerful Word of God to begin its work in a person's life.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Spirit & New Life"
+    ]
   },
   {
     "id": "2-thessalonians-2-13-14",
+    "alignment": "tension",
+    "selectorCategory": "Spirit & New Life",
     "reference": "2 Thessalonians 2:13-14",
     "title": "Called Through the Gospel",
     "translation": "World English Bible",
-    "summary": "Paul thanks God that the Thessalonians were chosen for salvation through sanctification by the Spirit and belief in the truth, having been called through the gospel proclamation.",
+    "summary": "Paul reassures the Thessalonian believers that, in sharp contrast to those who reject the truth, their salvation is the fulfillment of God's eternal plan to include all nations - a plan they entered into by believing the apostles' gospel.",
     "keyVerse": "To which he called you through our Good News, for the obtaining of the glory of our Lord Jesus Christ.",
     "themes": [
       "Calling",
@@ -1162,8 +1158,8 @@ const scripturesData = [
     "category": "Spirit & New Life",
     "context": [
       {
-        "heading": "2 Thessalonians 2:13-15",
-        "text": "We are bound to always give thanks to God for you... <span class=\"focus-text\">God chose you from the beginning for salvation through sanctification of the Spirit and belief in the truth, to which he called you through our Good News.</span> So then, brothers, stand firm."
+        "heading": "2 Thessalonians 2:10-15",
+        "text": "...and with all deception of wickedness for those who are being lost, because they didn't receive the love of the truth, that they might be saved. Because of this, God sends them a working of error, that they should believe a lie; that they all might be judged who didn't believe the truth, but had pleasure in unrighteousness. <span class=\"focus-text\">But we are bound to always give thanks to God for you, brothers loved by the Lord, because God chose you from the beginning for salvation in sanctification of the Spirit and belief of the truth; whereunto he called you through our gospel, to the obtaining of the glory of our Lord Jesus Christ.</span> So then, brothers, stand firm, and hold the traditions which you were taught by us, whether by word, or by letter."
       }
     ],
     "analysis": [
@@ -1183,16 +1179,16 @@ const scripturesData = [
         "title": "Conclusion: An Affirmation of Inclusion",
         "body": "<p>Read in its proper context, 2 Thessalonians 2:13 is not a proof-text for the pre-selection of certain individuals to the exclusion of others.</p><p>It is a passionate, pastoral, and anti-discriminatory declaration. It's the \"Apostle to the Gentiles\" reassuring a worried, predominantly Gentile church that their place in God's family is secure. Their inclusion was not an accident or a lesser status, but was God's beautiful and mysterious plan from the very beginning.</p>"
       }
-    ],
-    "alignment": "tension",
-    "selectorCategory": "Spirit & New Life"
+    ]
   },
   {
     "id": "1-timothy-2-3-6",
+    "alignment": "affirming",
+    "selectorCategory": "Response & Mission",
     "reference": "1 Timothy 2:3-6",
     "title": "God Desires All to Be Saved",
     "translation": "World English Bible",
-    "summary": "Paul anchors prayer and mission in God's desire for all people to come to the knowledge of the truth.",
+    "summary": "Paul anchors the command to pray for all people in two foundational and universal truths: God our Savior genuinely desires every person to be saved, and Christ Jesus provided a sufficient ransom for every person through his death.",
     "keyVerse": "God our Savior desires all people to be saved and come to full knowledge of the truth.",
     "themes": [
       "God's Heart",
@@ -1202,33 +1198,29 @@ const scripturesData = [
     "category": "Response & Mission",
     "context": [
       {
-        "heading": "1 Timothy 2:3-6",
-        "text": "<span class=\"focus-text\">This is good and acceptable in the sight of God our Savior, who desires all people to be saved and come to full knowledge of the truth.</span> For there is one God and one mediator between God and men, the man Christ Jesus, who gave himself as a ransom for all, the testimony given in its own times."
+        "heading": "1 Timothy 2:1-7",
+        "text": "I exhort therefore, first of all, that petitions, prayers, intercessions, and givings of thanks, be made for all men: for kings and all who are in high places; that we may lead a tranquil and quiet life in all godliness and reverence. <span class=\"focus-text\">For this is good and acceptable in the sight of God, our Savior; who desires to have all men to be saved, and come to full knowledge of the truth. For there is one God, and one mediator between God and men, the man Christ Jesus, who gave himself as a ransom for all; the testimony in its own times;</span> to which I was appointed a preacher and an apostle (I am telling the truth in Christ, not lying), a teacher of the Gentiles in faith and truth."
+      },
+    ],
+    analysis: [
+      {
+        "title": "The Universal Will of God",
+        "body": "<p>This passage provides the theological engine for Paul's command to pray for everyone. The reason this prayer is \"good and acceptable\" is that it perfectly aligns with God's own heart. Verse 4 contains one of the clearest statements in Scripture about God's saving desire: He <strong>\"desires all people to be saved and to come to the full knowledge of the truth.\"</strong> The word for \"all people\" (<span class=\"greek-word\">pantas anthrōpous</span>) is used without qualification. This is a straightforward declaration of God's genuine, benevolent desire for every individual, standing as a powerful testament against any view of a limited or selective saving will.</p>"
       },
       {
-        "heading": "1 Timothy 1:18-2:10",
-        "text": "Timothy, I commit this instruction to you according to the prophecies made about you, that you may wage the good warfare, holding faith and a good conscience, for some have rejected it and made shipwreck concerning the faith. I urge therefore that petitions, prayers, intercessions, and thanksgivings be made for all people, for kings and all who are in high positions, so we may lead a tranquil and quiet life in all godliness and reverence. God desires everyone to know the truth and has provided one mediator, Christ Jesus, who gave himself as a ransom for all. For this I was appointed a herald and apostle, teaching the nations in faith and truth, and I desire the men in every place to pray, lifting up holy hands without wrath and doubting, and likewise that women adorn themselves decently, with good works fitting for those who profess reverence to God."
+        "title": "The Universal Ransom in Christ",
+        "body": "<p>Paul grounds God's universal desire in an equally universal provision. The fact that there is <strong>\"one God, and one mediator between God and men\"</strong> means there is a single path to salvation for all humanity. This one mediator, Christ Jesus, <strong>\"gave himself as a ransom for all.\"</strong> The phrase \"for all\" (<span class=\"greek-word\">hyper pantōn</span>) is just as universal as God's desire in the preceding verse. Christ's atoning death was not limited in its scope or intent; it was a ransom sufficient to save every person. This universal provision is the firm basis for the universal offer of the gospel.</p>"
       }
-    ],
-    "analysis": [
-      {
-        "title": "Universal Saving Desire",
-        "body": "God's stated desire challenges limited atonement. His heart beats for all to be saved, aligning with a genuine offer through hearing the truth."
-      },
-      {
-        "title": "Prayer Fuels Mission",
-        "body": "Intercession for all people makes sense only if all can respond to the mediator. The passage motivates evangelistic prayer and proclamation."
-      }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Response & Mission"
+    ]
   },
   {
     "id": "2-timothy-3-15-16",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "2 Timothy 3:15-16",
     "title": "",
     "translation": "World English Bible",
-    "summary": "",
+    "summary": "Paul affirms that the divinely inspired Scriptures provide the necessary wisdom for salvation, a salvation that is ultimately received through a personal and active faith in Christ Jesus.",
     "keyVerse": "From infancy, you have known the holy Scriptures which are able to make you wise for salvation through faith which is in Christ Jesus. Every Scripture is God-breathed and profitable for teaching, for reproof, for correction, and for instruction in righteousness",
     "themes": [
       "faith",
@@ -1239,30 +1231,28 @@ const scripturesData = [
     "context": [
       {
         "heading": "2 Timothy 3:14-17",
-        "text": "But you remain in the things which you have learned and have been assured of, knowing from whom you have learned them. <span class=\"focus-text\">From infancy, you have known the holy Scriptures which are able to make you wise for salvation through faith which is in Christ Jesus. Every Scripture is God-breathed and profitable for teaching, for reproof, for correction, and for instruction in righteousness,</span> that each person who belongs to God may be complete, thoroughly equipped for every good work."
+        "text": "But you remain in the things which you have learned and have been assured of, knowing from whom you have learned them. <span class=\"focus-text\">From infancy, you have known the sacred writings which are able to make you wise to salvation through faith, which is in Christ Jesus. Every writing inspired by God is profitable for teaching, for reproof, for correction, and for instruction which is in righteousness,</span> that the man of God may be complete, thoroughly equipped for every good work."
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Wisdom precedes Faith",
-        "body": "This passage presents a clear sequence: knowing the Scriptures leads to wisdom, and this wisdom is 'for salvation through faith.' It establishes Scripture as the foundation of knowledge necessary for a person to place their faith in Christ. Salvation is not a blind leap but a convinced trust based on the reliable, God-breathed testimony of the Word."
+        "title": "The Source of Saving Wisdom",
+        "body": "<p>In his encouragement for Timothy to remain steadfast, Paul points to the foundation of his faith: his lifelong knowledge of the <strong>\"sacred writings.\"</strong> He affirms that these divinely inspired Scriptures are fully sufficient, being <strong>\"able to make you wise to salvation.\"</strong> The Bible is presented as the source of the knowledge and wisdom necessary for a person to understand God's plan of rescue. It contains the message and the evidence that makes a genuine choice of faith possible and reasonable.</p>"
       },
       {
-        "title": "Scripture as the Saving Instrument",
-        "body": "The Scriptures are not merely a textbook of facts; they are 'able to make you wise.' The Greek word for 'able' here is 'dunamai,' from which we get 'dynamic' or 'dynamite.' The Word is powerful and sufficient. It is the active instrument God uses to teach, correct, and train, ultimately equipping a person not only for good works but for the very faith that saves."
+        "title": "The Gateway to Salvation: 'Through Faith'",
+        "body": "<p>While the Scriptures provide the indispensable wisdom, Paul adds the crucial, non-negotiable condition that makes this wisdom effective: salvation is accessed <strong>\"through faith which is in Christ Jesus.\"</strong> The knowledge gained from Scripture does not automatically save. It must be met with a personal response of trust in the person of Christ. This verse lays out a clear and direct sequence: God provides the revelation in the inspired Scriptures (v. 16), which imparts wisdom, and this wisdom leads to salvation only when an individual chooses to exercise <strong>faith</strong> in Jesus.</p>"
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
-    "id": "titus-3-4-7",
+    "id": "titus-3-5-6",
     "alignment": "tension",
     "selectorCategory": "Spirit & New Life",
-    "reference": "Titus 3:4-7",
+    "reference": "Titus 3:5-6",
     "title": "Washed by Regeneration",
     "translation": "World English Bible",
-    "summary": "Paul attributes salvation not to works but to God's mercy through the washing of regeneration and renewal by the Holy Spirit.",
+    "summary": "Paul reminds believers of the glorious moment of their salvation, describing it not as a result of their own works, but as a gift of God's mercy experienced through the \"washing of regeneration\" - the conversion-baptism event where their faith was met with the renewing power of the Holy Spirit.",
     "keyVerse": "He saved us through the washing of regeneration and renewing by the Holy Spirit, whom he poured out on us richly through Jesus Christ our Savior.",
     "themes": [
       "Regeneration",
@@ -1272,33 +1262,29 @@ const scripturesData = [
     "category": "Spirit & New Life",
     "context": [
       {
-        "heading": "Titus 3:3-7",
-        "text": "For we were also once foolish, disobedient... But when the kindness of God our Savior and his love toward mankind appeared, <span class=\"focus-text\">not by works of righteousness which we did ourselves, but according to his mercy, he saved us through the washing of regeneration and renewing by the Holy Spirit.</span>"
+        "heading": "Titus 3:3-8",
+        "text": "For we were also once foolish, disobedient, deceived, serving various lusts and pleasures, living in malice and envy, hateful, and hating one another. But when the kindness of God, our Savior, and his love toward man, appeared, <span class=\"focus-text\">not by works of righteousness, which we did ourselves, but according to his mercy, he saved us, through the washing of regeneration and renewing by the Holy Spirit, which he poured out on us richly, through Jesus Christ, our Savior;</span> that, being justified by his grace, we might be made heirs according to the hope of eternal life. This saying is faithful, and concerning these things I desire that you affirm confidently, to the end that they who have believed God may be careful to maintain good works. These things are good and profitable to men;"
       }
     ],
-    "analysis": [
+    analysis: [
       {
-        "title": "Why Context Is Important",
-        "body": "Paul credits salvation to God's mercy through the washing of regeneration and renewal by the Spirit. Many systems treat that wording as an irresistible moment of new birth prior to faith, yet the letter addresses people who already believed the message Paul preached (3:8)."
+        "title": "Context: A Description for Believers",
+        "body": "<p>Paul's description of salvation in these verses is framed by his instruction in verse 8, where he states his purpose: that <strong>\"those who have believed in God\"</strong> should be careful to maintain good works. This is key. The passage is not explaining how a passive unbeliever is made able to believe; it is a rich description of the glorious salvation that <em>believers</em> have already experienced. Paul is reminding them of what happened to them <em>when they believed</em>, in order to motivate them to live lives worthy of that salvation.</p>"
       },
       {
-        "title": "Open Invitation Engagement",
-        "body": "The kindness that appeared in Jesus was announced to all (2:11; 3:4), and those who 'have believed God' are urged to devote themselves to good works (3:8). The washing depicts the Spirit cleansing repentant believers, highlighting divine initiative while leaving the call to respond to grace fully in place."
+        "title": "The 'Washing of Regeneration'",
+        "body": "<p>The means of salvation is described as <strong>\"the washing of regeneration\"</strong> (<span class=\"greek-word\">loutrou palingenesias</span>) <strong>\"and renewing of the Holy Spirit.\"</strong> The word for \"washing\" would have been immediately understood by the early church as a reference to <strong>water baptism</strong>. Throughout the New Testament, baptism is the obedient response of a person who has already heard the gospel and placed their faith in Jesus. Therefore, the \"washing of regeneration\" is not a secret, pre-faith work of God. It is God's powerful, regenerative work that is tied to the public, faith-driven event of a believer's conversion and baptism, where their new life in Christ is formally inaugurated.</p>"
+      },
+      {
+        "title": "The Source of Salvation",
+        "body": "<p>The primary thrust of this passage is to give all glory to God for His grace. Paul emphasizes that salvation is <strong>\"not by works of righteousness which we did ourselves, but according to his mercy.\"</strong> The focus is on the <em>source</em> of our salvation (God's kindness and love), not a metaphysical sequence of events prior to faith. While our faith is the necessary channel through which we receive this gift, the gift itself is entirely unearned. This passage beautifully describes the magnificent character of the salvation God gives to those who believe.</p>"
       }
     ],
-    "tensionResolution": {
-      "question": "What about this interpretation that the washing of regeneration proving unilateral new birth?",
-      "steelman": "Paul says God saved us through the washing of regeneration, so many conclude the Spirit renews people apart from any human cooperation.",
-      "response": "The paragraph celebrates mercy that appeared in the gospel announcement. Immediately afterward Paul urges 'those who have believed God' to devote themselves to good works (3:8); the washing describes the Spirit's cleansing of repentant believers, not a pre-faith event.",
-      "supports": [
-        "The epiphany language echoes 2:11-14, where grace trains people who respond.",
-        "Verse 8 assumes the audience has already believed, linking the washing to their faith response.",
-        "Paul is contrasting works-righteousness with mercy, not faith with divine grace."
-      ]
-    }
   },
   {
     "id": "hebrews-3-7-15",
+    "alignment": "affirming",
+    "selectorCategory": "Accountability & Perseverance",
     "reference": "Hebrews 3:7-15",
     "title": "Today, If You Hear His Voice",
     "translation": "World English Bible",
@@ -1329,12 +1315,12 @@ const scripturesData = [
         "title": "Mutual Exhortation",
         "body": "Community encouragement is a means to keep faith alive, aligning with synergistic perseverance."
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Accountability & Perseverance"
+    ]
   },
   {
     "id": "hebrews-4-2",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "Hebrews 4:2",
     "title": "The Message Profits Those Who Combine Hearing with Faith",
     "translation": "World English Bible",
@@ -1361,12 +1347,12 @@ const scripturesData = [
         "title": "Belief Grants Rest",
         "body": "Those who believe enter rest. The sequence underscores that rest follows faith, which follows hearing."
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   },
   {
     "id": "hebrews-11-6",
+    "alignment": "affirming",
+    "selectorCategory": "Accountability & Perseverance",
     "reference": "Hebrews 11:6",
     "title": "Without Faith It Is Impossible to Please God",
     "translation": "World English Bible",
@@ -1393,12 +1379,12 @@ const scripturesData = [
         "title": "God Rewards Seekers",
         "body": "The verse affirms genuine seeking. God responds to those who seek Him, undercutting deterministic assumptions that deny meaningful pursuit."
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Accountability & Perseverance"
+    ]
   },
   {
     "id": "james-1-18-21",
+    "alignment": "affirming",
+    "selectorCategory": "Spirit & New Life",
     "reference": "James 1:18-21",
     "title": "Receive the Implanted Word",
     "translation": "World English Bible",
@@ -1425,12 +1411,12 @@ const scripturesData = [
         "title": "Ongoing Reception Required",
         "body": "Believers must keep receiving the word. Salvation is tied to meekly embracing what is spoken, underscoring ongoing responsiveness."
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Spirit & New Life"
+    ]
   },
   {
     "id": "1-peter-1-23",
+    "alignment": "affirming",
+    "selectorCategory": "Spirit & New Life",
     "reference": "1 Peter 1:23",
     "title": "Born Again Through the Living Word",
     "translation": "World English Bible",
@@ -1457,12 +1443,12 @@ const scripturesData = [
         "title": "Obedience to the Truth",
         "body": "Purifying souls comes through obeying the truth. Faithful response is part of the process, indicating real agency."
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Spirit & New Life"
+    ]
   },
   {
     "id": "2-peter-3-9",
+    "alignment": "affirming",
+    "selectorCategory": "Response & Mission",
     "reference": "2 Peter 3:9",
     "title": "Not Wishing Any to Perish",
     "translation": "World English Bible",
@@ -1493,9 +1479,7 @@ const scripturesData = [
         "title": "Impending Accountability",
         "body": "The thief-like day still arrives, so listeners must respond before patience runs out."
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Response & Mission"
+    ]
   },
   {
     "id": "1-john-5-1",
@@ -1541,6 +1525,8 @@ const scripturesData = [
   },
   {
     "id": "revelation-3-20",
+    "alignment": "affirming",
+    "selectorCategory": "Accountability & Perseverance",
     "reference": "Revelation 3:20",
     "title": "Jesus Knocks and Awaits Response",
     "translation": "World English Bible",
@@ -1567,12 +1553,12 @@ const scripturesData = [
         "title": "Call to Repent",
         "body": "Repentance is urged alongside the invitation, showing that hearing His voice invites tangible change."
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Accountability & Perseverance"
+    ]
   },
   {
     "id": "revelation-22-17",
+    "alignment": "affirming",
+    "selectorCategory": "Invitation & Hearing",
     "reference": "Revelation 22:17",
     "title": "The Spirit and the Bride Say Come",
     "translation": "World English Bible",
@@ -1603,9 +1589,7 @@ const scripturesData = [
         "title": "Desire Matters",
         "body": "Access hinges on thirst and desire, highlighting human response within grace."
       }
-    ],
-    "alignment": "affirming",
-    "selectorCategory": "Invitation & Hearing"
+    ]
   }
 ];
 

@@ -14,6 +14,47 @@ const metaPath = path.join(outputDir, "content-meta.json");
 
 ensureDir(outputDir);
 
+// Canonical book order for sorting
+const canonicalBooks = [
+  'Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy',
+  'Joshua', 'Judges', 'Ruth', '1 Samuel', '2 Samuel',
+  '1 Kings', '2 Kings', '1 Chronicles', '2 Chronicles', 'Ezra',
+  'Nehemiah', 'Esther', 'Job', 'Psalms', 'Proverbs',
+  'Ecclesiastes', 'Song of Solomon', 'Isaiah', 'Jeremiah', 'Lamentations',
+  'Ezekiel', 'Daniel', 'Hosea', 'Joel', 'Amos',
+  'Obadiah', 'Jonah', 'Micah', 'Nahum', 'Habakkuk',
+  'Zephaniah', 'Haggai', 'Zechariah', 'Malachi',
+  'Matthew', 'Mark', 'Luke', 'John', 'Acts',
+  'Romans', '1 Corinthians', '2 Corinthians', 'Galatians', 'Ephesians',
+  'Philippians', 'Colossians', '1 Thessalonians', '2 Thessalonians', '1 Timothy',
+  '2 Timothy', 'Titus', 'Philemon', 'Hebrews', 'James',
+  '1 Peter', '2 Peter', '1 John', '2 John', '3 John',
+  'Jude', 'Revelation'
+];
+const canonicalIndex = new Map(canonicalBooks.map((b, i) => [b, i]));
+
+function parseReference(ref) {
+  const m = ref && ref.match(/^([1-3]?\s?[A-Za-z ]+?)\s+(\d+):(\d+)/);
+  if (!m) {
+    return { book: ref || '', chapter: Number.MAX_SAFE_INTEGER, verse: Number.MAX_SAFE_INTEGER };
+  }
+  const book = m[1].trim();
+  const chapter = parseInt(m[2], 10) || 0;
+  const verse = parseInt(m[3], 10) || 0;
+  return { book, chapter, verse };
+}
+
+function compareByCanonical(a, b) {
+  const pa = parseReference(a.reference);
+  const pb = parseReference(b.reference);
+  const ia = canonicalIndex.has(pa.book) ? canonicalIndex.get(pa.book) : Number.MAX_SAFE_INTEGER;
+  const ib = canonicalIndex.has(pb.book) ? canonicalIndex.get(pb.book) : Number.MAX_SAFE_INTEGER;
+  if (ia !== ib) return ia - ib;
+  if (pa.chapter !== pb.chapter) return pa.chapter - pb.chapter;
+  if (pa.verse !== pb.verse) return pa.verse - pb.verse;
+  return (a.id || '').localeCompare(b.id || '');
+}
+
 const hero = loadHero();
 const heroTiles = loadHeroTiles();
 const narratives = loadNarratives();
@@ -126,7 +167,6 @@ function loadScriptures() {
         selector_category AS selectorCategory,
         alignment
       FROM scriptures
-      ORDER BY reference COLLATE NOCASE ASC
     `)
     .all();
 
@@ -173,13 +213,16 @@ function loadScriptures() {
   );
   const supportsById = groupBy(supportRows, "scriptureId");
 
-  return scriptures.map((entry) => formatScripture(entry, {
+  const formatted = scriptures.map((entry) => formatScripture(entry, {
     themes: themesById[entry.id] ?? [],
     contexts: contextsById[entry.id] ?? [],
     analysis: analysisById[entry.id] ?? [],
     tension: tensionById[entry.id],
     supports: supportsById[entry.id] ?? [],
   }));
+
+  // Sort by canonical Bible order
+  return formatted.sort(compareByCanonical);
 }
 
 function formatScripture(entry, relations) {
