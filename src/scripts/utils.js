@@ -74,9 +74,9 @@ export function buildFocusOnlyHtml(context = [], defaultHeading = '') {
       if (!text) {
         return headingHtml ? `<p>${headingHtml}${normalizedHeading ? '<br>' : ''}</p>` : '';
       }
-      const focusMatch = text.match(/<span class="focus-text">([\s\S]*?)<\/span>/);
-      const focusHtml = focusMatch
-        ? `<span class="focus-text">${focusMatch[1]}</span>`
+      const focusMatches = [...text.matchAll(/<span class="focus-text">([\s\S]*?)<\/span>/g)];
+      const focusHtml = focusMatches.length
+        ? focusMatches.map(match => `<span class="focus-text">${match[1]}</span>`).join(' ... ')
         : text;
       return `<p>${headingHtml}${normalizedHeading ? '<br>' : ''}${focusHtml}</p>`;
     })

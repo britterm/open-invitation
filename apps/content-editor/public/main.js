@@ -120,7 +120,7 @@ function populateScriptureIdList() {
   scriptureIdList.innerHTML = '';
   state.scriptures.forEach((entry) => {
     const option = document.createElement('option');
-    const label = `${entry.reference} — ${entry.title ?? ''}`.trim();
+    const label = `${entry.reference}  -  ${entry.title ?? ''}`.trim();
     option.value = entry.id;
     option.textContent = label;
     option.label = label;
@@ -143,7 +143,7 @@ function populateHeroTileOptions() {
     const option = document.createElement('option');
     const parts = [entry.reference, entry.title ?? ''].filter(Boolean);
     option.value = entry.id;
-    option.textContent = parts.join(' — ');
+    option.textContent = parts.join('  -  ');
     return option;
   });
 
@@ -195,7 +195,7 @@ function renderNarratives() {
     card.className = 'card';
     card.innerHTML = `
       <h3>${escapeHtml(entry.title)}</h3>
-      <p class="meta">Scripture: ${escapeHtml(entry.scriptureId ?? '—')} · Position: ${entry.position ?? 0}</p>
+      <p class="meta">Scripture: ${escapeHtml(entry.scriptureId ?? ' - ')} · Position: ${entry.position ?? 0}</p>
       <p>${escapeHtml(entry.description)}</p>
       <footer>
         <button type="button" class="secondary" data-id="${entry.id}">Edit</button>

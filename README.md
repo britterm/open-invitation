@@ -1,6 +1,6 @@
 # open-invitation
 
-God calls us with an open invitation into his kingdom—come explore the evidence! Open Invitation is a static site experience that invites visitors to hear the story of redemption, trace the call to respond in faith, and examine Scripture directly. The project emphasizes that faith comes by hearing the gospel rather than by secret regeneration, highlighting twenty foundational passages with narrative storytelling and exegetical commentary.
+God calls us with an open invitation into his kingdom - come explore the evidence! Open Invitation is a static site experience that invites visitors to hear the story of redemption, trace the call to respond in faith, and examine Scripture directly. The project emphasizes that faith comes by hearing the gospel rather than by secret regeneration, highlighting twenty foundational passages with narrative storytelling and exegetical commentary.
 
 ## Getting Started
 1. Open `index.html` in your browser to view the landing page.

@@ -3,7 +3,7 @@ const narratives = [
     title: "A Call to Listen",
     description:
       "From the prophets onward, God pleads with His people to incline their ear. The invitation is open, the covenant is relational, and responsibility is real.",
-    scriptureId: "deuteronomy-30-11-20",
+    scriptureId: "deuteronomy-30-14",
     image: "src/img/listen.png",
     imageAlt:
       "Sunrise light casting across open fields and a narrow path forward",
@@ -13,7 +13,7 @@ const narratives = [
     title: "Prophets Summon Repentance",
     description:
       "Jeremiah and Ezekiel call the people to turn back, assuring them that the Lord takes no pleasure in death but delights when the wicked repent and live.",
-    scriptureId: "ezekiel-18-30-32",
+    scriptureId: "ezekiel-18-31-32",
     image: "src/img/prophets.png",
     imageAlt: "Ancient stone gate with warm light shining through the opening",
     accent: "#f97316",

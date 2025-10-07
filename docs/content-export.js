@@ -701,7 +701,7 @@ const scriptures = [
     ]
   },
   {
-    "id": "ezekiel-18-30-32",
+    "id": "ezekiel-18-31-32",
     "alignment": "affirming",
     "selectorCategory": "Accountability & Perseverance",
     "reference": "Ezekiel 18:30-32",
@@ -965,7 +965,7 @@ const scriptures = [
     ]
   },
   {
-    "id": "jeremiah-7-23-28",
+    "id": "jeremiah-7-23-24",
     "alignment": "affirming",
     "selectorCategory": "Accountability & Perseverance",
     "reference": "Jeremiah 7:23-28",

@@ -23,7 +23,7 @@ const HERO_SEED = {
 };
 
 const HERO_TILE_IDS = [
-  "isaiah-55-1-3",
+  "isaiah-55-3",
   "john-20-30-31",
   "ephesians-1-13-14",
 ];

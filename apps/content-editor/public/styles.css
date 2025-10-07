@@ -230,10 +230,10 @@ form select:focus {
   margin-top: 1rem;
 }
 
-.scripture-layout {
+.scripture-editor-layout {
   display: grid;
   gap: 1.2rem;
-  grid-template-columns: 400px minmax(0, 1fr);
+  grid-template-columns: 1fr 2fr;
 }
 
 .scripture-editor {
@@ -248,7 +248,6 @@ form select:focus {
   gap: 0.5rem;
   max-height: 600px;
   overflow: auto;
-  width: 400px;
 }
 
 .scripture-list button {
@@ -318,7 +317,7 @@ form select:focus {
 }
 
 @media (max-width: 900px) {
-  .scripture-layout {
+  .scripture-editor-layout {
     grid-template-columns: 1fr;
   }
 

@@ -2,6 +2,14 @@ const processed = {
   "1-corinthians-2-14": true,
   "romans-8-29-30": true,
   "2-thessalonians-2-13-14": true,
+  "deuteronomy-30-14": true,
+  "isaiah-45-22": true,
+  "isaiah-55-3": true,
+  "jeremiah-7-23-24": true,
+  "matthew-11-15": true,
+  "john-1-12-13": true,
+  "john-3-16": true,
+  "john-5-24-25": true,
 };
 
 const scripturesData = [
@@ -31,11 +39,11 @@ const scripturesData = [
       },
       {
         "title": "The 'Natural' Person: Immature, Not Unsaved",
-        "body": "<p>The key phrase \"natural man\" comes from the Greek <span class=\"greek-word\">psychikos anthrōpos</span>. The word <span class=\"greek-word\">psychikos</span> derives from <span class=\"greek-word\">psychē</span>, which refers to the soul—the seat of natural human life, will, and affections. It stands in contrast to <span class=\"greek-word\">pneumatikos</span> (spiritual), which relates to the <span class=\"greek-word\">pneuma</span> (spirit).</p><p>A <span class=\"greek-word\">psychikos</span> person is one governed by their natural, soul-ish faculties, even if they are a believer. The issue is not the <em>absence</em> of the Holy Spirit, but the <em>failure to walk by</em> the Spirit. Believers possess a spiritual faculty, but they can choose to neglect it and operate out of their old, fleshly nature. This is a matter of immaturity, not inability.</p>"
+        "body": "<p>The key phrase \"natural man\" comes from the Greek <span class=\"greek-word\">psychikos anthrōpos</span>. The word <span class=\"greek-word\">psychikos</span> derives from <span class=\"greek-word\">psychē</span>, which refers to the soul - the seat of natural human life, will, and affections. It stands in contrast to <span class=\"greek-word\">pneumatikos</span> (spiritual), which relates to the <span class=\"greek-word\">pneuma</span> (spirit).</p><p>A <span class=\"greek-word\">psychikos</span> person is one governed by their natural, soul-ish faculties, even if they are a believer. The issue is not the <em>absence</em> of the Holy Spirit, but the <em>failure to walk by</em> the Spirit. Believers possess a spiritual faculty, but they can choose to neglect it and operate out of their old, fleshly nature. This is a matter of immaturity, not inability.</p>"
       },
       {
         "title": "A Choice to Mature",
-        "body": "<p>When Paul says the natural man does not <strong>\"receive\"</strong> (<span class=\"greek-word\">dechetai</span>) the things of the Spirit, the word means he doesn't \"welcome\" or \"accept\" them. Because of their immaturity, the Corinthians are failing to welcome the deeper teachings—the \"solid food\"—of the faith. Their inability to <strong>\"know\"</strong> these truths is practical, not absolute. A toddler \"can't\" understand calculus, not because they lack a human brain, but because they are undeveloped.</p><p>Paul's final statement, that these things are <strong>\"spiritually discerned\"</strong> (<span class=\"greek-word\">pneumatikōs anakrinetai</span>), is the reason why. It simply states the required faculty for understanding. Since believers have the Spirit, this verse functions as a powerful exhortation: they must choose to stop living \"naturally\" and start using the spiritual capacity they received at conversion to grow into maturity.</p>"
+        "body": "<p>When Paul says the natural man does not <strong>\"receive\"</strong> (<span class=\"greek-word\">dechetai</span>) the things of the Spirit, the word means he doesn't \"welcome\" or \"accept\" them. Because of their immaturity, the Corinthians are failing to welcome the deeper teachings - the \"solid food\" - of the faith. Their inability to <strong>\"know\"</strong> these truths is practical, not absolute. A toddler \"can't\" understand calculus, not because they lack a human brain, but because they are undeveloped.</p><p>Paul's final statement, that these things are <strong>\"spiritually discerned\"</strong> (<span class=\"greek-word\">pneumatikōs anakrinetai</span>), is the reason why. It simply states the required faculty for understanding. Since believers have the Spirit, this verse functions as a powerful exhortation: they must choose to stop living \"naturally\" and start using the spiritual capacity they received at conversion to grow into maturity.</p>"
       }
     ],
   },
@@ -114,8 +122,8 @@ const scripturesData = [
     category: "Invitation & Hearing",
     context: [
       {
-       heading: "2 Timothy 3:14-17",
-       text: "But you remain in the things which you have learned and have been assured of, knowing from whom you have learned them. <span class=\"focus-text\">From infancy, you have known the holy Scriptures which are able to make you wise for salvation through faith which is in Christ Jesus. Every Scripture is God-breathed and profitable for teaching, for reproof, for correction, and for instruction in righteousness,</span> that each person who belongs to God may be complete, thoroughly equipped for every good work."
+        heading: "2 Timothy 3:14-17",
+        text: "But you remain in the things which you have learned and have been assured of, knowing from whom you have learned them. <span class=\"focus-text\">From infancy, you have known the holy Scriptures which are able to make you wise for salvation through faith which is in Christ Jesus. Every Scripture is God-breathed and profitable for teaching, for reproof, for correction, and for instruction in righteousness,</span> that each person who belongs to God may be complete, thoroughly equipped for every good work."
       },
     ],
     analysis: [
@@ -129,12 +137,12 @@ const scripturesData = [
       },
     ],
     alignment: "affirming",
-    selectorCategory: "Invitation & Hearing", 
+    selectorCategory: "Invitation & Hearing",
 
   },
   {
-    id: "2-corinthians-5-18-21",
-    reference: "2 Corinthians 5:18-21",
+    id: "2-corinthians-5-20-21",
+    reference: "2 Corinthians 5:20-21",
     title: "Ambassadors Plead: Be Reconciled to God",
     translation: "World English Bible",
     summary:
@@ -145,56 +153,48 @@ const scripturesData = [
     context: [
       {
         heading: "2 Corinthians 5:18-21",
-        text: "All things are of God, who reconciled us to himself through Jesus Christ and gave to us the ministry of reconciliation; namely that God was in Christ reconciling the world to himself, not counting their trespasses to them, and committing to us the word of reconciliation. <span class=\"focus-text\">We are therefore ambassadors on behalf of Christ, as though God were entreating by us. We beg you on behalf of Christ: be reconciled to God.</span> He made him who knew no sin to be sin on our behalf, so that in him we might become the righteousness of God.",
-      },
-      {
-        heading: "2 Corinthians 5:14-6:3",
-        text: "The love of Christ compels us because we judge that one died for all, and therefore all died. If anyone is in Christ, he is a new creation; the old things have passed away and everything has become new. God reconciled us and entrusted the message to us, so we plead as ambassadors. Working together with him, we urge you not to receive his grace in vain, for he says, \"At an acceptable time I listened to you, and in a day of salvation I helped you.\" Behold, now is the acceptable time; behold, now is the day of salvation, and we give no occasion of stumbling in anything so that the ministry may not be blamed.",
+        text: "Therefore if anyone is in Christ, he is a new creation. The old things have passed away. Behold, they have become new. But all things are of God, who reconciled us to himself through Jesus Christ, and gave to us the ministry of reconciliation; namely, that God was in Christ reconciling the world to himself, not reckoning to them their trespasses, and having committed to us the word of reconciliation. We are therefore ambassadors on behalf of Christ, as though God were entreating by us. <span class=\"focus-text\">We beg you on behalf of Christ, be reconciled to God. For him who knew no sin he made to be sin on our behalf; so that in him we might become the righteousness of God.</span>",
       },
     ],
     analysis: [
       {
-        title: "God Appeals Through People",
-        body: "Reconciliation is offered through human ambassadors who plead. The language of begging shows that God honors genuine persuasion, not automatic regeneration.",
+        "title": "The Universal Provision of Reconciliation",
+        "body": "<p>Building on his earlier statement that Christ died \"for all\" (v. 15), Paul describes the objective reality accomplished on the cross. In verse 19, he states that God was in Christ <strong>\"reconciling the world to himself.\"</strong> This is a breathtakingly universal statement. At the cross, God took the initiative and removed the barrier of sin (\"not reckoning their trespasses against them\"), making peace possible for all humanity. This is the finished work of Christ - a universal provision purchased by the one who \"knew no sin\" being made sin for us (v. 21).</p>"
       },
       {
-        title: "Anyone May Be a New Creation",
-        body: "The promise extends to anyone in Christ, inviting all hearers to respond to the message.",
-      },
+        "title": "The Personal Plea to Be Reconciled",
+        "body": "<p>While the provision of reconciliation is universal, its personal application requires a response. This is why Paul has been given the \"ministry of reconciliation.\" As an ambassador for Christ, his job is to deliver God's message, which he summarizes in verse 20 as a direct command and a heartfelt plea: <strong>\"Be reconciled to God.\"</strong> This command would be meaningless if reconciliation were an automatic or irresistible act of God. It is a genuine appeal to the human will, calling on every person to <em>personally accept</em> the peace treaty that God has already offered to the entire world. The choice to be reconciled rests with each individual who hears the plea.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Response & Mission",
   },
   {
-    id: "acts-10-43-48",
-    reference: "Acts 10:43-48",
+    id: "acts-10-42-43",
+    reference: "Acts 10:42-43",
     title: "Gentiles Receive the Spirit While Hearing",
     translation: "World English Bible",
     summary:
       "As Peter proclaims forgiveness through Jesus, the Spirit falls on those hearing the message.",
     keyVerse:
-      "While Peter was still speaking these words, the Holy Spirit fell on all those who heard the word.",
+      "All the prophets testify about him, that through his name everyone who believes in him will receive remission of sins.",
     themes: ["Spirit", "Inclusion", "Hearing"],
     category: "Spirit & New Life",
     context: [
       {
-        heading: "Acts 10:43-46",
-        text: "All the prophets testify about Jesus, that through his name everyone who believes in him will receive remission of sins. <span class=\"focus-text\">While Peter was still speaking these words, the Holy Spirit fell on all those who heard the word.</span> The believers of the circumcision who came with Peter were amazed, because the gift of the Holy Spirit was also poured out on the Gentiles, for they heard them speak in other languages and magnify God.",
-      },
-      {
-        heading: "Acts 10:34-48",
-        text: "Peter opened his mouth and said, \"Truly I perceive that God doesn't show favoritism, but in every nation he who fears him and works righteousness is acceptable to him.\" He proclaimed peace through Jesus Christ, who is Lord of all, and told how God anointed Jesus of Nazareth with the Holy Spirit and with power. While the message was still going forth the Spirit fell, and Peter asked, \"Can anyone forbid the water, that these should not be baptized, who have received the Holy Spirit as well as we?\" He commanded them to be baptized in the name of Jesus Christ and they asked him to stay some days.",
+        heading: "Acts 10:40-48",
+        text: "\"God raised him up the third day, and gave him to be revealed, not to all the people, but to witnesses who were chosen before by God, to us, who ate and drank with him after he rose from the dead. <span class=\"focus-text\">He charged us to preach to the people and to testify that this is he who is appointed by God as the Judge of the living and the dead. All the prophets testify about him, that through his name everyone who believes in him will receive remission of sins.\"</span> While Peter was still speaking these words, the Holy Spirit fell on all those who heard the word. They of the circumcision who believed were amazed, as many as came with Peter, because the gift of the Holy Spirit was also poured out on the Gentiles. For they heard them speak with other languages and magnify God. Then Peter answered, \"Can any man forbid the water, that these who have received the Holy Spirit as well as we should not be baptized?\" He commanded them to be baptized in the name of Jesus Christ. Then they asked him to stay some days.",
       },
     ],
     analysis: [
       {
-        title: "Spirit Honors Hearing Faith",
-        body: "The Spirit falls precisely as the word is spoken and heard. Calvinist readers emphasize God's prior work in opening hearts, yet Luke's timing still ties the Spirit's outpouring to the proclaimed word.",
+        "title": "The Universal Judge and His Message",
+        "body": "<p>This sermon is a landmark moment in the book of Acts, as Peter preaches the gospel to a Gentile household for the first time. He concludes his message by establishing Jesus's divine authority as the one <strong>\"appointed by God to be the Judge of the living and the dead\"</strong> (v. 42). This universal authority sets the stage for a universal offer. Peter is presenting the case for Christ, and his message functions as a testimony that requires a verdict from his hearers.</p>"
       },
       {
-        title: "Belief is the Stated Condition",
-        body: "Peter explicitly says everyone who believes receives forgiveness. The Spirit's arrival ratifies that Gentiles believed while hearing, not prior to it.",
-      },
+        "title": "The Universal Condition for Forgiveness",
+        "body": "<p>Verse 43 contains the core of the gospel promise, which Peter grounds in the consistent witness of \"all the prophets.\" The terms are stunningly simple and universal: <strong>\"everyone who believes in him will receive remission of sins.\"</strong></p><ul><li><strong>\"Everyone\"</strong>: In this context, this word is revolutionary. It explicitly extends the promise of salvation beyond Israel to all people, Gentile and Jew alike, without distinction.</li><li><strong>\"who believes in him\"</strong>: Peter names a single, simple condition for receiving this forgiveness - an active, personal faith in Jesus.</li><li><strong>\"will receive remission of sins\"</strong>: This is the divine gift that is promised as a direct result of believing.</li></ul><p>The immediate aftermath, where the Holy Spirit falls upon them as they hear and believe the word (v. 44), perfectly illustrates the biblical sequence: a universal offer is heard, a personal choice to believe is made, and the divine gift of forgiveness and the Spirit is received.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Spirit & New Life",
@@ -206,28 +206,28 @@ const scripturesData = [
     translation: "World English Bible",
     summary:
       "Paul and Barnabas confront rejection and celebrate Gentiles who believe unto eternal life.",
-    keyVerse: "As many as were disposed to eternal life believed.",
+    keyVerse: "Since indeed you thrust it from you, and judge yourselves unworthy of eternal life, behold, we turn to the Gentiles.",
     themes: ["Mission", "Responsibility", "Gentiles"],
     category: "Response & Mission",
     context: [
       {
         heading: "Acts 13:46-48",
-        text: "Paul and Barnabas spoke out boldly and said, \"It was necessary that God's word should be spoken to you first. Since you thrust it away and judge yourselves unworthy of eternal life, behold, we turn to the Gentiles.\" <span class=\"focus-text\">As many as were disposed to eternal life believed.</span> The Gentiles rejoiced and glorified the word of the Lord, and the Lord's word was spread through the whole region.",
-      },
-      {
-        heading: "Acts 13:42-52",
-        text: "When they went out of the synagogue, the people begged that these words might be spoken to them the next Sabbath. Nearly the whole city was gathered to hear the word of God, but when the Jews saw the crowds they were filled with jealousy and contradicted the things spoken by Paul. The apostles said they were turning to the Gentiles as the Lord commanded, saying, \"I have set you as a light for the nations.\" The Gentiles rejoiced, those disposed to eternal life believed, and the disciples were filled with joy and with the Holy Spirit even as persecution was stirred up.",
+        text: "The next Sabbath almost the whole city was gathered together to hear the word of God. But when the Jews saw the multitudes, they were filled with jealousy, and contradicted the things which were spoken by Paul, and blasphemed. <span class=\"focus-text\">Paul and Barnabas spoke out boldly, and said, \"It was necessary that God's word should be spoken to you first. Since indeed you thrust it from you, and judge yourselves unworthy of eternal life, behold, we turn to the Gentiles. For so has the Lord commanded us, saying, 'I have set you as a light of the Gentiles, That you should be for salvation to the uttermost parts of the earth.'\"</span> As the Gentiles heard this, they were glad, and glorified the word of God. As many as were appointed to eternal life believed. The Lord's word was spread abroad throughout all the region.",
       },
     ],
     analysis: [
       {
-        title: "Why Context Is Important",
-        body: "Luke situates the participle \"tetagmenoi\" inside a scene where the synagogue thrusts away the word (v46) while Gentiles rejoice. Many Reformed interpreters read the passive as a decree made before the sermon, yet the narrative contrast highlights how hearers align themselves with Isaiah 49:6 as the mission turns outward.",
+        "title": "A Tale of Two Verdicts",
+        "body": "<p>The scene begins with a sharp contrast between the messengers of the gospel and its rejectors. Paul and Barnabas point out the Jewish leaders' response: they actively <strong>\"thrust it from\"</strong> themselves. The next phrase is crucial. Paul does not say, \"God judged you unworthy,\" but rather, <strong>\"you judge yourselves unworthy of eternal life.\"</strong> Their eternal destiny is presented not as a divine decree of reprobation, but as a verdict they pass on themselves through their own willful rejection of God's Word. This is a profound statement of personal responsibility.</p>"
       },
       {
-        title: "Open Invitation Engagement",
-        body: "Paul and Barnabas publicly call out the refusal, implying that the \"appointment\" happens as people respond to the message they hear. The verb can describe being set in order or disposed (compare Acts 15:2), so the story invites us to see the preached promise orienting receptive Gentiles without erasing genuine choice.",
+        "title": "The Meaning of 'Appointed'",
+        "body": "<p>The key to understanding this passage is the phrase, \"As many as were <strong>appointed</strong> to eternal life believed.\" The Greek word for \"appointed\" (<span class=\"greek-word\">tetagmenoi</span>) has a broader range of meaning than is often assumed. While it can mean \"appointed,\" it also carries the well-attested meaning of \"to arrange,\" \"to order,\" or \"to dispose oneself.\" Read in the middle voice, the phrase can be understood as: \"As many as had <strong>disposed themselves for</strong> eternal life believed.\" This reading points not to a pre-temporal divine decree, but to the present, receptive posture of the hearers' hearts. It describes those who were rightly ordered and inclined to receive the truth that was being preached.</p>"
       },
+      {
+        "title": "Two Dispositions, Two Destinies",
+        "body": "<p>The passage presents a perfect and deliberate contrast. On one hand, the jealous leaders were ill-disposed, actively rejecting the Word and thus \"judging themselves unworthy.\" On the other hand, the glad Gentiles were well-disposed, joyfully receiving the Word, having \"disposed themselves for\" eternal life. In both cases, belief or unbelief is the result of the posture of the human heart in response to the universally preached gospel. The individual's choice and disposition are presented as central to their eternal destiny.</p>"
+      }
     ],
     alignment: "tension",
     selectorCategory: "Response & Mission",
@@ -246,8 +246,8 @@ const scripturesData = [
     },
   },
   {
-    id: "acts-16-30-34",
-    reference: "Acts 16:30-34",
+    id: "acts-16-31",
+    reference: "Acts 16:31",
     title: "Believe in the Lord Jesus and Be Saved",
     translation: "World English Bible",
     summary:
@@ -258,23 +258,19 @@ const scripturesData = [
     category: "Response & Mission",
     context: [
       {
-        heading: "Acts 16:30-34",
-        text: "The jailer brought them out and said, \"Sirs, what must I do to be saved?\" They said, <span class=\"focus-text\">\"Believe in the Lord Jesus, and you will be saved, you and your household.\"</span> They spoke the Lord's word to him and to all who were in his house. He took them that same hour of the night and washed their stripes; he and all his household were immediately baptized. He brought them up into his house, set food before them, and rejoiced greatly with his entire household, having believed in God.",
-      },
-      {
-        heading: "Acts 16:25-34",
-        text: "About midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them. Suddenly there was a great earthquake, the prison doors were opened, and everyone's bonds were loosed. The jailer, about to kill himself, was stopped when Paul cried, \"Don't harm yourself, for we are all here.\" Trembling, he fell down before them and asked how to be saved. After hearing the word, he cared for their wounds, was baptized with his household, and rejoiced that he had believed in God.",
+        heading: "Acts 16:25-33",
+        text: "But about midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them. Suddenly there was a great earthquake, so that the foundations of the prison were shaken; and immediately all the doors were opened, and everyone's bonds were loosened. The jailer, being roused out of sleep and seeing the prison doors open, drew his sword and was about to kill himself, supposing that the prisoners had escaped. But Paul cried with a loud voice, saying, \"Don't harm yourself, for we are all here!\" He called for lights and sprang in, and, fell down trembling before Paul and Silas, and brought them out and said, \"Sirs, what must I do to be saved?\" <span class=\"focus-text\">They said, \"Believe in the Lord Jesus Christ, and you will be saved, you and your house.\"</span> They spoke the word of the Lord to him, and to all who were in his house. He took them the same hour of the night, and washed their stripes, and was immediately baptized, he and all his household.",
       },
     ],
     analysis: [
       {
-        title: "Direct Appeal to Believe",
-        body: "Paul answers the jailer's question with a clear directive: believe. The gospel word is then spoken to the whole household, indicating faith arises from hearing the message explained.",
+        "title": "The Sole Condition: Belief",
+        "body": "<p>This passage begins with one of the most important questions a person can ask: <strong>\"What must I do to be saved?\"</strong> The question itself presumes that there is an action to be taken. Paul's answer is profoundly simple and direct: <strong>\"Believe in the Lord Jesus Christ.\"</strong> He doesn't mention a need for a prior work of regeneration or a complex set of rituals. The entire path to salvation is distilled into this one accessible, personal act of faith. It is a direct appeal to the jailer's will, presenting belief as the sole and sufficient condition for receiving salvation.</p>"
       },
       {
-        title: "Joy Follows Belief",
-        body: "The household rejoices after believing. Salvation and joy are linked to their response of faith, not a secret work prior to their hearing of the word.",
-      },
+        "title": "A Model for Salvation",
+        "body": "<p>The entire narrative provides a powerful model for the biblical sequence of salvation. First, a person is confronted with their need. Second, they are given a clear command to <strong>believe</strong>. Third, they are given the promise that <strong>salvation</strong> is the immediate result of that belief. The offer is then extended to the jailer's entire household, with the same condition applying to all. The story confirms this when, after hearing the Word, the jailer and his family are baptized and he rejoices because he has <strong>\"believed in God with his whole household\"</strong> (v. 34). This event perfectly illustrates that a personal choice to believe is the open door to the gift of salvation for all who will accept it.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Response & Mission",
@@ -293,30 +289,34 @@ const scripturesData = [
     context: [
       {
         heading: "Acts 2:37-39",
-        text: "When they heard this, they were pierced in their hearts and said to Peter and the rest of the apostles, \"Brothers, what shall we do?\" <span class=\"focus-text\">Peter said to them, \"Repent, and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of sins, and you will receive the gift of the Holy Spirit.\"</span> For the promise is to you, to your children, and to all who are far off, even as many as the Lord our God will call.",
+        text: "\"Let all the house of Israel therefore know assuredly that God has made him both Lord and Christ, this Jesus whom you crucified.\" <span class=\"focus-text\">Now when they heard this, they were cut to the heart, and said to Peter and the rest of the apostles, \"Brothers, what will we do?\" Peter said to them, \"Repent, and be baptized, everyone of you, in the name of Jesus Christ for the forgiveness of sins, and you will receive the gift of the Holy Spirit.</span> For to you is the promise, and to your children, and to all who are far off, even as many as the Lord our God will call to himself.\" With many other words he testified, and exhorted them, saying, \"Save yourselves from this crooked generation!\" Then those who gladly received his word were baptized. There were added that day about three thousand souls.",
       },
       {
-        heading: "Acts 2:29-41",
-        text: "Peter testified that God raised Jesus up and exalted him to his right hand, pouring out the promised Holy Spirit. He declared that God has made him both Lord and Christ, and called the crowd to repent and be baptized. With many other words he testified and exhorted them, saying, \"Save yourselves from this crooked generation.\" Those who gladly received his word were baptized, and about three thousand souls were added that day.",
-      },
+        heading: "John 16:8",
+        text: "When he has come, he will convict the world in respect to sin, and righteousness, and judgment;",
+      }
     ],
     analysis: [
       {
-        title: "Hearing Precedes Conviction",
-        body: "The crowd is cut to the heart when they hear the sermon. The Spirit wields Peter's proclamation to awaken repentance--not a hidden regeneration before the message.",
+        "title": "The Convicted Heart's Question",
+        "body": "<p>The sequence of salvation begins with the crowd \"hearing\" Peter's sermon, which presented the evidence for Jesus's resurrection. This hearing leads to a powerful conviction, as they were \"cut to the heart.\" This is the work of the Spirit (as described in John 16:8), bringing clarity and conviction about the truth. Crucially, this conviction does not bypass their will. Instead, it prompts them to ask the active and urgent question: <strong>\"Brothers, what shall we do?\"</strong> They instinctively understand that a personal response is required from them.</p>"
       },
       {
-        title: "Conditional Promise",
-        body: "The call is to repent and be baptized in order to receive forgiveness and the Holy Spirit. The promise is attached to response, affirming that God honors genuine repentance born of hearing.",
+        "title": "Repent and Be Baptized",
+        "body": "<p>Peter's answer is not a theological statement about their inability, but a direct set of commands that call for human action. The first step is to <strong>\"Repent\"</strong>, a command to change one's mind, will, and direction. The second is to <strong>\"be baptized,\"</strong> an outward act of obedience and public alignment with Jesus. These are presented as the clear and straightforward conditions for salvation. They are acts of the will, a response of faith and obedience to the gospel the people have just heard and been convicted by.</p>"
       },
+      {
+        "title": "Forgiveness and the Gift",
+        "body": "<p>Peter presents the forgiveness of sins and the reception of the Holy Spirit as the <strong>divine result</strong> that follows their obedience. The grammar is a clear promise: Repent and be baptized... <strong>\"and you will receive the gift of the Holy Spirit.\"</strong> The divine gift of the indwelling Spirit - the very essence of regeneration - is explicitly conditioned on their prior act of repentance. This narrative provides a clear model of the biblical <em>ordo salutis</em>: conviction leads to a choice of faith and repentance, which in turn opens the door to forgiveness and the regenerative gift of the Spirit.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Response & Mission",
   },
   {
-    id: "deuteronomy-30-11-20",
-    reference: "Deuteronomy 30:11-20",
-    title: "The Word Is Near You--Choose Life",
+    id: "deuteronomy-30-14",
+    reference: "Deuteronomy 30:14",
+    title: "The Word Is Near You",
     translation: "World English Bible",
     summary:
       "Moses assures Israel that the command is near, urging them to choose life by loving and obeying God.",
@@ -326,23 +326,23 @@ const scripturesData = [
     category: "Invitation & Hearing",
     context: [
       {
-        heading: "Deuteronomy 30:14-19",
-        text: "<span class=\"focus-text\">The word is very near to you, in your mouth and in your heart, so that you may do it.</span> See, I have set before you today life and good, death and evil. I call heaven and earth to witness against you today, that I have set before you life and death, the blessing and the curse; therefore choose life, that you may live, you and your descendants.",
-      },
-      {
-        heading: "Deuteronomy 30:8-20",
-        text: "You shall return and obey Yahweh's voice, but the commandment isn't too hard for you nor far away. The word is near you so that you can do it. I have set before you life and death, blessing and curse; choose life so that you and your offspring may live, loving Yahweh your God, obeying his voice, and clinging to him, for he is your life and the length of your days.",
+        heading: "Deuteronomy 30:1-20",
+        text: "It shall happen, when all these things are come on you, the blessing and the curse, which I have set before you, and you shall call them to mind among all the nations, where Yahweh your God has driven you, and shall return to Yahweh your God, and shall obey his voice according to all that I command you this day, you and your children, with all your heart, and with all your soul; that then Yahweh your God will turn your captivity, and have compassion on you, and will return and gather you from all the peoples, where Yahweh your God has scattered you. If [any of] your outcasts are in the uttermost parts of the heavens, from there will Yahweh your God gather you, and from there will he bring you back: and Yahweh your God will bring you into the land which your fathers possessed, and you shall possess it; and he will do you good, and multiply you above your fathers. Yahweh your God will circumcise your heart, and the heart of your seed, to love Yahweh your God with all your heart, and with all your soul, that you may live. Yahweh your God will put all these curses on your enemies, and on those who hate you, who persecuted you. You shall return and obey the voice of Yahweh, and do all his commandments which I command you this day. Yahweh your God will make you plenteous in all the work of your hand, in the fruit of your body, and in the fruit of your cattle, and in the fruit of your ground, for good: for Yahweh will again rejoice over you for good, as he rejoiced over your fathers; if you shall obey the voice of Yahweh your God, to keep his commandments and his statutes which are written in this book of the law; if you turn to Yahweh your God with all your heart, and with all your soul. For this commandment which I command you this day, it is not too hard for you, neither is it far off. It is not in heaven, that you should say, Who shall go up for us to heaven, and bring it to us, and make us to hear it, that we may do it? Neither is it beyond the sea, that you should say, Who shall go over the sea for us, and bring it to us, and make us to hear it, that we may do it? <span class=\"focus-text\">But the word is very near to you, in your mouth, and in your heart, that you may do it.</span> Behold, I have set before you this day life and good, and death and evil; in that I command you this day to love Yahweh your God, to walk in his ways, and to keep his commandments and his statutes and his ordinances, that you may live and multiply, and that Yahweh your God may bless you in the land where you go in to possess it. But if your heart turn away, and you will not hear, but shall be drawn away, and worship other gods, and serve them; I denounce to you this day, that you shall surely perish; you shall not prolong your days in the land, where you pass over the Jordan to go in to possess it. I call heaven and earth to witness against you this day, that I have set before you life and death, the blessing and the curse: therefore choose life, that you may live, you and your seed; to love Yahweh your God, to obey his voice, and to cleave to him; for he is your life, and the length of your days; that you may dwell in the land which Yahweh swore to your fathers, to Abraham, to Isaac, and to Jacob, to give them.",
       },
     ],
     analysis: [
       {
-        title: "Accessibility of the Word",
-        body: "Moses dismantles excuses. The word is near, accessible for obedience. Paul later quotes this in Romans 10 to explain the gospel proclamation.",
+        "title": "Context: The Ultimate Choice",
+        "body": "<p>Deuteronomy 30 is framed by one of the most powerful expressions of free will in all of Scripture. After promising restoration based on Israel's repentance (vv. 1-10), Moses sets the terms of the covenant before them as a clear and present choice. He declares in verse 15, \"See, I have set before you today life and good, death and evil.\" The chapter climaxes with the unambiguous command in verse 19: <strong>\"Therefore choose life.\"</strong> This establishes the foundation for the entire passage: the relationship between God and His people is based on genuine human choice and responsibility, not a deterministic decree.</p>"
       },
       {
-        title: "Choose Life",
-        body: "The people are commanded to choose life. Divine desire is for their responsive love, not predetermined rebellion.",
+        "title": "The Accessible Word (Verse 14)",
+        "body": "<p>Against the backdrop of this great choice, Moses makes a radical declaration: the command is <strong>\"not too hard for you, neither is it far off\"</strong> (v. 11). This directly refutes any notion of total inability. The path to life isn't hidden in heaven or across the sea, requiring a superhuman effort. Instead, Moses says in verse 14:</p><blockquote><p>\"But the word is very near you. It is in your <strong>mouth</strong> and in your <strong>heart</strong>, so that you can <strong>do it</strong>.\"</p></blockquote><p>The word is accessible to the whole person: the mouth for confession and the heart - the seat of the will and affections. The conclusion is inescapable: God has given the command in such a way that people have the inherent capacity to obey it. Obedience is presented as a real and achievable possibility for those who will simply choose it.</p>"
       },
+      {
+        "title": "Paul's Echo: The Word of Faith for All",
+        "body": "<p>This understanding is powerfully affirmed by the Apostle Paul, who quotes this very passage in <strong>Romans 10:6-8</strong> to describe the gospel itself. Paul replaces \"the command\" with \"the word of faith that we proclaim.\" For Paul, the righteousness that comes by faith is just as accessible as the command was to Israel.</p><p>The principle is the same: the message of salvation is not a hidden secret or an impossible task. It is near to everyone, in their mouth to confess that Jesus is Lord and in their heart to believe. Paul uses this Old Testament text to show that the gospel is a universal, <strong>open invitation</strong>, affirming the consistent biblical truth that humanity has the God-given ability to respond to His call.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Invitation & Hearing",
@@ -355,28 +355,28 @@ const scripturesData = [
     summary:
       "Believers are sealed with the Spirit after hearing the gospel and believing in Christ.",
     keyVerse:
-      "Having heard the word of truth, the Good News of your salvation--in whom, having also believed, you were sealed with the promised Holy Spirit.",
+      "Having heard the word of the truth, the gospel of your salvation, -- in whom, having also believed, you were sealed with the Holy Spirit of promise",
     themes: ["Spirit", "Assurance", "Faith"],
     category: "Spirit & New Life",
     context: [
       {
-        heading: "Ephesians 1:13-14",
-        text: "<span class=\"focus-text\">In Christ you also, having heard the word of truth, the Good News of your salvation, and having also believed, were sealed with the promised Holy Spirit.</span> He is the down payment of our inheritance, to the redemption of God's own possession, to the praise of his glory.",
-      },
-      {
-        heading: "Ephesians 1:9-23",
-        text: "He made known to us the mystery of his will, according to his good pleasure which he purposed in Christ, to sum up all things in him. In Christ we were assigned an inheritance, being predestined according to the purpose of him who works all things after the counsel of his will. Paul gives thanks because the Ephesians heard the word of truth, believed, and were sealed with the Spirit. He prays that the Father of glory would give them a spirit of wisdom and revelation, that the eyes of their hearts may be enlightened to know the hope of his calling, the riches of his inheritance, and the greatness of his power revealed in raising Christ and seating him above every authority for the church.",
+        heading: "Ephesians 1:3-14",
+        text: "Blessed be the God and Father of our Lord, Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ; even as he chose us in him before the foundation of the world, that we would be holy and without blemish before him in love; having predestined us for adoption as sons through Jesus Christ to himself, according to the good pleasure of his desire, to the praise of the glory of his grace, by which he freely bestowed favor on us in the Beloved, in whom we have our redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace, which he made to abound toward us in all wisdom and prudence, making known to us the mystery of his will, according to his good pleasure which he purposed in him to an administration of the fullness of the times, to sum up all things in Christ, the things in the heavens, and the things on the earth, in him; in whom also we were made a heritage, having been foreordained according to the purpose of him who works all things after the counsel of his will; to the end that we should be to the praise of his glory, we who had before hoped <span class=\"focus-text\">in Christ: in whom you also, having heard the word of the truth, the gospel of your salvation, -- in whom, having also believed, you were sealed with the Holy Spirit of promise, who is a pledge of our inheritance, to the redemption of God's own possession, to the praise of his glory.</span>",
       },
     ],
     analysis: [
       {
-        title: "Clear Sequence of Salvation",
-        body: "Paul lists hearing, believing, then sealing. The Spirit seals after faith, not before. The Ordo Salutis here contradicts a regeneration-before-faith model.",
+        "title": "Predestined 'In Him': A Corporate Choice",
+        "body": "<p>Paul's language of being \"chosen\" and \"predestined\" in this chapter is consistently qualified by the crucial phrase <strong>\"in him\"</strong> or \"through Jesus Christ\" (vv. 4, 5, 11). God's eternal choice was not to pre-select certain individuals for salvation while bypassing others. Rather, He chose Christ as the head of a redeemed humanity and predestined the glorious destiny - adoption and an inheritance - for the entire corporate \"body\" that would be united to Him. Individuals are not predestined to believe; rather, they choose to believe and are thus joined to the people who were always predestined for glory \"in Christ.\"</p>"
       },
       {
-        title: "The Gospel is the Instrument",
-        body: 'The "word of truth" is the means God uses. No secret knowledge is required--just the proclaimed gospel embraced by faith.',
+        "title": "The Path to Inclusion",
+        "body": "<p>After describing the blessings of those who are \"in Christ,\" Paul explicitly lays out the sequential steps by which the Ephesian Gentiles joined this chosen body. The order is precise and unambiguous: First, they <strong>\"heard the word of truth.\"</strong> Second, in response to that word, they <strong>\"believed.\"</strong> It was only <em>after</em> these two steps that, as a consequence, they were <strong>\"sealed with the promised Holy Spirit.\"</strong> This verse provides a definitive biblical order, demonstrating that hearing the gospel and responding with faith are the necessary precursors to receiving the regenerative seal of the Holy Spirit.</p>"
       },
+      {
+        "title": "The Seal as a Guarantee",
+        "body": "<p>The sealing of the Holy Spirit is God's mark of ownership and protection on those who now belong to Him through faith. The Spirit Himself is described as the <strong>\"guarantee\"</strong> (<span class=\"greek-word\">arrabōn</span>), a term from commerce for a deposit or down payment that guarantees the full payment will be made. This divine guarantee is not given to <em>cause</em> faith, but is given as a consequence <em>of</em> faith. It secures the glorious future inheritance for all who have willingly entered God's predestined family by believing the gospel message.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Spirit & New Life",
@@ -396,33 +396,24 @@ const scripturesData = [
     category: "Spirit & New Life",
     context: [
       {
-        heading: "Ephesians 2:1-7",
-        text: 'You were made alive when you were dead in transgressions and sins... we all once lived in the lusts of our flesh... <span class="focus-text">But God, being rich in mercy, for his great love with which he loved us... even when we were dead through our trespasses, made us alive together with Christ.</span>',
+        heading: "Ephesians 2:1-9",
+        text: "<span class=\"focus-text\">You were made alive when you were dead through trespasses and sins, in which you once walked according to the course of this world, according to the prince of the powers of the air, of the spirit who now works in the sons of disobedience;</span> among whom we also all once lived in the lust of our flesh, doing the desires of the flesh and of the mind, and were by nature children of wrath, even as the rest. <span class=\"focus-text\">But God, being rich in mercy, for his great love with which he loved us, even when we were dead through our trespasses, made us alive together with Christ (by grace have you been saved),</span> and raised us up with him, and made us to sit with him in the heavenly places in Christ Jesus, that in the ages to come he might show the exceeding riches of his grace in kindness toward us in Christ Jesus; for by grace you have been saved through faith, and that not of yourselves; it is the gift of God, not of works, that no one would boast.",
       },
     ],
     analysis: [
       {
-        title: "Why Context Is Important",
-        body: "Paul paints a before-and-after portrait of people who once walked in trespasses but have now been raised with Christ. Many Reformed readers equate \"dead\" with total inability, concluding that God must regenerate individuals prior to any faith response, yet the paragraph leads straight into 2:8-10 where grace and faith operate together.",
+        "title": "Diagnosing the 'Death': Separation and Condemnation",
+        "body": "<p>When Paul says we were <strong>\"dead in your trespasses and sins,\"</strong> he is using a powerful metaphor to describe our state apart from Christ. This is not the death of a corpse, which is inert and incapable of action. After all, Paul describes these \"dead\" people as actively \"walking\" according to the world and \"doing the desires of the flesh\" (vv. 2-3). Rather, this \"death\" is a state of <strong>relational separation</strong> from God, who is the source of all life, and a state of <strong>legal condemnation</strong> as \"children of wrath\" (v. 3). It describes our hopeless position and ultimate destination, not an inability to hear and respond to a pardon.</p>"
       },
       {
-        title: "Open Invitation Engagement",
-        body: "Ephesians frames new life around hearing and believing the gospel (1:13) and being incorporated into Christ's body. Paul recalls the community's former walk to magnify mercy, not to deny the summons to trust; the Spirit makes us alive as we look to Christ, and that same grace keeps forming our obedience (2:10; 4:1).",
+        "title": "The Great Intervention: 'But God...'",
+        "body": "<p>The passage makes a dramatic turn at verse 4 with two of the most hopeful words in the Bible: <strong>\"But God...\"</strong> The initiative for salvation is entirely His, motivated not by any merit in us, but by His own rich mercy and great love. His gracious action is to <strong>\"make us alive together with Christ\"</strong> (v. 5). This is a picture of co-resurrection. God's plan to save us from our state of separation and condemnation is to unite us with the resurrected life of His Son. This is the divine provision for our hopeless condition, an act of pure grace.</p>"
       },
+      {
+        "title": "The Channel of Life: 'Through Faith'",
+        "body": "<p>While verse 5 describes God's magnificent, life-giving act, Paul is careful to explain the means by which we receive it. The entire thought, which runs from verse 1 to 10, finds its clear explanation in verse 8: <strong>\"For by grace you have been saved <em>through faith</em>.\"</strong> Faith is the channel through which God's life-giving grace is personally received. The act of being \"made alive together with Christ\" is not something that happens to us before we can believe. Rather, faith is the very instrument that unites us to Christ and His resurrection. It is <em>in believing</em> that we pass from our state of death into the new life that is found only \"together with Christ.\"</p>"
+      }
     ],
-    tensionResolution: {
-      question:
-        "What about this interpretation that being 'dead in sin' means we cannot respond until regenerated?",
-      steelman:
-        "If humanity is spiritually dead, the argument goes, God must make people alive before they can believe, so regeneration has to precede faith.",
-      response:
-        "Paul uses death imagery to magnify mercy, then immediately explains that salvation comes 'by grace through faith' (2:8). He already told the Ephesians they were sealed after hearing and believing (1:13), so the making alive coincides with faith stirred by the gospel.",
-      supports: [
-        "Ephesians 1:13 sets the timeline: hearing and believing precede sealing with the Spirit.",
-        "Verses 8-9 define the salvation of 2:5 as accessed through faith, not apart from it.",
-        "Paul's death metaphors highlight helplessness, yet they still invite responsive trust when grace appears.",
-      ],
-    },
   },
   {
     id: "ephesians-5-14",
@@ -455,38 +446,46 @@ const scripturesData = [
     selectorCategory: "Spirit & New Life",
   },
   {
-    id: "ezekiel-18-30-32",
-    reference: "Ezekiel 18:30-32",
+    id: "ezekiel-18-31-32",
+    reference: "Ezekiel 18:31-32",
     title: "Turn and Live",
     translation: "World English Bible",
     summary:
       "God commands Israel to repent, affirming He has no pleasure in anyone's death.",
     keyVerse:
-      "Repent, and turn yourselves from all your transgressions... For I have no pleasure in the death of him who dies.",
+      "Cast away from you all your transgressions, in which you have transgressed; and make you a new heart and a new spirit: for why will you die, house of Israel? For I have no pleasure in the death of him who dies, says the Lord Yahweh: therefore turn yourselves, and live.",
     themes: ["Repentance", "Life", "Responsibility"],
     category: "Accountability & Perseverance",
     context: [
       {
-        heading: "Ezekiel 18:30-32",
-        text: '"Repent, and turn yourselves from all your transgressions, so iniquity will not be your ruin. <span class="focus-text">Cast away from you all your transgressions that you have committed, and make yourselves a new heart and a new spirit. For why will you die, house of Israel? For I have no pleasure in the death of him who dies," says the Lord Yahweh. "Therefore turn yourselves, and live!"</span>',
+        heading: "Ezekiel 18:20-32",
+        text: "The soul who sins, he shall die: the son shall not bear the iniquity of the father, neither shall the father bear the iniquity of the son; the righteousness of the righteous shall be on him, and the wickedness of the wicked shall be on him. But if the wicked turn from all his sins that he has committed, and keep all my statutes, and do that which is lawful and right, he shall surely live, he shall not die. None of his transgressions that he has committed shall be remembered against him: in his righteousness that he has done he shall live. Have I any pleasure in the death of the wicked? says the Lord Yahweh; and not rather that he should return from his way, and live? But when the righteous turns away from his righteousness, and commits iniquity, and does according to all the abominations that the wicked man does, shall he live? None of his righteous deeds that he has done shall be remembered: in his trespass that he has trespassed, and in his sin that he has sinned, in them shall he die. Yet you say, The way of the Lord is not equal. Hear now, house of Israel: Is my way not equal? Aren't your ways unequal? When the righteous man turns away from his righteousness, and commits iniquity, and dies therein; in his iniquity that he has done shall he die. Again, when the wicked man turns away from his wickedness that he has committed, and does that which is lawful and right, he shall save his soul alive. Because he considers, and turns away from all his transgressions that he has committed, he shall surely live, he shall not die. Yet says the house of Israel, The way of the Lord is not equal. house of Israel, are not my ways equal? are not your ways unequal? Therefore I will judge you, house of Israel, everyone according to his ways, says the Lord Yahweh. Return you, and turn yourselves from all your transgressions; so iniquity shall not be your ruin. <span class=\"focus-text\">Cast away from you all your transgressions, in which you have transgressed; and make you a new heart and a new spirit: for why will you die, house of Israel? For I have no pleasure in the death of him who dies, says the Lord Yahweh: therefore turn yourselves, and live.</span>",
       },
     ],
     analysis: [
       {
-        title: "God Invites Real Turning",
-        body: "The imperative to repent assumes the people can respond. God pleads for their life, indicating genuine desire for their repentance.",
+        "title": "The Foundation: Individual Responsibility",
+        "body": "<p>Ezekiel 18 begins by dismantling the popular proverb of generational guilt. The principle laid down in verse 20 is the foundation for the entire chapter: <strong>\"The soul who sins, he shall die... the righteousness of the righteous shall be on him, and the wickedness of the wicked shall be on him.\"</strong> God establishes a clear standard of individual accountability. Every person stands before God and is responsible for their own choices, setting the stage for the intensely personal nature of the call to repent.</p>"
       },
       {
-        title: "Death Is Not God's Preference",
-        body: "The Lord explicitly denies pleasure in death, countering notions that He unilaterally ordains some to remain hardened.",
+        "title": "The Two Paths: A Real Choice",
+        "body": "<p>The chapter presents two parallel scenarios with profound implications. First, if a wicked person <strong>\"turns from all his sins... he shall surely live\"</strong> (v. 21). Conversely, if a righteous person <strong>\"turns away from his righteousness... in his sin that he has sinned, in them shall he die\"</strong> (v. 24). This shows that a person's spiritual state is not permanently fixed. The path to life and the path to death are both presented as genuine possibilities, contingent on a person's ongoing choices. This powerfully affirms a conditional salvation based on continued faith and repentance.</p>"
       },
+      {
+        "title": "The Radical Command (Verse 31)",
+        "body": "<p>The passage builds to a staggering statement of human responsibility in verse 31: <strong>\"Cast away from you all your transgressions... and make you a new heart and a new spirit.\"</strong> The command to \"make a new heart\" - the very core of what is often called regeneration - is placed directly on the people. This frames the reception of a new heart not as a passive event that happens to a person before they can believe, but as the objective of an active choice to \"cast away\" sin and turn to God. The concluding question, <strong>\"for why will you die?\"</strong>, powerfully underscores that their fate is in their own hands.</p>"
+      },
+      {
+        "title": "The Heart of God (Verse 32)",
+        "body": "<p>The chapter concludes with a perfect summary of God's character and His call to humanity. He first reveals His heart: <strong>\"For I have no pleasure in the death of him who dies.\"</strong> This is a clear declaration of God's universal, benevolent desire for all to be saved. Based on this truth, He issues the logical and final command: <strong>\"therefore turn yourselves, and live.\"</strong> The sequence is the essence of the open invitation: because God wants life for you, the path is simple and direct. The human action of turning results in the divine gift of life.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Accountability & Perseverance",
   },
   {
-    id: "galatians-3-2-5",
-    reference: "Galatians 3:2-5",
+    id: "galatians-3-5",
+    reference: "Galatians 3:5",
     title: "The Spirit Received by Hearing with Faith",
     translation: "World English Bible",
     summary:
@@ -497,19 +496,19 @@ const scripturesData = [
     category: "Spirit & New Life",
     context: [
       {
-        heading: "Galatians 3:1-5",
-        text: 'Foolish Galatians, who has bewitched you... This only I desire to learn from you: <span class="focus-text">Did you receive the Spirit by the works of the law, or by hearing of faith?</span> Are you so foolish? Having begun in the Spirit, are you now completed in the flesh?',
+        heading: "Galatians 3:1-9",
+        text: "Foolish Galatians, who has bewitched you not to obey the truth, before whose eyes Jesus Christ was openly set forth among you as crucified? I just want to learn this from you. Did you receive the Spirit by the works of the law, or by hearing of faith? Are you so foolish? Having begun in the Spirit, are you now completed in the flesh? Did you suffer so many things in vain, if it is indeed in vain? <span class=\"focus-text\">He therefore that supplies the Spirit to you, and works miracles among you, does he do it by the works of the law, or by hearing of faith?</span> Even as Abraham \"believed God, and it was counted to him for righteousness.\" Know therefore that those who are of faith, the same are sons of Abraham. The Scripture, foreseeing that God would justify the Gentiles by faith, preached the gospel beforehand to Abraham, saying, \"In you will all the nations be blessed.\" So then, those who are of faith are blessed with the faithful Abraham.",
       },
     ],
     analysis: [
       {
-        title: "Experience Confirms the Order",
-        body: "Paul appeals to their own experience: the Spirit came through hearing with faith. This historical fact undermines any claim that regeneration preceded their believing response.",
+        "title": "An Appeal to Lived Experience",
+        "body": "<p>In this verse, Paul makes his case not with abstract theology, but by appealing directly to the Galatians' own lived experience. He points to two undeniable realities in their community: God's continuous <strong>supply of the Spirit</strong> and His ongoing work of <strong>miracles</strong> among them. Paul's rhetorical question forces them to examine the source of this tangible divine power. He is asking them to look at their own lives and identify the principle by which God operates among them.</p>"
       },
       {
-        title: "Hearing with Faith Versus Works",
-        body: "The contrast is between hearing with faith and law-keeping. The Spirit honors trusting reception of the message, not meritorious effort nor irresistible decrees.",
-      },
+        "title": "The Channel of God's Power",
+        "body": "<p>The question Paul poses has only one possible answer. God's power was not being supplied to them because of their strenuous efforts to keep the law, but through <strong>\"the hearing of faith\"</strong>. The process begins with <strong>hearing</strong> the proclaimed gospel message, which then prompts a personal response of <strong>faith</strong>. Paul powerfully affirms that the flow of God's Spirit is conditional upon a person's receptive belief. God's empowering work is His response to their faith, establishing a clear model where hearing and believing are the necessary precursors to experiencing the blessings of the Spirit.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Spirit & New Life",
@@ -574,31 +573,35 @@ const scripturesData = [
     selectorCategory: "Invitation & Hearing",
   },
   {
-    id: "isaiah-55-1-3",
-    reference: "Isaiah 55:1-3",
-    title: "Come, Everyone Who Thirsts",
+    id: "isaiah-55-3",
+    reference: "Isaiah 55:3",
+    title: "Hear and Receive Everlasting Life",
     translation: "World English Bible",
     summary:
       "God pleads with the thirsty to come, listen diligently, and live.",
     keyVerse:
-      "Incline your ear, and come to me. Hear, and your soul will live.",
+      "Turn your ear, and come to me; hear, and your soul shall live: and I will make an everlasting covenant with you, even the sure mercies of David.",
     themes: ["Invitation", "Grace", "Hearing"],
     category: "Invitation & Hearing",
     context: [
       {
-        heading: "Isaiah 55:1-3",
-        text: '"Come, everyone who thirsts, to the waters! Come, you who have no money, buy, and eat... <span class="focus-text">Incline your ear, and come to me. Hear, and your soul will live.</span> I will make an everlasting covenant with you, even the sure mercies of David."',
+        heading: "Isaiah 55:1-7",
+        text: "Ho, everyone who thirsts, come you to the waters, and he who has no money; come you, buy, and eat; yes, come, buy wine and milk without money and without price. Why do you spend money for that which is not bread? and your labor for that which doesn't satisfy? listen diligently to me, and eat you that which is good, and let your soul delight itself in fatness. <span class=\"focus-text\">Turn your ear, and come to me; hear, and your soul shall live: and I will make an everlasting covenant with you, even the sure mercies of David.</span> Behold, I have given him for a witness to the peoples, a leader and commander to the peoples. Behold, you shall call a nation that you don't know; and a nation that didn't know you shall run to you, because of Yahweh your God, and for the Holy One of Israel; for he has glorified you. Seek you Yahweh while he may be found; call you on him while he is near: let the wicked forsake his way, and the unrighteous man his thoughts; and let him return to Yahweh, and he will have mercy on him; and to our God, for he will abundantly pardon.</span>",
       },
     ],
     analysis: [
       {
-        title: "Universal Invitation",
-        body: "The call is extended to everyone who thirsts. The only requirement is to come and listen--underscoring the openness of God's offer.",
+        "title": "Context: An Invitation to All",
+        "body": "<p>Isaiah 55 opens with one of the most universal invitations in all of Scripture: <strong>\"Come, everyone who thirsts... come, buy and eat!\"</strong> The call is extended to all based on their need, not their merit, offering the richest spiritual blessings \"without money and without price.\" This is immediately followed by a call to make a conscious choice - to stop spending effort on things that don't satisfy and instead choose the true sustenance God offers. The chapter bookends this invitation with an equally clear call to action in verses 6-7, commanding the wicked to <strong>\"forsake his way\"</strong> and <strong>\"return to the LORD.\"</strong> The entire context is one of a gracious, universal offer that demands a free and personal response.</p>"
       },
       {
-        title: "Hearing Brings Life",
-        body: "Life is promised to those who hear. The emphasis mirrors the New Testament teaching that faith and life come through hearing God's word.",
+        "title": "The Core Command (Verse 3)",
+        "body": "<p>Verse 3 contains the heart of the invitation, revealing the path to life. It is a sequence of active commands that require human volition: <strong>\"Incline your ear,\" \"come to me,\"</strong> and <strong>\"hear.\"</strong> These are all actions of the will, demonstrating the God-given capacity to respond to His voice. The purpose and result of these actions is stated clearly: <strong>\"...that your soul may live.\"</strong> Spiritual life is presented as the direct consequence of responding to God's invitation. God's promise to then make an \"everlasting covenant\" is His gracious response to our approach, extending the sure promises once given to David to all who come in faith.</p>"
       },
+      {
+        "title": "The Sequence of Salvation",
+        "body": "<p>This chapter provides a beautifully clear sequence for how one enters into a life-giving relationship with God. The order is foundational: <strong>1)</strong> God issues a gracious and universal call. <strong>2)</strong> The person responds by inclining their ear, coming, hearing, and seeking. <strong>3)</strong> God grants the divine result of life, pardon, and a covenant relationship. This passage powerfully affirms that our hearing precedes our new life. God has given everyone a generous offer; it's truly an open invitation.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Invitation & Hearing",
@@ -634,8 +637,8 @@ const scripturesData = [
     selectorCategory: "Spirit & New Life",
   },
   {
-    id: "jeremiah-7-23-28",
-    reference: "Jeremiah 7:23-28",
+    id: "jeremiah-7-23-24",
+    reference: "Jeremiah 7:23-24",
     title: "They Would Not Listen",
     translation: "World English Bible",
     summary:
@@ -646,19 +649,23 @@ const scripturesData = [
     category: "Accountability & Perseverance",
     context: [
       {
-        heading: "Jeremiah 7:23-28",
-        text: '"Obey my voice, and I will be your God, and you shall be my people; walk in all the way that I command you, that it may be well with you." <span class="focus-text">But they didn\'t listen to me or incline their ear, but walked in their own counsels and in the stubbornness of their evil heart.</span> ... "Truth has perished."',
+        heading: "Jeremiah 7:21-28",
+        text: "Thus says Yahweh of Hosts, the God of Israel: Add your burnt offerings to your sacrifices, and eat you flesh. For I didn't speak to your fathers, nor command them in the day that I brought them out of the land of Egypt, concerning burnt offerings or sacrifices: <span class=\"focus-text\">but this thing I commanded them, saying, Listen to my voice, and I will be your God, and you shall be my people; and walk you in all the way that I command you, that it may be well with you. But they didn't listen nor turn their ear, but walked in [their own] counsels [and] in the stubbornness of their evil heart, and went backward, and not forward.</span> Since the day that your fathers came forth out of the land of Egypt to this day, I have sent to you all my servants the prophets, daily rising up early and sending them: yet they didn't listen to me, nor inclined their ear, but made their neck stiff: they did worse than their fathers. You shall speak all these words to them; but they will not listen to you: you shall also call to them; but they will not answer you. You shall tell them, This is the nation that has not listened to the voice of Yahweh their God, nor received instruction: truth is perished, and is cut off from their mouth.</span>",
       },
     ],
     analysis: [
       {
-        title: "God Desires Obedient Hearing",
-        body: "The covenant promise hinges on listening. Israel's refusal shows that human response matters and can thwart the blessings God longs to give.",
+        "title": "A Warning Against Empty Religion",
+        "body": "<p>Jeremiah 7 contains the famous \"Temple Sermon,\" where the prophet stands at the gate of the temple and confronts the people of Judah. They were meticulously performing religious rituals while living lives of theft, murder, and adultery (vv. 9-10). God's charge against them is not that they are unable to obey, but that they are <strong>willfully choosing</strong> to disobey while hiding behind a facade of empty religion. The entire chapter is a powerful indictment of hypocrisy and an affirmation that God desires genuine obedience from the heart, which He considers a real and present choice for the people.</p>"
       },
       {
-        title: "Persistent Prophetic Appeal",
-        body: "God sent prophets daily, underscoring His commitment to persuasion rather than coercion.",
+        "title": "The Simple Covenant Condition",
+        "body": "<p>In verse 23, God cuts through the complex rituals to state the simple foundation of His covenant relationship. The core command is <strong>\"Listen to my voice\"</strong> (<span class=\"hebrew-word\">shim'u v'koli</span>). The Hebrew verb for \"listen\" or \"obey\" (<span class=\"hebrew-word\">shama</span>) implies more than passive hearing; it is an active, responsive hearing that includes doing. This command is presented as a clear choice. The covenant promise is then explicitly conditional: <strong>IF</strong> you listen and obey, <strong>THEN</strong> \"I will be your God, and you will be my people.\" The relationship is predicated on their response, and the command to \"walk\" in His ways assumes their ability to do so.</p>"
       },
+      {
+        "title": "A Willful Rebellion",
+        "body": "<p>Verse 24 describes the people's response not as a tragic inability, but as a deliberate and obstinate choice. In direct contrast to God's command, \"they didn’t listen or incline their ear.\" Instead, they \"walked in their own counsels and in the <strong>stubbornness of their evil heart</strong>.\" The Hebrew for \"stubbornness\" (<span class=\"hebrew-word\">sherirut</span>) denotes a firm, defiant obstinacy of the will. Their sin is presented as a conscious decision to follow their own rebellious hearts rather than God. They \"went backward, and not forward,\" a powerful metaphor for their willful spiritual regression. This passage powerfully affirms that the human will is active and responsible for its spiritual direction.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Accountability & Perseverance",
@@ -671,40 +678,31 @@ const scripturesData = [
     title: "Children Born of God",
     translation: "World English Bible",
     summary:
-      "John celebrates those who receive Jesus yet adds that their birth is of God, not of human decision, challenging synergistic models.",
+      "John celebrates those who receive Jesus and adds that their new birth is spiritual.",
     keyVerse:
       "But as many as received him, to them he gave the right to become God's children, to those who believe in his name: who were born not of blood, nor of the will of the flesh, nor of the will of man, but of God.",
     themes: ["New Birth", "Adoption", "Faith"],
     category: "Spirit & New Life",
     context: [
       {
-        heading: "John 1:9-13",
-        text: 'The true light that enlightens everyone was coming into the world... <span class="focus-text">As many as received him, to them he gave the right to become God\'s children, to those who believe in his name: who were born not of blood, nor of the will of the flesh, nor of the will of man, but of God.</span>',
+        heading: "John 1:6-13",
+        text: "There came a man, sent from God, whose name was John. The same came as a witness, that he might testify about the light, that all might believe through him. He was not the light, but was sent that he might testify about the light. The true light that enlightens everyone was coming into the world. He was in the world, and the world was made through him, and the world didn't recognize him. He came to his own, and those who were his own didn't receive him. <span class=\"focus-text\">But as many as received him, to them he gave the right to become God's children, to those who believe in his name: who were born not of blood, nor of the will of the flesh, nor of the will of man, but of God.</span>",
       },
     ],
     analysis: [
       {
-        title: "Why Context Is Important",
-        body: "John celebrates that those who receive Jesus become God's children, then clarifies that this birth is \"of God\" rather than rooted in lineage or human scheming. Many Reformed commentators infer that the statement sequences an irresistible rebirth prior to faith, but the prologue's flow keeps the emphasis on the source of life rather than the absence of response.",
+        "title": "The Condition for Sonship (Verse 12)",
+        "body": "<p>Verse 12 lays out the sequence of salvation with perfect clarity. It begins with a human action: <strong>\"But as many as received him... to those who believe in his name.\"</strong> The verbs \"received\" and \"believe\" are active choices made by individuals. The divine response follows this action: <strong>\"to them he gave the right to become God’s children.\"</strong> The status of being a child of God is a gift given as a direct result of the human act of faith. This verse unequivocally establishes that faith is the condition that precedes becoming a child of God.</p>"
       },
       {
-        title: "Open Invitation Engagement",
-        body: "The prologue repeatedly spotlights believing and receiving the Light who comes to everyone (1:9, 12). God's initiative grants the authority to become children, yet the text still honours the human side: those who welcome the Word are the ones described as born of God.",
+        "title": "The Nature of the New Birth (Verse 13)",
+        "body": "<p>Verse 13 does not contradict the sequence of verse 12; rather, it describes the <em>nature</em> of the new birth itself. It clarifies that this is a spiritual and supernatural reality, completely different from a physical birth. It is <strong>\"not of blood\"</strong> (ethnic heritage), <strong>\"nor of the will of the flesh\"</strong> (human ambition or desire), <strong>\"nor of the will of man\"</strong> (a human's ability to procreate or achieve this status on their own). The new birth is something that only God, in His power, can bring about. It is a divine miracle, not a human achievement.</p>"
       },
+      {
+        "title": "A Divine Partnership",
+        "body": "<p>Together, these two verses describe a beautiful divine partnership. Verse 12 describes our part: to exercise our will to <strong>receive and believe</strong> in the Son. Verse 13 describes God's part: in response to our faith, He performs the supernatural miracle of the new birth, making us His children. The \"will of man\" that is rejected in verse 13 is the will that attempts to <em>create</em> salvation for itself. The will that is affirmed in verse 12 is the will that chooses to <em>accept</em> the salvation that God graciously offers. Our choice to receive is the open door through which God performs His miraculous work of regeneration.</p>"
+      }
     ],
-    tensionResolution: {
-      question:
-        "What about this interpretation that John 1:13 denying the will of man in new birth?",
-      steelman:
-        "Because John says believers were born 'not of the will of the flesh or of man,' some conclude regeneration must precede and produce faith without human response.",
-      response:
-        "John is contrasting inheritance claims with the new family created by receiving the Word. The triple negation dethrones lineage and ritual boasting; verse 12 still celebrates those who receive and believe before becoming God's children.",
-      supports: [
-        "Verses 11-12 contrast rejection with receptive belief, keeping response central.",
-        "Across the Gospel, believing is the doorway to life (see John 3:16; 20:31).",
-        "First-century debates about Abrahamic lineage and proselyte rituals explain why John negates fleshly 'will.'",
-      ],
-    },
   },
   {
     id: "john-15-22",
@@ -719,19 +717,19 @@ const scripturesData = [
     category: "Accountability & Perseverance",
     context: [
       {
-        heading: "John 15:20-25",
-        text: '"Remember the word that I said to you... If they persecuted me, they will also persecute you... <span class="focus-text">If I hadn\'t come and spoken to them, they wouldn\'t have sin; but now they have no excuse for their sin.</span> He who hates me, hates my Father also... But this happened so that the word may be fulfilled."',
+        heading: "John 15:18-24",
+        text:  "\"If the world hates you, you know that it has hated me before it hated you.If you were of the world, the world would love its own. But because you are not of the world, since I chose you out of the world, therefore the world hates you. Remember the word that I said to you: 'A servant is not greater than his lord.' If they persecuted me, they will also persecute you. If they kept my word, they will keep yours also. But all these things will they do to you for my name's sake, because they don't know him who sent me. <span class=\"focus-text\">If I had not come and spoken to them, they would not have had sin; but now they have no excuse for their sin.</span> He who hates me, hates my Father also. If I hadn't done among them the works which no one else did, they wouldn't have had sin. But now have they seen and also hated both me and my Father.\"",
       },
     ],
     analysis: [
       {
-        title: "Revelation Increases Responsibility",
-        body: "Jesus locates guilt in the rejection of His spoken word. Exposure to the message--not secret regeneration--creates accountability.",
+        "title": "Revelation Increases Responsibility",
+        "body": "<p>In this verse, Jesus establishes a crucial principle: accountability is directly proportional to the clarity of the revelation one receives. When He says, <strong>\"If I had not come and spoken to them, they would not have had sin,\"</strong> He is not suggesting people were sinless before His arrival. Rather, He is defining the specific and ultimate sin: the conscious rejection of the Son of God in person. His coming and speaking raised the stakes, removing any veil of ignorance and bringing the choice for or against Him into sharp, unavoidable focus.</p>"
       },
       {
-        title: "Hearing Divides Responders",
-        body: "Those who hear either love or hate the Son. The text assumes a genuine choice in the face of light received.",
-      },
+        "title": "The Rejection with 'No Excuse'",
+        "body": "<p>The conclusion of the verse - <strong>\"but now they have no excuse for their sin\"</strong> - is a profound statement about the human will. An excuse would imply some mitigating factor, such as a lack of information or an inability to respond. Jesus removes all such possibilities. They heard His words and saw His works, yet they chose to reject Him. Their unbelief, therefore, was not a result of a disabled will, but a culpable and willful choice against the clear light of truth. This verse powerfully affirms the biblical principle that God holds people responsible for the choices they make in response to the truth He reveals.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Accountability & Perseverance",
@@ -750,27 +748,27 @@ const scripturesData = [
     context: [
       {
         heading: "John 20:30-31",
-        text: 'Therefore Jesus did many other signs in the presence of his disciples, which are not written in this book; but <span class="focus-text">these are written, that you may believe that Jesus is the Christ, the Son of God; and that believing you may have life in his name.</span>',
+        text: " After eight days again his disciples were within, and Thomas with them. Jesus came, the doors being locked, and stood in the midst, and said, \"Peace be to you.\" Then he said to Thomas, \"Reach here your finger, and see my hands. Reach here your hand, and put it into my side. Don't be faithless, but believing.\" Thomas answered him, \"My Lord and my God!\" Jesus said to him, \"Because you have seen me, you have believed. Blessed are those who have not seen, and have believed.\" <span class=\"focus-text\">Therefore Jesus did many other signs in the presence of his disciples, which are not written in this book; but these are written, that you may believe that Jesus is the Christ, the Son of God, and that believing you may have life in his name.</span>",
       },
     ],
     analysis: [
       {
-        title: "Scripture as Faith-Creating Witness",
-        body: "John expects the narrative itself to spark belief. The goal of writing is conversion, not merely confirmation of the already regenerated. The Spirit works through testimony to grant life.",
+        "title": "The Purpose of the Gospel: Evidence for Belief",
+        "body": "<p>In these verses, the Apostle John gives his own mission statement for his book. He states that the miraculous \"signs\" he recorded were carefully selected for a specific and primary purpose: <strong>\"that you may believe that Jesus is the Christ, the Son of God.\"</strong> The miracles are not arbitrary displays of power; they are presented as compelling evidence for the reader to consider. The entire Gospel is structured as a testimony, an appeal to the reader's mind and will based on a reliable witness. This affirms that faith is a reasonable response to the evidence God has provided, not an act that is impossible without a prior work of regeneration.</p>"
       },
       {
-        title: "Believing Leads to Life",
-        body: "Life is tied to believing, not the other way around. Those who argue regeneration precedes faith see life as the fruit of prior renewal, yet John explicitly frames life as granted in the act of believing.",
-      },
+        "title": "The Sequence: Believing Unto Life",
+        "body": "<p>Verse 31 lays out the biblical sequence of salvation with unambiguous clarity: <strong>\"...and that believing you may have life in his name.\"</strong> The human action of <strong>believing</strong> is presented as the gateway to the divine gift of <strong>life</strong>. The word for \"life\" here (<span class=\"greek-word\">zōē</span>) is John's term for the very essence of salvation - resurrection life, eternal life, the regenerative work of God. As the explicit conclusion to his Gospel, John's statement provides a definitive summary of the open invitation: the call is for all to believe in Jesus based on the evidence, and through that very act of faith, receive new, eternal life from God.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Invitation & Hearing",
   },
   {
-    id: "john-6-37-44",
+    id: "john-6-39-40",
     alignment: "tension",
     selectorCategory: "Invitation & Hearing",
-    reference: "John 6:37-44",
+    reference: "John 6:39-40",
     title: "All the Father Gives Will Come",
     translation: "World English Bible",
     summary:
@@ -781,33 +779,24 @@ const scripturesData = [
     category: "Invitation & Hearing",
     context: [
       {
-        heading: "John 6:35-45",
-        text: 'Jesus said to them, "I am the bread of life. Whoever comes to me will not be hungry... <span class="focus-text">All those whom the Father gives me will come to me. He who comes to me I will in no way throw out... No one can come to me unless the Father who sent me draws him. I will raise him up in the last day.</span> It is written in the prophets, \'They will all be taught by God.\' Everyone who hears from the Father and has learned, comes to me.',
+        heading: "John 6:35-47",
+        text: "Jesus said to them. \"I am the bread of life. He who comes to me will not be hungry, and he who believes in me will never be thirsty. But I told you that you have seen me, and yet don't believe. <span class=\"focus-text\">All those who the Father gives me will come to me. Him who comes to me I will in no way throw out. For I have come down from heaven, not to do my own will, but the will of him who sent me. This is the will of my Father who sent me, that of all he has given to me I should lose nothing, but should raise them up at the last day. This is the will of the one who sent me, that everyone who sees the Son, and believes in him, should have eternal life; and I will raise him up at the last day.\"</span> The Jews therefore murmured concerning him, because he said, \"I am the bread which came down out of heaven.\" They said, \"Isn't this Jesus, the son of Joseph, whose father and mother we know? How then does he say, 'I have come down out of heaven?'\" Therefore Jesus answered them, \"Don't murmur among yourselves. No one can come to me unless the Father who sent me draws him, and I will raise him up in the last day. It is written in the prophets, 'They will all be taught by God.' Therefore everyone who hears from the Father, and has learned, comes to me. Not that any man has seen the Father, except he who is from God. He has seen the Father. Most assuredly, I tell you, he who believes in me has eternal life.\"",
       },
     ],
     analysis: [
       {
-        title: "Why Context Is Important",
-        body: "Jesus links the Father's giving and drawing with the people's coming to him. Many interpreters, especially in Reformed traditions, treat these lines as an irresistible sequence where certain individuals are given, drawn, and therefore infallibly come, yet the Bread of Life discourse simultaneously stresses listening and learning from the Father (v45).",
+        "title": "Context: Who the Father 'Gives'",
+        "body": "<p>In this discourse, Jesus speaks of those whom the Father \"gives\" to Him (v. 37). This is not a reference to a pre-selected group of individuals. Rather, the Father's 'giving' is His work of revealing truth and preparing hearts to recognize the Son. Jesus immediately clarifies the scope of this group with a universal invitation: <strong>\"and whoever comes to me I will never cast out.\"</strong> The group that is \"given\" is defined as the group that chooses to \"come.\" The Father's divine initiative and the person's willing response are two sides of the same coin.</p>"
       },
       {
-        title: "Open Invitation Engagement",
-        body: "Jesus cites Isaiah 54:13 to show that everyone who hears and learns from the Father comes to him. Throughout the chapter the crowd is urged to believe (vv35, 40, 47) and some refuse, which frames the Father's drawing as persuasive instruction rather than coercion.",
+        "title": "The Will of the Father (vv. 39-40)",
+        "body": "<p>Jesus explicitly defines the Father's will in these two key verses. Verse 39 describes the Son's role as a perfect Savior who provides absolute security for all who are entrusted to Him. Then, verse 40 clarifies precisely who belongs to this secure group: <strong>\"For this is the will of my Father, that everyone who looks on the Son and believes in him should have eternal life.\"</strong> The Father's will is not a secret decree about certain individuals, but a revealed, universal principle. His desire is for <strong>\"everyone\"</strong> who meets the condition of <strong>\"looking and believing\"</strong> to be saved. This verse places the condition of faith at the very center of God's saving plan.</p>"
       },
+      {
+        "title": "The Divine Teaching (Verse 45)",
+        "body": "<p>Jesus further explains how the Father draws people to Him. He quotes the prophets, saying, \"And they will all be taught by God,\" and then adds the crucial condition: <strong>\"Everyone who has heard and learned from the Father comes to me.\"</strong> The call of God is a universal teaching, but the result is conditional. The text doesn't say that all who are taught will come, but that all who have <strong>heard AND learned</strong> will come. This implies a receptive and responsive posture on the part of the individual. One can be taught, but refuse to truly hear and learn. Coming to Jesus is presented as the result of a positive, personal response to the Father's universal teaching.</p>"
+      }
     ],
-    tensionResolution: {
-      question:
-        "What about this interpretation that John 6 portrays the Father drawing people irresistibly?",
-      steelman:
-        "The passage says everyone the Father gives to the Son will come and be raised, so many conclude the drawing must be a unilateral act that guarantees faith.",
-      response:
-        "Jesus cites Isaiah 54:13 and rebukes the crowd's unbelief. He links drawing to being taught by God; the present-tense verbs picture an ongoing response to revealed truth rather than an automatic conversion.",
-      supports: [
-        "Isaiah 54:13 (v.45) defines the drawing as being taught-students still choose whether to learn.",
-        "The same audience had seen the signs yet remained unconvinced (v.36), showing divine initiative can be resisted.",
-        "Greek participles like 'coming' and 'believing' are present tense, depicting continual responsiveness to the message.",
-      ],
-    },
   },
   {
     id: "revelation-3-20",
@@ -840,8 +829,8 @@ const scripturesData = [
     selectorCategory: "Accountability & Perseverance",
   },
   {
-    id: "romans-10-14-15",
-    reference: "Romans 10:14-15",
+    id: "romans-10-13-15",
+    reference: "Romans 10:13-15",
     title: "Sent Voices Carry the Invitation",
     translation: "World English Bible",
     summary:
@@ -852,19 +841,19 @@ const scripturesData = [
     category: "Invitation & Hearing",
     context: [
       {
-        heading: "Romans 10:14-15",
-        text: '<span class="focus-text">How then will they call on him in whom they have not believed? How will they believe in him whom they have not heard? How will they hear without a preacher? And how will they preach unless they are sent?</span> As it is written: "How beautiful are the feet of those who preach the Good News of peace, who bring glad tidings of good things!"',
+        heading: "Romans 10:8-18",
+        text: "\"The word is near you, in your mouth, and in your heart;\" that is, the word of faith, which we preach: that if you will confess with your mouth the Lord Jesus, and believe in your heart that God raised him from the dead, you will be saved. For with the heart, one believes unto righteousness; and with the mouth confession is made unto salvation. For the Scripture says, \"Whoever believes in him will not be put to shame.\" For there is no distinction between Jew and Greek; for the same Lord is Lord of all, and is rich to all who call on him. <span class=\"focus-text\">For, \"Whoever will call on the name of the Lord will be saved.\" How then will they call on him in whom they have not believed? How will they believe in him whom they have not heard? How will they hear without a preacher? And how will they preach unless they are sent? As it is written: \"How beautiful are the feet of those who preach the gospel of peace, Who bring glad tidings of good things!\"</span> But they didn't all listen to the glad news. For Isaiah says, \"Lord, who has believed our report?\" So faith comes by hearing, and hearing by the word of God. But I say, didn't they hear? Yes, most assuredly, \"Their sound went out into all the earth, Their words to the ends of the world.\"",
       },
     ],
     analysis: [
       {
-        title: "Real Dependency on Witnesses",
-        body: "Paul reasons that belief depends on the tangible act of hearing the gospel. The sending of heralds is not a mere formality; it is God's ordained means to awaken faith.",
+        "title": "The Near and Accessible Word",
+        "body": "<p>Before laying out the chain of evangelism, Paul establishes that the call to salvation is not a distant or impossible command. Quoting Deuteronomy 30, he shows that the \"righteousness that is by faith\" is accessible to all. The Word is <strong>\"near you, in your mouth and in your heart\"</strong> (v. 8). The path to salvation is made stunningly simple and clear: <strong>if you confess and believe, you will be saved</strong> (v. 9). This context affirms that the call to salvation is an accessible invitation that people have the inherent capacity to answer.</p>"
       },
       {
-        title: "Collaborators with God",
-        body: "The question sequence elevates human participation. God sovereignly chooses to involve real people whose obedience or silence affects who hears, underscoring real dependence on proclaimed means even in debates about decree.",
-      },
+        "title": "The Golden Chain of Evangelism",
+        "body": "<p>Building on the universal promise that <strong>\"Whoever will call on the name of the Lord will be saved,\"</strong> Paul lays out the logical and necessary steps that make this promise a reality. He asks a series of rhetorical questions that reveal a clear and divinely ordained sequence:</p><ul><li>God <strong>sends</strong> messengers...</li><li>who <strong>preach</strong> the Word...</li><li>which enables people to <strong>hear</strong>...</li><li>which provides the basis for them to <strong>believe</strong>...</li><li>which allows them to <strong>call</strong> on the Lord...</li><li>which results in their <strong>salvation</strong>.</li></ul><p>This \"Golden Chain of Evangelism\" presents a beautiful model of the open invitation. It affirms that faith is not a mysterious work that appears without cause, but a reasonable and necessary response to a proclaimed message that is heard and understood. Faith is the crucial bridge that connects hearing God's call to receiving His gift of salvation.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Invitation & Hearing",
@@ -932,7 +921,7 @@ const scripturesData = [
       },
       {
         "title": "Examining the Key Terms",
-        "body": "<p>The original Greek language reveals a straightforward and beautiful meaning.</p><ul><li><strong>\"Foreknew\"</strong> (<span class=\"greek-word\">proegnō</span>): This word is a combination of <span class=\"greek-word\">pro</span> (\"before\" or \"formerly\") and <span class=\"greek-word\">ginōskō</span> (\"to know\" in a personal, relational sense). It points to God's historical, covenantal relationship with the saints of old. It's a knowledge of <u>remembrance</u>, not a pre-vision of the future.</li><li><strong>\"Predestined\"</strong> (<span class=\"greek-word\">proōrisen</span>): This word combines <span class=\"greek-word\">pro</span> (\"before\") and <span class=\"greek-word\">horizō</span> (\"to set a boundary or horizon\"). God, from the beginning, set the <u>destination</u> for those who would enter into a relationship with Him: \"to be conformed to the image of his Son.\" This is about the goal, the path laid out for anyone who joins the family.</li><li><strong>The Past Tense Verbs:</strong> Paul uses a string of past-tense verbs: \"foreknew,\" \"predestined,\" \"called,\" \"justified,\" and even \"<u>glorified</u>.\" This is perhaps the strongest clue. He is describing a <u>completed process</u> for those who have already finished their race — <u>the saints of the past</u>. To suggest this unbroken chain of past-tense verbs refers to people in the present is a significant linguistic stretch.</li></ul>"
+        "body": "<p>The original Greek language reveals a straightforward and beautiful meaning.</p><ul><li><strong>\"Foreknew\"</strong> (<span class=\"greek-word\">proegnō</span>): This word is a combination of <span class=\"greek-word\">pro</span> (\"before\" or \"formerly\") and <span class=\"greek-word\">ginōskō</span> (\"to know\" in a personal, relational sense). It points to God's historical, covenantal relationship with the saints of old. It's a knowledge of <u>remembrance</u>, not a pre-vision of the future.</li><li><strong>\"Predestined\"</strong> (<span class=\"greek-word\">proōrisen</span>): This word combines <span class=\"greek-word\">pro</span> (\"before\") and <span class=\"greek-word\">horizō</span> (\"to set a boundary or horizon\"). God, from the beginning, set the <u>destination</u> for those who would enter into a relationship with Him: \"to be conformed to the image of his Son.\" This is about the goal, the path laid out for anyone who joins the family.</li><li><strong>The Past Tense Verbs:</strong> Paul uses a string of past-tense verbs: \"foreknew,\" \"predestined,\" \"called,\" \"justified,\" and even \"<u>glorified</u>.\" This is perhaps the strongest clue. He is describing a <u>completed process</u> for those who have already finished their race  -  <u>the saints of the past</u>. To suggest this unbroken chain of past-tense verbs refers to people in the present is a significant linguistic stretch.</li></ul>"
       },
       {
         "title": "Bringing It Together: An Open Invitation",
@@ -984,35 +973,31 @@ const scripturesData = [
     },
   },
   {
-    id: "matthew-11-28-30",
-    reference: "Matthew 11:28-30",
-    title: "Come to Me, All Who Labor",
+    id: "matthew-11-15",
+    reference: "Matthew 11:15",
+    title: "Who Has Ears, Let Him Hear",
     translation: "World English Bible",
     summary:
       "Jesus invites every weary person to come to him, promising rest through a gentle discipleship yoke.",
     keyVerse:
-      "Come to me, all you who labor and are heavily burdened, and I will give you rest.",
+      "He who has ears to hear, let him hear.",
     themes: ["Invitation", "Rest", "Discipleship"],
     category: "Invitation & Hearing",
     context: [
       {
-        heading: "Matthew 11:27-30",
-        text: 'All things have been delivered to me by my Father... <span class="focus-text">Come to me, all you who labor and are heavily burdened, and I will give you rest.</span> Take my yoke upon you, and learn from me, for I am gentle and humble in heart.',
+        heading: "Matthew 11:11-20",
+        text: " Most assuredly I tell you, among those who are born of women there has not arisen anyone greater than John the Baptizer; yet he who is least in the Kingdom of Heaven is greater than he. From the days of John the Baptizer until now, the Kingdom of Heaven suffers violence, and the violent take it by force. For all the prophets and the law prophesied until John. If you are willing to receive it, this is Elijah, who is to come. <span class=\"focus-text\">He who has ears to hear, let him hear.</span> \"But what will I compare this generation to? It is like children sitting in the marketplaces, who call to their companions and say, 'We played the flute for you, and you didn't dance. We mourned for you, and you didn't lament.' For John came neither eating nor drinking, and they say, 'He has a demon.' The Son of Man came eating and drinking, and they say, 'Behold, a gluttonous man and a drunkard, a friend of tax collectors and sinners!' But wisdom is justified by her children.\" Then he began to denounce the cities in which most of his mighty works were done, because they didn't repent.",
       },
     ],
     analysis: [
       {
-        title: "Universal Appeal",
-        body: "Jesus addresses all who are weary and burdened, underscoring that any hearer may respond to his call.",
+        "title": "A Call to Personal Responsibility",
+        "body": "<p>Jesus's statement, <strong>\"He who has ears to hear, let him hear,\"</strong> is a profound call to individual choice and responsibility. The first clause, \"He who has ears,\" acknowledges a universal, God-given capacity. It presumes that the audience is able to perceive and understand spiritual truth. The second clause, \"let him hear,\" is a command - an urgent appeal to the will. Jesus is not simply stating a fact; He is calling each person to actively engage their ability to listen, to process the truth about Him and John the Baptist, and to respond. The onus is placed squarely on the individual to use the faculties they have been given.</p>"
       },
       {
-        title: "Rest Found in Coming",
-        body: "Rest is offered through coming, taking, and learning from Jesus, highlighting responsive trust rather than automatic transfer.",
-      },
-      {
-        title: "Gentle Authority",
-        body: "His gentle, humble heart frames divine authority as invitational; he woos individuals into a yoke they must willingly receive.",
-      },
+        "title": "From Hearing to Coming",
+        "body": "<p>This call to \"hear\" in verse 15 sets the stage for the chapter's beautiful climax. After rebuking the cities that saw His works but refused to repent, Jesus extends one of His most famous invitations in verse 28: <strong>\"Come to me, all who labor and are heavy laden, and I will give you rest.\"</strong> The two commands are perfectly linked. The personal responsibility to \"hear\" the truth (v. 15) is the necessary first step to answering the universal invitation to \"come\" for rest (v. 28). The chapter affirms that God provides both the capacity to hear and the open invitation to come; the choice to do so rests with each person.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Invitation & Hearing",
@@ -1064,30 +1049,30 @@ const scripturesData = [
     category: "Invitation & Hearing",
     context: [
       {
-        heading: "Isaiah 45:20-25",
-        text: 'Gather yourselves and come... <span class="focus-text">Turn to me, and be saved, all the ends of the earth; for I am God, and there is no other.</span> By myself I have sworn... every knee shall bow.',
+        heading: "Isaiah 45:18-22",
+        text: "For thus says Yahweh who created the heavens, the God who formed the earth and made it, who established it and didn't create it a waste, who formed it to be inhabited: I am Yahweh; and there is no one else. I have not spoken in secret, in a place of the land of darkness; I didn't say to the seed of Jacob, Seek you me in vain: I, Yahweh, speak righteousness, I declare things that are right. Assemble yourselves and come; draw near together, you who have escaped from the nations: they have no knowledge who carry the wood of their engraved image, and pray to a god that can't save. Declare you, and bring [it] forth; yes, let them take counsel together: who has shown this from ancient time? who has declared it of old? Haven't I, Yahweh? and there is no God else besides me, a just God and a Savior; there is no one besides me. <span class=\"focus-text\">Look to me, and be you saved, all the ends of the earth; for I am God, and there is none else.</span>",
       },
     ],
     analysis: [
       {
-        title: "Universal Scope",
-        body: "The invitation is addressed to all the ends of the earth, revealing God's missionary heart before Christ's incarnation.",
+        "title": "Context: A God for All Nations",
+        "body": "<p>The entire chapter of Isaiah 45 reveals God's grand, global purpose. He declares that His actions are so that people will know His name \"from the rising of the sun and from the west\" (v. 6). Before the climactic invitation, God challenges the survivors of the idol-worshiping nations to \"assemble and come,\" presenting Himself as the one and only \"righteous God and a Savior\" (v. 21). The stage is set for a universal, missionary call to all humanity.</p>"
       },
       {
-        title: "Exclusive Rescue",
-        body: "While salvation is exclusively in Yahweh, it is inclusively offered - everyone must choose whether to turn.",
+        "title": "The Great Invitation (Verse 22)",
+        "body": "<p>At the chapter's peak, God extends one of the clearest invitations in all of Scripture. The command <strong>\"Turn to me\"</strong> is a simple, direct appeal. The Hebrew here (<span class=\"hebrew-word\">p'nu-elay</span>) is a straightforward call to action, placing the responsibility of choice squarely on the hearer and implying the ability to respond. The scope of this call is breathtakingly wide: <strong>\"all the ends of the earth!\"</strong> This is an explicitly universal invitation, extended without restriction to every person on the planet. It is a powerful statement of God's genuine desire for all people to be saved.</p>"
       },
       {
-        title: "Foreshadowing the Gospel",
-        body: "Paul later echoes this passage in Philippians 2, underscoring continuity in God's pursuit of responsive worshipers.",
-      },
+        "title": "The Simple Condition for Salvation",
+        "body": "<p>The structure of the verse reveals a profound truth about the path to salvation. The sequence is clear: <strong>\"Turn to me <em>and</em> be saved.\"</strong> Salvation is presented as the direct consequence of turning to God. The human action of turning - an act of will and faith - is the condition for receiving the divine gift of salvation. This verse powerfully affirms that the door to salvation is opened by our response to God's gracious and universal call.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Invitation & Hearing",
   },
   {
-    id: "john-3-14-18",
-    reference: "John 3:14-18",
+    id: "john-3-16",
+    reference: "John 3:16",
     title: "Whoever Believes Has Eternal Life",
     translation: "World English Bible",
     summary:
@@ -1098,65 +1083,69 @@ const scripturesData = [
     category: "Invitation & Hearing",
     context: [
       {
-        heading: "John 3:14-18",
-        text: 'As Moses lifted up the serpent in the wilderness, even so must the Son of Man be lifted up, <span class="focus-text">that whoever believes in him should not perish, but have eternal life.</span> For God didn\'t send the Son into the world to judge the world, but that the world should be saved through him.',
+        heading: "John 3:9-17",
+        text: "Nicodemus answered him, \"How can these things be?\" Jesus answered him, \"Are you the teacher of Israel, and don't understand these things? Most assuredly I tell you, we speak that which we know, and testify of that which we have seen, and you don't receive our witness. If I told you earthly things and you don't believe, how will you believe if I tell you heavenly things? No one has ascended into heaven, but he who descended out of heaven, the Son of Man, who is in heaven. As Moses lifted up the serpent in the wilderness, even so must the Son of Man be lifted up, that whoever believes in him should not perish, but have eternal life. <span class=\"focus-text\">For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have eternal life.</span> For God didn't send his Son into the world to judge the world, but that the world should be saved through him.\"",
       },
     ],
     analysis: [
       {
-        title: "Belief as the Condition",
-        body: "Jesus repeatedly ties eternal life to believing, not to an unobservable change preceding faith.",
+        "title": "Context: The Serpent and the Simple Act of Faith",
+        "body": "<p>Before giving this famous verse, Jesus sets the stage with a powerful analogy from the Old Testament: the bronze serpent in the wilderness (vv. 14-15). In that story, salvation from the snakebites was offered to <strong>everyone</strong> in the camp, and the condition was a simple, single act of looking in faith. Jesus deliberately uses this universally accessible event to frame His own crucifixion. The context He creates is one where a divine provision is made available to all, contingent only on a simple and personal act of faith.</p>"
       },
       {
-        title: "World-Loving God",
-        body: "God's love for the world frames salvation as a broadly intended gift awaiting reception.",
+        "title": "The Heart of the Gospel (Verse 16)",
+        "body": "<p>Verse 16 is the beautiful explanation of the principle Jesus just introduced. It is built on three profoundly universal statements:</p><ul><li><strong>A Universal Love:</strong> The motivation for salvation is God's love for <strong>\"the world\"</strong>. This is a declaration of God's benevolent, saving affection for all of humanity without exception.</li><li><strong>A Universal Offer:</strong> The gift of His Son is the provision for the entire world that He loves.</li><li><strong>A Universal Condition:</strong> The path to receiving this gift is open to <strong>\"whoever believes\"</strong>. The promise is not limited by a prior decree, but is defined by the free response of faith.</li></ul><p>The verse places the choice and responsibility directly on the individual to believe.</p>"
       },
       {
-        title: "Condemnation for Refusal",
-        body: "The contrast with those who refuse to believe shows that human response explains differing outcomes.",
-      },
+        "title": "The Purpose: To Save the World (Verse 17)",
+        "body": "<p>Verse 17 serves as a powerful confirmation of God's intent. It explicitly states that God's purpose in sending His Son was <strong>not to condemn the world</strong>, but <strong>\"that the world should be saved through him.\"</strong> This reinforces the positive, benevolent, and universal scope of God's mission. His goal is the salvation of the world, made possible through the Son and activated by the simple act of faith described in the preceding verses. The passage is a definitive statement of God's open-hearted offer of salvation to all people.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Invitation & Hearing",
   },
   {
-    id: "john-12-32",
-    reference: "John 12:32",
-    title: "Lifted Up to Draw All",
+    id: "john-12-40",
+    reference: "John 12:40",
+    title: "Blindness and Hardening",
     translation: "World English Bible",
     summary:
-      "Jesus predicts that his crucifixion will draw all people, signaling an expansive outreach rather than a selective pull.",
+      "God's action not as an arbitrary decree, but as a judicial response to the people's prior and persistent choices.",
     keyVerse:
-      "And I, if I am lifted up from the earth, will draw all people to myself.",
+      "He has blinded their eyes and he hardened their heart, Lest they should see with their eyes, And perceive with their heart, And would turn, And I would heal them.",
     themes: ["Cross", "Drawing", "Witness"],
     category: "Invitation & Hearing",
     context: [
       {
-        heading: "John 12:30-33",
-        text: 'Jesus answered, This voice has not come for my sake, but for your sakes... <span class="focus-text">And I, if I am lifted up from the earth, will draw all people to myself.</span> He said this, signifying by what kind of death he should die.',
+        heading: "John 12:27-48",
+        text: "\"If anyone serves me, let him follow me. Where I am, there will my servant also be. If anyone serves me, the Father will honor him. Now my soul is troubled. What shall I say? 'Father, save me from this time?' But for this cause I came to this time. Father, glorify your name!\" Then there came a voice out of the sky, saying, \"I have both glorified it, and will glorify it again.\" The multitude therefore, who stood by and heard it, said that it had thundered. Others said, \"An angel has spoken to him.\" Jesus answered, \"This voice hasn't come for my sake, but for your sakes. Now is the judgment of this world. Now the prince of this world will be cast out. I, if I am lifted up from the earth, will draw all men to myself.\" But he said this, signifying by what kind of death he should die. The multitude answered him, \"We have heard out of the law that the Christ remains forever. How do you say, 'The Son of Man must be lifted up?' Who is this Son of Man?\" Jesus therefore said to them, \"Yet a little while the light is with you. Walk while you have the light, that darkness doesn't overtake you. He who walks in the darkness doesn't know where he is going. While you have the light, believe in the light, that you may become sons of light.\" Jesus said these things, and he departed and hid himself from them. But though he had done so many signs before them, yet they didn't believe in him, that the word of Isaiah the prophet might be fulfilled, which he spoke, \"Lord, who has believed our report? To whom has the arm of the Lord been revealed?\" For this cause they couldn't believe, for Isaiah said again, <span class=\"focus-text\">\"He has blinded their eyes and he hardened their heart, Lest they should see with their eyes, And perceive with their heart, And would turn, And I would heal them.\"</span> Isaiah said these things when he saw his glory, and he spoke of him. Nevertheless even of the rulers many believed in him, but because of the Pharisees they didn't confess it, so that they wouldn't be put out of the synagogue, for they loved men's approval more than God's approval. Jesus cried out and said, \"Whoever believes in me, believes not in me, but in him who sent me. He who sees me sees him who sent me. I have come as a light into the world, that whoever believes in me may not remain in the darkness. If anyone listens to my sayings, and doesn't believe, I don't judge him. For I came not to judge the world, but to save the world. He who rejects me, and doesn't receive my sayings, has one who judges him. The word that I spoke, the same will judge him in the last day.\"",
       },
     ],
     analysis: [
       {
-        title: "Cross-Centered Appeal",
-        body: "The drawing is linked to Jesus being lifted up on the cross and proclaimed, not to a hidden irresistible force.",
+        "title": "Context Shows a Pattern of Willful Unbelief",
+        "body": "<p>John quotes this passage from Isaiah to answer a specific question: After seeing so many of Jesus's miraculous signs, why did the people still not believe (John 12:37)? John's answer is that this tragic response is not a new phenomenon. It's the same pattern of rejection that the prophet Isaiah confronted centuries earlier. The context, both in Isaiah's time and Jesus's, is a people who have been presented with overwhelming light and truth but have already set their hearts against it. The hardening described is a consequence of their prior, willful unbelief.</p>"
       },
       {
-        title: "All People in View",
-        body: "John broadens the audience beyond Israel (12:20-21); the cross aims at every kind of person.",
+        "title": "Judgment as Withdrawal",
+        "body": "<p>One way to understand this judicial hardening is as a <strong>divine withdrawal</strong>. The \"He\" who blinds their eyes is indeed God, but His action is a just response to their rejection. Having been consistently offered the drawing grace and convicting power of the Spirit, the people pushed it away. In judgment, God may withdraw that special influence, leaving them to the consequences of their choice. This is the same principle seen in Romans 1, where God <strong>\"gave them up\"</strong> to the darkness they preferred. It is a passive judgment where God allows the natural course of a hardened heart to run to its conclusion.</p>"
       },
       {
-        title: "Hearing Matters",
-        body: "The surrounding context stresses responding to the light while it is present, reinforcing responsible receptivity.",
+        "title": "The Hardening Effect of Truth",
+        "body": "<p>The other side of this judgment is more active. The original prophecy in Isaiah 6:10 is a command to the prophet: <strong>\"Make the heart of this people dull... and blind their eyes.\"</strong> A prophet accomplishes this by preaching the truth. The Word of God is never neutral; it is a living power. Like the sun that softens wax but hardens clay, the Word brings life to a receptive heart but has a hardening effect on a rebellious one. For those who have already chosen to oppose God, the very message meant to save becomes an irritant that solidifies their opposition.</p>"
       },
+      {
+        "title": "A Two-Fold Consequence",
+        "body": "<p>These two aspects of judgment often work together. A person willfully rejects the light. In response, God may begin to <strong>withdraw</strong> His restraining grace, leaving the heart less sensitive. As the Word continues to be preached, this now-insensitive heart becomes even more calloused and hardened, solidifying a state of unbelief. In this complex process, the ultimate responsibility remains with the individual who first chose to reject the truth, with God's judgment confirming them in that tragic choice.</p>"
+      }
     ],
-    alignment: "affirming",
+    alignment: "tension",
     selectorCategory: "Invitation & Hearing",
   },
   {
-    id: "john-5-24",
-    reference: "John 5:24",
-    title: "Hearing and Believing Cross Death",
+    id: "john-5-24-25",
+    reference: "John 5:24-25",
+    title: "Hearing and Believing == Eternal Life",
     translation: "World English Bible",
     summary:
       "Jesus assures listeners that hearing his word and believing the Father moves a person from death into life with no condemnation.",
@@ -1166,23 +1155,23 @@ const scripturesData = [
     category: "Spirit & New Life",
     context: [
       {
-        heading: "John 5:19-29",
-        text: 'The Son can do nothing of himself, but what he sees the Father doing... <span class="focus-text">He who hears my word and believes him who sent me has eternal life.</span> The hour is coming, and now is, when the dead will hear the Son of God\'s voice.',
+        heading: "John 5:21-27",
+        text: "\"For as the Father raises the dead and gives them life, even so the Son also gives life to whom he desires. For neither does the Father judge any man, but he has given all judgment to the Son, that all may honor the Son, even as they honor the Father. He who doesn't honor the Son doesn't honor the Father who sent him. <span class=\"focus-text\">Most assuredly I tell you, he who hears my word, and believes him who sent me, has eternal life, and doesn't come into judgment, but has passed out of death into life. Most assuredly, I tell you, the hour comes, and now is, when the dead will hear the Son of God's voice; and those who hear will live.</span> For as the Father has life in himself, even so he gave to the Son also to have life in himself. He also gave him authority to execute judgment, because he is a son of man.\"",
       },
     ],
     analysis: [
       {
-        title: "Present Possession",
-        body: "Believing hearers have eternal life now, indicating faith is the Spirit\'s doorway into new life.",
+        "title": "Context: The Son's Divine Authority",
+        "body": "<p>In this chapter, Jesus responds to the Jewish leaders by making a series of stunning claims about His authority. A key part of this is His role as judge, which He states was given to Him by the Father: <strong>\"For the Father judges no one, but he has given all judgment to the Son\"</strong> (v. 22). This sets the stage for verse 24. Jesus, the rightful judge, is about to reveal the very basis on which His judgment is made and the simple path to avoid condemnation and receive life.</p>"
       },
       {
-        title: "Passing from Death",
-        body: "The movement from death to life is described as the result of hearing and believing, not its prerequisite.",
+        "title": "The Path from Death to Life (Verse 24)",
+        "body": "<p>Verse 24 lays out the Son's verdict with perfect clarity. The sequence is foundational. It begins with two conditions, both human actions: a person who <strong>\"hears my word\"</strong> and <strong>\"believes him who sent me.\"</strong> These are acts of the will - a personal response of faith. The result for the one who meets these conditions is immediate and absolute: they <strong>\"have eternal life\"</strong> (a present possession), they do not come into judgment, and they have already <strong>\"passed out of death into life.\"</strong> The Judge Himself declares that His judgment is based on faith. The act of believing is what moves a person from the realm of death into the realm of life.</p>"
       },
       {
-        title: "Voice that Awakens",
-        body: "Jesus\' voice awakens the dead as they hear, echoing the proclaimed gospel\'s quickening power.",
-      },
+        "title": "The Life-Giving Voice (Verse 25)",
+        "body": "<p>Jesus expands on this reality in verse 25, describing a present spiritual resurrection. He says that the spiritually \"dead\" will hear His voice. This implies that even those who are spiritually dead retain the capacity to hear the call. Crucially, He does not say that all who are dead will live. Instead, He makes the outcome conditional: <strong>\"and those who hear will live.\"</strong> In this context, \"hearing\" is the same responsive act of faith described in verse 24. Life is granted to those who choose to truly listen and receive the Son's word. It is a powerful affirmation that the call goes out to all, but life comes to those who respond.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Spirit & New Life",
@@ -1211,11 +1200,11 @@ const scripturesData = [
       },
       {
         "title": "'God Chose You': A Corporate Affirmation",
-        "body": "<p>This is the central phrase. A Western, individualistic reading often interprets \"you\" as specific, pre-selected individuals. However, in its original context, this phrase is a powerful corporate affirmation.</p><p>The <strong>\"you\"</strong> refers to the Thessalonian church as a collective body, representing the Gentile world. Paul is affirming that the Gentile community, as a people group, is now the chosen, elect people of God. The phrase <strong>\"from the beginning\"</strong> (<span class=\"greek-word\">ap' archēs</span>) means God's plan to include the Gentiles was His eternal purpose, directly refuting the Judaizing claim that God's plan was only ever for ethnic Israel.</p><blockquote><p><strong>An Important Textual Note:</strong> Some of the earliest manuscripts have a different word here: <span class=\"greek-word\">aparchēn</span>, meaning <strong>\"as firstfruits.\"</strong> If this is the original wording, it powerfully strengthens this interpretation. Paul would be thanking God for the Thessalonians as the \"firstfruits\" of the Gentile harvest in their region—a representative sample of the much larger Gentile inclusion God was bringing about.</p></blockquote><p>This salvation is actualized through the Spirit's work and their own active <strong>\"belief in the truth,\"</strong> highlighting the participatory nature of their salvation.</p>"
+        "body": "<p>This is the central phrase. A Western, individualistic reading often interprets \"you\" as specific, pre-selected individuals. However, in its original context, this phrase is a powerful corporate affirmation.</p><p>The <strong>\"you\"</strong> refers to the Thessalonian church as a collective body, representing the Gentile world. Paul is affirming that the Gentile community, as a people group, is now the chosen, elect people of God. The phrase <strong>\"from the beginning\"</strong> (<span class=\"greek-word\">ap' archēs</span>) means God's plan to include the Gentiles was His eternal purpose, directly refuting the Judaizing claim that God's plan was only ever for ethnic Israel.</p><blockquote><p><strong>An Important Textual Note:</strong> Some of the earliest manuscripts have a different word here: <span class=\"greek-word\">aparchēn</span>, meaning <strong>\"as firstfruits.\"</strong> If this is the original wording, it powerfully strengthens this interpretation. Paul would be thanking God for the Thessalonians as the \"firstfruits\" of the Gentile harvest in their region - a representative sample of the much larger Gentile inclusion God was bringing about.</p></blockquote><p>This salvation is actualized through the Spirit's work and their own active <strong>\"belief in the truth,\"</strong> highlighting the participatory nature of their salvation.</p>"
       },
       {
         "title": "Called Through 'Our' Gospel",
-        "body": "<p>Paul makes the \"us\" vs. \"you\" distinction clear. He says God called <strong>\"you\"</strong> (the Gentile Thessalonians) to this glorious inclusion through the preaching of <strong>\"our\"</strong> (Paul and the other Jewish apostles) gospel. The message of salvation, historically entrusted to Israel, was now being brought to the Gentiles by Jewish messengers, proving that God was creating one new family from the two groups.</p><p>This was the \"mystery\" Paul speaks of in Ephesians 3—that the Gentiles would be made <strong>full co-heirs</strong> with Israel, sharing in the same promises and the same glory.</p>"
+        "body": "<p>Paul makes the \"us\" vs. \"you\" distinction clear. He says God called <strong>\"you\"</strong> (the Gentile Thessalonians) to this glorious inclusion through the preaching of <strong>\"our\"</strong> (Paul and the other Jewish apostles) gospel. The message of salvation, historically entrusted to Israel, was now being brought to the Gentiles by Jewish messengers, proving that God was creating one new family from the two groups.</p><p>This was the \"mystery\" Paul speaks of in Ephesians 3 - that the Gentiles would be made <strong>full co-heirs</strong> with Israel, sharing in the same promises and the same glory.</p>"
       },
       {
         "title": "Conclusion: An Affirmation of Inclusion",
@@ -1260,35 +1249,31 @@ const scripturesData = [
     selectorCategory: "Spirit & New Life",
   },
   {
-    id: "john-16-8-11",
-    reference: "John 16:8-11",
+    id: "john-16-8",
+    reference: "John 16:8",
     title: "Spirit Convicts the World",
     translation: "World English Bible",
     summary:
       "Jesus promises that the Spirit will convict the world concerning sin, righteousness, and judgment when he comes.",
     keyVerse:
-      "When he has come, he will convict the world about sin, about righteousness, and about judgment.",
+      "When he has come, he will convict the world in respect to sin, and righteousness, and judgment;",
     themes: ["Spirit", "Conviction", "Witness"],
     category: "Spirit & New Life",
     context: [
       {
         heading: "John 16:7-11",
-        text: 'It is to your advantage that I go away... <span class="focus-text">When he has come, he will convict the world about sin, about righteousness, and about judgment.</span> ... about sin, because they don\'t believe in me.',
+        text: "Nevertheless I tell you the truth: It is to your advantage that I go away, for if I don't go away, the Counselor won't come to you. But if I go, I will send him to you. <span class=\"focus-text\">When he has come, he will convict the world in respect to sin, and righteousness, and judgment; of sin, because they don't believe in me;</span> of righteousness, because I am going to my Father, and you see me no more; of judgment, because the prince of this world has been judged.",
       },
     ],
     analysis: [
       {
-        title: "Worldwide Focus",
-        body: "The Spirit\'s mission targets the world, not only an elect subset, preparing broad audiences to respond.",
+        "title": "The Spirit's Universal Ministry",
+        "body": "<p>In this passage, Jesus describes the work of the Holy Spirit after His ascension. The scope of this ministry is explicitly universal: He will convict <strong>\"the world.\"</strong> This is not a work confined to a pre-selected group, but a global ministry directed at all of humanity. The Spirit is sent to engage every person with the truth of the gospel, setting the stage for a genuinely open invitation. His work is to make the truth clear to everyone, everywhere.</p>"
       },
       {
-        title: "Conviction unto Faith",
-        body: "The specific sin confronted is unbelief, showing the Spirit works to bring people to faith rather than bypassing their response.",
-      },
-      {
-        title: "Cooperative Witness",
-        body: "In the same discourse Jesus sends disciples to testify (15:26-27), pairing Spirit conviction with human proclamation.",
-      },
+        "title": "The Nature of Divine 'Conviction'",
+        "body": "<p>The key to this verse is the word <strong>\"convict\"</strong> (from the Greek <span class=\"greek-word\">elenchō</span>), which is a legal term. It means to expose, to bring to light, or to present compelling evidence, much like a prosecutor convinces a jury of the truth. The Spirit's role is not to force belief through an irresistible act of regeneration. Rather, He acts as the divine prosecutor who illuminates the truth to the human mind and conscience. He presents the undeniable case concerning our <strong>sin</strong> (unbelief in Jesus), Christ's <strong>righteousness</strong> (proven by His return to the Father), and the reality of <strong>judgment</strong> (demonstrated by the defeat of the prince of this world).</p><p>This conviction makes a genuine and responsible choice possible. The Spirit removes all excuses and makes the truth of the gospel undeniably clear, enabling any person to respond in faith.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Spirit & New Life",
@@ -1307,22 +1292,18 @@ const scripturesData = [
     context: [
       {
         heading: "Acts 17:24-31",
-        text: 'The God who made the world and all things in it... <span class="focus-text">He commands that all people everywhere should repent, because he has appointed a day in which he will judge the world in righteousness.</span> He has given assurance to all men, in that he has raised him from the dead.',
+        text: "\"He made from one blood every nation of men to dwell on all the surface of the earth, having determined appointed seasons, and the bounds of their habitation, that they should seek the Lord, if perhaps they might reach out for him and find him, though he is not far from each one of us. 'For in him we live, and move, and have our being.' As some of your own poets have said, 'For we are also his offspring.' Being then the offspring of God, we ought not to think that the Divine Nature is like gold, or silver, or stone, engraved by art and device of man. The times of ignorance therefore God overlooked. <span class=\"focus-text\">But now he commands that all men everywhere should repent, because he has appointed a day in which he will judge the world in righteousness by the man whom he has ordained; whereof he has given assurance to all men, in that he has raised him from the dead.\"</span>",
       },
     ],
     analysis: [
       {
-        title: "Universal Command",
-        body: "Repentance is not a suggestion; God commands every person, showing responsibility is real.",
+        "title": "A New Era of Accountability",
+        "body": "<p>Paul begins his call to action by drawing a line between the past and the present. He explains that while God may have previously \"overlooked\" the idolatry of nations that lacked direct revelation, the coming of Christ has inaugurated a new era. The resurrection of Jesus serves as a public and universal <strong>\"assurance\"</strong> or proof to all people of God's truth and the coming judgment. With this new and decisive revelation comes a new level of personal responsibility for everyone, everywhere.</p>"
       },
       {
-        title: "Grounded in Resurrection",
-        body: "The assurance God offers is historical and public - the resurrection preached to listeners invites a reasoned response.",
-      },
-      {
-        title: "Missionary Urgency",
-        body: "Paul delivers this call to Gentiles steeped in idolatry, demonstrating that proclamation can confront and invite simultaneously.",
-      },
+        "title": "The Universal Command to Repent",
+        "body": "<p>The core of Paul's conclusion is a divine imperative: God <strong>\"now... commands that all people everywhere should repent.\"</strong> The command is explicitly <strong>universal</strong>, affirming that the gospel invitation extends to every person without exception. Furthermore, the command is to <strong>repent</strong> - a direct appeal to the human will to change one's mind and direction. A universal and genuine command from a just God implies a universal ability to respond. God's command is not a meaningless gesture to people who are unable to obey; it is a sincere call to action, affirming that the choice to turn to Him is a real possibility for all who hear.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Response & Mission",
@@ -1341,22 +1322,18 @@ const scripturesData = [
     context: [
       {
         heading: "2 Corinthians 5:20-6:2",
-        text: 'We are therefore ambassadors on behalf of Christ... <span class="focus-text">We beg you not to receive the grace of God in vain.</span> For he says, At an acceptable time I listened to you... Behold, now is the day of salvation.',
+        text: "<span class=\"focus-text\">Working together, we entreat also that you not receive the grace of God in vain, for he says, \"At an acceptable time I listened to you, In a day of salvation I helped you.\" Behold, now is the acceptable time. Behold, now is the day of salvation.</span> We give no occasion of stumbling in anything, that our service may not be blamed, but in everything commending ourselves, as servants of God, in great endurance, in afflictions, in hardships, in distresses, in beatings, in imprisonments, in riots, in labors, in watchings, in fastings; in pureness, in knowledge, in patience, in kindness, in the Holy Spirit, in sincere love, in the word of truth, in the power of God; by the armor of righteousness on the right hand and on the left, by glory and dishonor, by evil report and good report; as deceivers, and yet true; as unknown, and yet well known; as dying, and behold, we live; as punished, and not killed; as sorrowful, yet always rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things.",
       },
     ],
     analysis: [
       {
-        title: "Grace Can Be Vain",
-        body: "Paul assumes it is possible to receive grace without fruitful response, proving human cooperation matters.",
+        "title": "A Grace That Can Be Refused",
+        "body": "<p>Flowing directly from the ministry of reconciliation, Paul makes a passionate appeal. His exhortation not to <strong>\"receive the grace of God in vain\"</strong> is a powerful statement about human responsibility. It clearly implies that a person can receive - that is, hear, understand, and be presented with - the message of God's grace and yet fail to benefit from it. Grace is received \"in vain\" when it is not personally accepted and acted upon through faith and repentance. This verse strongly affirms that the gospel's call is not irresistible; it is a genuine offer that can be either embraced or neglected by the human will.</p>"
       },
       {
-        title: "Ambassadorial Plea",
-        body: "The plea is delivered through human ambassadors, emphasizing that grace arrives via persuasive proclamation.",
-      },
-      {
-        title: "Urgency of Now",
-        body: "The acceptable time is present; delay is dangerous, reinforcing timely response.",
-      },
+        "title": "The Urgency of 'Now'",
+        "body": "<p>To add weight to his plea, Paul quotes Isaiah 49:8 and applies it with force to the present moment. His declaration, <strong>\"Behold, now is the acceptable time. Behold, now is the day of salvation,\"</strong> creates a profound sense of urgency. The offer of reconciliation is not an abstract concept for a future time; it is a present reality, an open door that demands an immediate response. This highlights the critical importance of the choice presented in the previous verse. The day of salvation is here, and the invitation must be answered.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Response & Mission",
@@ -1396,69 +1373,31 @@ const scripturesData = [
     selectorCategory: "Response & Mission",
   },
   {
-    id: "joel-2-28-32",
-    reference: "Joel 2:28-32",
-    title: "Pouring Out the Spirit on All Flesh",
-    translation: "World English Bible",
-    summary:
-      "Joel foretells a day when God pours out his Spirit on all flesh so that whoever calls on the Lord\'s name will be delivered.",
-    keyVerse:
-      "It will happen that whoever will call on Yahweh\'s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape.",
-    themes: ["Spirit", "Prophecy", "Call"],
-    category: "Spirit & New Life",
-    context: [
-      {
-        heading: "Joel 2:28-32",
-        text: '<span class="focus-text">I will pour out my Spirit on all flesh.</span> Your sons and your daughters will prophesy... I will show wonders in the heavens... It will happen that whoever will call on Yahweh\'s name shall be saved.',
-      },
-    ],
-    analysis: [
-      {
-        title: "All Flesh Promise",
-        body: "The Spirit\'s outpouring embraces all gender and age categories, foreshadowing an expansive gospel invitation.",
-      },
-      {
-        title: "Call for Deliverance",
-        body: "Salvation is linked to calling on Yahweh\'s name, a line Peter cites in Acts 2 to urge faith-filled response.",
-      },
-      {
-        title: "Prophetic Empowerment",
-        body: "Empowered sons and daughters become proclaimers, showing the Spirit stirs mission rather than bypassing it.",
-      },
-    ],
-    alignment: "affirming",
-    selectorCategory: "Spirit & New Life",
-  },
-  {
-    id: "romans-11-20-23",
-    reference: "Romans 11:20-23",
+    id: "romans-11-20-21",
+    reference: "Romans 11:20-21",
     title: "Stand by Faith, Do Not Be Arrogant",
     translation: "World English Bible",
     summary:
       "Paul warns Gentile believers that they stand by faith and can be cut off if they do not continue in God\'s kindness, while unbelieving Jews can be grafted in again if they do not persist in unbelief.",
     keyVerse:
-      "Be not high-minded, but fear; for if God didn\'t spare the natural branches, neither will he spare you. See then the goodness and severity of God... toward you, goodness, if you continue in his goodness; otherwise you also will be cut off.",
+      "...by their unbelief they were broken off, and you stand by your faith",
     themes: ["Faith", "Humility", "Perseverance"],
     category: "Accountability & Perseverance",
     context: [
       {
-        heading: "Romans 11:17-24",
-        text: 'If some of the branches were broken off, and you, being a wild olive, were grafted in among them... <span class="focus-text">You stand by your faith. Don\'t be conceited, but fear... If you don\'t continue in his goodness; otherwise you also will be cut off.</span> They also, if they don\'t continue in unbelief, will be grafted in.',
+        heading: "Romans 11:16-23",
+        text: " If the first fruit is holy, so is the lump. If the root is holy, so are the branches. But if some of the branches were broken off, and you, being a wild olive, were grafted in among them, and became partaker with them of the root of the richness of the olive tree; don't boast over the branches. But if you boast, it is not you who bear the root, but the root you. You will say then, \"Branches were broken off, that I might be grafted in.\" <span class=\"focus-text\">True; by their unbelief they were broken off, and you stand by your faith. Don't be conceited, but fear; for if God didn't spare the natural branches, neither will he spare you.</span> See then the goodness and severity of God. Toward those who fell, severity; but toward you, goodness, if you continue in his goodness; otherwise you also will be cut off. They also, if they don't continue in their unbelief, will be grafted in, for God is able to graft them in again.",
       },
     ],
     analysis: [
       {
-        title: "Faith Maintains the Graft",
-        body: "The metaphor shows ongoing faith keeps believers connected; arrogance and unbelief jeopardize their standing.",
+        "title": "The Conditions of the Covenant Tree",
+        "body": "<p>Paul uses a powerful analogy of an olive tree to represent God's covenant people. In verse 20, he gives the explicit reasons for the state of the branches. The natural branches (unbelieving Israel) were broken off <strong>\"by their unbelief.\"</strong> In direct parallel, the grafted-in wild branches (Gentile believers) <strong>\"stand by your faith.\"</strong> The passage could not be clearer: both inclusion in and exclusion from God's covenant family are conditioned on faith. It is a relationship entered into and maintained by a personal, active belief.</p>"
       },
       {
-        title: "Severity and Kindness",
-        body: "God\'s posture toward individuals shifts with their response, affirming conditional security rather than fatalism.",
-      },
-      {
-        title: "Hope for the Resistant",
-        body: "Those currently in unbelief can yet be grafted back in, highlighting persistent invitation.",
-      },
+        "title": "A Warning Against Presumption",
+        "body": "<p>Based on this reality, Paul issues a stern pastoral warning. He commands the Gentile believers, who now stand by faith, <strong>\"Don’t be conceited, but fear.\"</strong> The reason for this sober warning is stated plainly in verse 21: <strong>\"for if God didn’t spare the natural branches, neither will he spare you.\"</strong> This is a direct statement that a believer's position is conditional and not automatically guaranteed. Just as Israel was cut off for unbelief, Gentile believers can also be cut off if they abandon the very faith by which they stand. This passage serves as a powerful biblical argument for a conditional salvation, urging believers to persevere in their faith.</p>"
+      }
     ],
     alignment: "affirming",
     selectorCategory: "Accountability & Perseverance",
@@ -1630,3 +1569,41 @@ function compareByCanonical(a, b) {
 const scriptures = [...scripturesData].sort(compareByCanonical);
 
 export default scriptures;
+
+
+const archive = [
+  {
+    id: "joel-2-28-32",
+    reference: "Joel 2:28-32",
+    title: "Pouring Out the Spirit on All Flesh",
+    translation: "World English Bible",
+    summary:
+      "Joel foretells a day when God pours out his Spirit on all flesh so that whoever calls on the Lord\'s name will be delivered.",
+    keyVerse:
+      "It will happen that whoever will call on Yahweh\'s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape.",
+    themes: ["Spirit", "Prophecy", "Call"],
+    category: "Spirit & New Life",
+    context: [
+      {
+        heading: "Joel 2:28-32",
+        text: '<span class="focus-text">I will pour out my Spirit on all flesh.</span> Your sons and your daughters will prophesy... I will show wonders in the heavens... It will happen that whoever will call on Yahweh\'s name shall be saved.',
+      },
+    ],
+    analysis: [
+      {
+        title: "All Flesh Promise",
+        body: "The Spirit\'s outpouring embraces all gender and age categories, foreshadowing an expansive gospel invitation.",
+      },
+      {
+        title: "Call for Deliverance",
+        body: "Salvation is linked to calling on Yahweh\'s name, a line Peter cites in Acts 2 to urge faith-filled response.",
+      },
+      {
+        title: "Prophetic Empowerment",
+        body: "Empowered sons and daughters become proclaimers, showing the Spirit stirs mission rather than bypassing it.",
+      },
+    ],
+    alignment: "affirming",
+    selectorCategory: "Spirit & New Life",
+  },
+]

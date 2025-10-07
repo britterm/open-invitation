@@ -9,7 +9,7 @@ import narrativeSections from "../data/narratives.js";
 import { featureFlags } from "./featureFlags.js";
 
 const heroHighlightIds = [
-  "isaiah-55-1-3",
+  "isaiah-55-3",
   "john-20-30-31",
   "ephesians-1-13-14",
 ];
@@ -240,7 +240,7 @@ function createSpotlightCard(entry, index) {
 
   const tensionNote =
     entry.alignment === "tension"
-      ? '<p class="tension-note">Alternate interpretation addressed in the full study.</p>'
+      ? '<p class="tension-note">Requires careful analysis</p>'
       : "";
 
   const tensionIcon =

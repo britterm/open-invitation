@@ -358,7 +358,15 @@ img {
 
 .greek-word {
   background-color: #eee;
-  color: #444;
+  color: #080434;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.hebrew-word {
+  background-color: #eee;
+  color: #3a2202;
   font-family: 'Times New Roman', Times, serif;
   padding-left: 2px;
   padding-right: 2px;
